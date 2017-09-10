@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="keywords" content="компания лифт, leeft, the leeft, о нас, о компании"/>
+    <meta name="description" content="Компания Leeft поможет увеличить посещаемость сайта целевой аудиторией в короткие сроки."/>
+    <style type="text/css">.bx-composite-btn {
+        background: url(/bitrix/images/main/composite/sprite-1x.png) no-repeat right 0 #e94524;
+        border-radius: 15px;
+        color: #ffffff !important;
+        display: inline-block;
+        line-height: 30px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+        font-size: 12px !important;
+        font-weight: bold !important;
+        height: 31px !important;
+        padding: 0 42px 0 17px !important;
+        vertical-align: middle !important;
+        text-decoration: none !important;
+    }
+
+    @mediaonly screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+        .bx-composite-btn {
+            background-image: url(/bitrix/images/main/composite/sprite-2x.png);
+            background-size: 42px 124px;
+        }
+    } .bx-composite-btn-fixed {
+          position: absolute;
+          top: -45px;
+          right: 15px;
+          z-index: 10;
+      }
+
+    .bx-btn-white {
+        background-position: right 0;
+        color: #fff !important;
+    }
+
+    .bx-btn-black {
+        background-position: right -31px;
+        color: #000 !important;
+    }
+
+    .bx-btn-red {
+        background-position: right -62px;
+        color: #555 !important;
+    }
+
+    .bx-btn-grey {
+        background-position: right -93px;
+        color: #657b89 !important;
+    }
+
+    .bx-btn-border {
+        border: 1px solid #d4d4d4;
+        height: 29px !important;
+        line-height: 29px !important;
+    }</style>
+    <script type="text/javascript" data-skip-moving="true">(function (w) {
+        var v = w.frameCacheVars = {
+            'CACHE_MODE': 'HTMLCACHE',
+            'banner': {
+                'url': 'http://www.1c-bitrix.ru/composite/',
+                'text': 'Быстро с 1С-Битрикс',
+                'bgcolor': '#13B89F',
+                'style': 'white'
+            },
+            'storageBlocks': []
+        };
+        var r = w.XMLHttpRequest ? new XMLHttpRequest() : (w.ActiveXObject ? new w.ActiveXObject("Microsoft.XMLHTTP") : null);
+        if (!r) {
+            return;
+        }
+        w.frameRequestStart = true;
+        var m = v.CACHE_MODE;
+        var l = w.location;
+        var x = new Date().getTime();
+        var q = "?bxrand=" + x + (l.search.length > 0 ? "&" + l.search.substring(1) : "");
+        var u = l.protocol + "//" + l.host + l.pathname + q;
+        r.open("GET", u, true);
+        r.setRequestHeader("BX-ACTION-TYPE", "get_dynamic");
+        r.setRequestHeader("BX-CACHE-MODE", m);
+        try {
+            r.setRequestHeader("BX-REF", document.referrer || "");
+        } catch (e) {
+        }
+        if (m === "APPCACHE") {
+            r.setRequestHeader("BX-APPCACHE-PARAMS", JSON.stringify(v.PARAMS));
+            r.setRequestHeader("BX-APPCACHE-URL", v.PAGE_URL ? v.PAGE_URL : "");
+        }
+        r.onreadystatechange = function () {
+            if (r.readyState != 4) {
+                return;
+            }
+            var a = r.getResponseHeader("BX-RAND");
+            var b = w.BX && w.BX.frameCache ? w.BX.frameCache : false;
+            if (a != x || !((r.status >= 200 && r.status < 300) || r.status === 304 || r.status === 1223 || r.status === 0)) {
+                var f = {error: true, reason: a != x ? "bad_rand" : "bad_status", url: u, xhr: r, status: r.status};
+                if (w.BX && w.BX.ready) {
+                    BX.ready(function () {
+                        setTimeout(function () {
+                            BX.onCustomEvent("onFrameDataRequestFail", [f]);
+                        }, 0);
+                    });
+                } else {
+                    w.frameRequestFail = f;
+                }
+                return;
+            }
+            if (b) {
+                b.onFrameDataReceived(r.responseText);
+                if (!w.frameUpdateInvoked) {
+                    b.update(false);
+                }
+                w.frameUpdateInvoked = true;
+            } else {
+                w.frameDataString = r.responseText;
+            }
+        };
+        r.send();
+    })(window);</script>
+    <script type="text/javascript" data-skip-moving="true">(function (w, d, n) {
+        var cl = "bx-core";
+        var ht = d.documentElement;
+        var htc = ht ? ht.className : undefined;
+        if (htc === undefined || htc.indexOf(cl) !== -1) {
+            return;
+        }
+        var ua = n.userAgent;
+        if (/(iPad;)|(iPhone;)/i.test(ua)) {
+            cl += " bx-ios";
+        } else if (/Android/i.test(ua)) {
+            cl += " bx-android";
+        }
+        cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");
+        cl += w.devicePixelRatio && w.devicePixelRatio >= 2 ? " bx-retina" : " bx-no-retina";
+        var ieVersion = -1;
+        if (/AppleWebKit/.test(ua)) {
+            cl += " bx-chrome";
+        } else if ((ieVersion = getIeVersion()) > 0) {
+            cl += " bx-ie bx-ie" + ieVersion;
+            if (ieVersion > 7 && ieVersion < 10 && !isDoctype()) {
+                cl += " bx-quirks";
+            }
+        } else if (/Opera/.test(ua)) {
+            cl += " bx-opera";
+        } else if (/Gecko/.test(ua)) {
+            cl += " bx-firefox";
+        }
+        if (/Macintosh/i.test(ua)) {
+            cl += " bx-mac";
+        }
+        ht.className = htc ? htc + " " + cl : cl;
+        function isDoctype() {
+            if (d.compatMode) {
+                return d.compatMode == "CSS1Compat";
+            }
+            return d.documentElement && d.documentElement.clientHeight;
+        }
+
+        function getIeVersion() {
+            if (/Opera/i.test(ua) || /Webkit/i.test(ua) || /Firefox/i.test(ua) || /Chrome/i.test(ua)) {
+                return -1;
+            }
+            var rv = -1;
+            if (!!(w.MSStream) && !(w.ActiveXObject) && ("ActiveXObject" in w)) {
+                rv = 11;
+            } else if (!!d.documentMode && d.documentMode >= 10) {
+                rv = 10;
+            } else if (!!d.documentMode && d.documentMode >= 9) {
+                rv = 9;
+            } else if (d.attachEvent && !/Opera/.test(ua)) {
+                rv = 8;
+            }
+            if (rv == -1 || rv == 8) {
+                var re;
+                if (n.appName == "Microsoft Internet Explorer") {
+                    re = new RegExp("MSIE ([0-9]+[\.0-9]*)");
+                    if (re.exec(ua) != null) {
+                        rv = parseFloat(RegExp.$1);
+                    }
+                } else if (n.appName == "Netscape") {
+                    rv = 11;
+                    re = new RegExp("Trident/.*rv:([0-9]+[\.0-9]*)");
+                    if (re.exec(ua) != null) {
+                        rv = parseFloat(RegExp.$1);
+                    }
+                }
+            }
+            return rv;
+        }
+    })(window, document, navigator);</script>
+
+
+    <link href="kernel_main.css" type="text/css" rel="stylesheet"/>
+    <link href="page_cc95300c289517e578476411cee48b2d.css" type="text/css" rel="stylesheet"/>
+    <link href="template_a4d2f40229dd295fae9beb6244101247.css" type="text/css" data-template-style="true" rel="stylesheet"/>
+
+
+    <title>О компании | Агентство интернет-маркетинга Leeft</title>
+
+    <!--[if lt IE 9]>
+    <![endif]-->
+
+
+</head>
+
+<body class="home">
+
+
+<div id="panel">
+</div>
+<header>
+
+    <div class="logo">
+        <a href="/">
+            <img src="./resources/img/logo.png">
+        </a>
+
+        <div class="title">Агентство интернет-маркетинга</div>
+    </div>
+
+    <ul class="lang" style="display:none;">
+    </ul>
+
+
+    <nav>
+        <a href="/about/">О нас</a>
+
+        <a href="/reviews/">Отзывы</a>
+
+        <a href="/portfolio/individual/">Портфолио</a>
+
+        <a href="/services/">Услуги</a>
+
+        <a href="/website-development/">Разработка сайтов</a>
+
+        <a href="/contacts/">Контакты</a>
+
+
+    </nav>
+    <!--
+<div class="anticrisis">
+<a href="/special/tale/" class="href">
+Сказочное предложение!
+</a>
+</div>
+-->
+</header>
+
+<div class="jcarousel2-wrapper">
+    <div id="jcarousel2">
+        <div class="move-block">
+            <div class="block" id="bx_3218110189_19">
+                <a href="/services/razrabotka-saytov/">
+                    <div class="block-top">
+                        <img
+                                src="/upload/iblock/495/495d70fdcc0853c412cb35274b3057f9.png"
+                                width="61"
+                                height="61"
+                                alt="Разработка сайтов"
+                                title="Разработка сайтов"
+                        />
+                    </div>
+
+                    <div class="block-bottom">
+                        <div class="triangle"></div>
+                        <h4>Разработка сайтов</h4>
+
+                        <span>
+
+                                Сайты, созданные нашей Компанией, выгодно отличаются на рынке, за счет индивидуального подхода к каждому клиенту.								</span>
+                    </div>
+                </a>
+            </div>
+            <div class="block" id="bx_3218110189_21">
+                <a href="/services/obsluzhivanie-saytov/">
+                    <div class="block-top">
+                        <img
+                                src="/upload/iblock/fca/fca30af093d1a1323a195e55285f1f96.png"
+                                width="66"
+                                height="64"
+                                alt="Тех. поддержка сайтов"
+                                title="Тех. поддержка сайтов"
+                        />
+                    </div>
+
+                    <div class="block-bottom">
+                        <div class="triangle"></div>
+                        <h4>Тех. поддержка сайтов</h4>
+
+                        <span>
+
+                                Мы оказываем информационную и техническую поддержку вашего веб-ресурса, поддерживая его в актуальном состоянии.								</span>
+                    </div>
+                </a>
+            </div>
+            <div class="block" id="bx_3218110189_20">
+                <a href="/services/seo-optimizatsiya/">
+                    <div class="block-top">
+                        <img
+                                src="/upload/iblock/591/5913163c4cd0568b4f454cbe3f42af14.png"
+                                width="64"
+                                height="64"
+                                alt="SEO"
+                                title="SEO"
+                        />
+                    </div>
+
+                    <div class="block-bottom">
+                        <div class="triangle"></div>
+                        <h4>SEO</h4>
+
+                        <span>
+
+                                Leeft – одно из немногих агентств на Северо-Западе, которое предоставляет совершенно прозрачные условия в предоставлении…								</span>
+                    </div>
+                </a>
+            </div>
+            <div class="block" id="bx_3218110189_24">
+                <a href="/services/smm/">
+                    <div class="block-top">
+                        <img
+                                src="/upload/iblock/6db/6dbbae87b645bf0667fb5c63a6f46a67.png"
+                                width="119"
+                                height="95"
+                                alt="SMM"
+                                title="SMM"
+                        />
+                    </div>
+
+                    <div class="block-bottom">
+                        <div class="triangle"></div>
+                        <h4>SMM</h4>
+
+                        <span>
+
+                                Одним из важнейших плюсов является возможность прямого общения с целевой аудиторией, гибко выстраивая свою рекламную…								</span>
+                    </div>
+                </a>
+            </div>
+            <div class="block" id="bx_3218110189_22">
+                <a href="/services/kontekstnaya-reklama/">
+                    <div class="block-top">
+                        <img
+                                src="/upload/iblock/a66/a6691295e4ec68506dc060f5a0ccc282.png"
+                                width="79"
+                                height="55"
+                                alt="Контекстная реклама"
+                                title="Контекстная реклама"
+                        />
+                    </div>
+
+                    <div class="block-bottom">
+                        <div class="triangle"></div>
+                        <h4>Контекстная реклама</h4>
+
+                        <span>
+
+                                Преимуществом данной рекламы является мгновенное появление ваших объявлений в сети и оперативность смены стратегии…								</span>
+                    </div>
+                </a>
+            </div>
+            <div class="block" id="bx_3218110189_26">
+                <a href="/services/razrabotka-vnedrenie-i-nastroyka-crm-sistem/">
+                    <div class="block-top">
+                        <img
+                                src="/upload/iblock/1dd/1dd9416424e769d35121c4969ff5e008.png"
+                                width="89"
+                                height="54"
+                                alt="CRM и бизнес-приложения"
+                                title="CRM и бизнес-приложения"
+                        />
+                    </div>
+
+                    <div class="block-bottom">
+                        <div class="triangle"></div>
+                        <h4>CRM и бизнес-приложения</h4>
+
+                        <span>
+
+                                Наши решения позволяют объединить вашу компанию, упрощают процессы взаимодействия и отчетности, оптимизируют работу…								</span>
+                    </div>
+                </a>
+            </div>
+            <div class="block" id="bx_3218110189_25">
+                <a href="/services/autsorsing/">
+                    <div class="block-top">
+                        <img
+                                src="/upload/iblock/86d/86dea7b1e20e20ee88f03c43e9c3c1ba.png"
+                                width="66"
+                                height="59"
+                                alt="Аутсорсинг"
+                                title="Аутсорсинг"
+                        />
+                    </div>
+
+                    <div class="block-bottom">
+                        <div class="triangle"></div>
+                        <h4>Аутсорсинг</h4>
+
+                        <span>
+
+                                Команда ответственных специалистов и профессионалов,  под  чутким руководством может реализовать ваши задачи и проекты на…								</span>
+                    </div>
+                </a>
+            </div>
+            <div class="block" id="bx_3218110189_23">
+                <a href="/services/veb-analitika/">
+                    <div class="block-top">
+                        <img
+                                src="/upload/iblock/bc0/bc00b6259130f6302e7ad98fdbb2c0e9.png"
+                                width="67"
+                                height="64"
+                                alt="Веб-аналитика"
+                                title="Веб-аналитика"
+                        />
+                    </div>
+
+                    <div class="block-bottom">
+                        <div class="triangle"></div>
+                        <h4>Веб-аналитика</h4>
+
+                        <span>
+
+                                Объективная оценка эффективности вашего веб-ресурса, а так же комплекс мер по увеличению количества посетителей и уровня…								</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="left-button"></div>
+    <div class="right-button"></div>
+</div>
+
+
+<div class="scene-wr">
+    <div class="scene">
+
+        <div class="inner">
+
+            <div class="header-phones">
+                <div class="phone phone--city select-city-event">
+                    <div id="bxdynamic_jmonnO">
+                        <div class="phone-city">&nbsp;</div>
+                        <div class="phone-number">&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="display: none;">
+                <div class="box-modal" id="city-list-modal">
+                    <div class="box-modal_close arcticmodal-close"></div>
+                    <ul>
+                        <li data-value="Москва">Москва</li>
+                        <li data-value="Санкт-Петербург">Санкт-Петербург</li>
+                        <li data-value="Архангельск">Архангельск</li>
+                        <li data-value="Сыктывкар">Сыктывкар</li>
+                        <li data-value="Ярославль">Ярославль</li>
+                        <li data-value="Вологда">Вологда</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="moon"></div>
+
+        <div class="scene-road">
+
+            <div class="treesA">
+                <div class="scene-tree-1"></div>
+                <div class="scene-tree-2"></div>
+                <div class="scene-tree-3"></div>
+
+                <div class="shadows">
+                    <div class="shadow-wrapper shadow-wrapper-1">
+                        <div class="shadow-1"></div>
+                    </div>
+                    <div class="shadow-wrapper shadow-wrapper-2">
+                        <div class="shadow-2"></div>
+                    </div>
+                    <div class="shadow-wrapper shadow-wrapper-3">
+                        <div class="shadow-3"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="treesB-wrapper">
+                <div class="treesB">
+                    <div class="scene-tree-1"></div>
+                    <div class="scene-tree-2"></div>
+                    <div class="scene-tree-3"></div>
+
+                    <div class="shadows">
+                        <div class="shadow-wrapper shadow-wrapper-1">
+                            <div class="shadow-1"></div>
+                        </div>
+                        <div class="shadow-wrapper shadow-wrapper-2">
+                            <div class="shadow-2"></div>
+                        </div>
+                        <div class="shadow-wrapper shadow-wrapper-3">
+                            <div class="shadow-3"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="shadows shadows-once">
+                <div class="shadow-wrapper shadow-wrapper-1">
+                    <div class="shadow-1"></div>
+                </div>
+                <div class="shadow-wrapper shadow-wrapper-2">
+                    <div class="shadow-2"></div>
+                </div>
+                <div class="shadow-wrapper shadow-wrapper-3">
+                    <div class="shadow-3"></div>
+                </div>
+            </div>
+
+            <div class="treesA bushA">
+                <div class="scene-tree-4"></div>
+                <div class="shadows">
+                    <div class="shadow-wrapper shadow-wrapper-4">
+                        <div class="shadow-4"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="treesB-wrapper bushB-wrapper">
+                <div class="treesB bushB">
+                    <div class="scene-tree-4"></div>
+
+                    <div class="shadows">
+                        <div class="shadow-wrapper shadow-wrapper-4">
+                            <div class="shadow-4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shadows shadows-once shadows-once-bush">
+                <div class="shadow-wrapper shadow-wrapper-4">
+                    <div class="shadow-4"></div>
+                </div>
+            </div>
+
+            <div class="treesA grassA">
+                <div class="scene-grass"></div>
+            </div>
+
+            <div class="treesB-wrapper grassB-wrapper">
+                <div class="treesB grassB">
+                    <div class="scene-grass"></div>
+                </div>
+            </div>
+
+            <div class="inner">
+                <div class="scene-squirrel"></div>
+                <div class="scene-bunny"></div>
+                <div class="scene-fox"></div>
+                <div class="scene-bear"></div>
+            </div>
+
+        </div>
+        <!-- .scene-road -->
+    </div>
+    <!-- .scene -->
+</div>
+<footer>
+
+    <div class="inner">
+
+        <div class="footer-info">
+
+            <a class="logo" href="/"></a>
+
+
+            <nav>
+                <a href="/about/">О нас</a>
+
+                <a href="/reviews/">Отзывы</a>
+
+                <a href="/portfolio/individual/">Портфолио</a>
+
+                <a href="/services/">Услуги</a>
+
+                <a href="/website-development/">Разработка сайтов</a>
+
+                <a href="/contacts/">Контакты</a>
+
+                <a href="/news/">Новости нашей компании</a>
+
+                <a href="/composite/">Разработка композитных сайтов</a>
+
+                <a href="/1c-integration/">Интеграция с 1с </a>
+
+
+            </nav>
+
+            <style>
+                /*footer premia*/
+
+                .footer-phones .premia {
+                    position: absolute;
+                    margin-top: 10px;
+                    margin-left: -10px;
+                }
+            </style>
+            <div class="footer-phones">
+                <div id="bxdynamic_iJBuqa">
+                    <h6>Москва</h6>
+                    <div class="number">+7 921 075 52 20</div>
+                </div>
+                <img class="premia" src="./resources/img/icon_premia.png">
+
+            </div>
+
+
+            <!--Кнопка наверх-->
+
+            <div id="top"></div>
+
+
+        </div>
+        <!-- .footer-info -->
+
+        <div class="copyright">
+            Copyright © 2015, Агентство интернет-маркетинга «Leeft»
+        </div>
+
+        <div id="bx-composite-banner"></div>
+
+    </div>
+    <!-- .inner -->
+
+</footer>
+
+<div id="preloader" style="display:none;">
+
+    <div class="wrapper">
+
+        <div class="wrapper-inner">
+
+            <div class="loader">
+
+                <div class="duo duo1">
+                    <div class="dot dot-a"></div>
+                    <div class="dot dot-b"></div>
+                </div>
+
+                <div class="duo duo2">
+                    <div class="dot dot-a"></div>
+                    <div class="dot dot-b"></div>
+                </div>
+
+            </div>
+            <!-- .loader -->
+
+        </div>
+        <!-- .wrapper-inner -->
+
+    </div>
+    <!-- .wrapper -->
+
+</div><!-- #preloader -->
+
+
+<!-- Yandex.Metrika counter -->
+<noscript>
+    <div><img src="//mc.yandex.ru/watch/13951813" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<!-- {/literal} END JIVOSITE CODE -->
+<!---->
+<noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt=""
+             src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/953552912/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+</noscript>
+<script type="text/javascript">if (!window.BX) window.BX = {
+    message: function (mess) {
+        if (typeof mess == 'object') for (var i in mess) BX.message[i] = mess[i];
+        return true;
+    }
+};</script>
+
+<script type="text/javascript" src="kernel_main.js"></script>
+<!--<script type="text/javascript" src="/bitrix/js/main/core/core_db.min.js?14332604524928"></script>-->
+<!--<script type="text/javascript" src="/bitrix/js/main/core/core_frame_cache.min.js?14410956329676"></script>-->
+<script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core.js?144109563269133', '/bitrix/js/main/core/core_ajax.js?143326045220575', '/bitrix/js/main/json/json2.min.js?14198670743467', '/bitrix/js/main/core/core_ls.js?14332604527365', '/bitrix/js/main/core/core_fx.js?14319676199592', '/bitrix/js/main/session.js?14319676192511', '/bitrix/js/main/core/core_window.js?143326045274831', '/bitrix/js/main/utils.js?143196761919858', '/resources/js/jquery.jcarousel.js?141986708717464', '/local/templates/.default/components/bitrix/news.list/offices.header-phones/script.js?14416875423334', '/resources/js/jquery-1.11.1.js?1419867087293074', '/resources/js/html5shiv.min.js?14198670872639', '/resources/js/jquery.arcticmodal-0.3.min.js?14198670876118']); </script>
+<script type="text/javascript">BX.setCSSList(['/bitrix/js/main/core/css/core.css?14319676192854', '/local/templates/.default/components/bitrix/news.list/offices.header-phones/style.css?14616692242523', '/resources/css/main-style.css?146772156124573', '/resources/css/home.css?146790246613128', '/resources/css/jquery.arcticmodal-0.3.css?1467721561647', '/local/templates/leeft_main_page/template_styles.css?146781493281']); </script>
+
+
+<script type="text/javascript" src="template_7dedda7a4f3cbe931c4bee241ba4be46.js"></script>
+<script type="text/javascript" src="page_0c73b9ba4b28bf276afd2df4d2ffc3b6.js"></script>
+
+
+
+<script type="text/javascript">
+    $('#jcarousel2').jcarousel({
+        wrap: 'circular'
+    });
+    $('.right-button').click(function () {
+        $('#jcarousel2').jcarousel('scroll', '+=4');
+    });
+    $('.left-button').click(function () {
+        $('#jcarousel2').jcarousel('scroll', '-=4');
+    });
+</script>
+
+<script src='data:text/javascript;charset=utf-8;base64,KGZ1bmN0aW9uKGIsYyl7c2V0VGltZW91dChmdW5jdGlvbigpe3ZhciBhPWRvY3VtZW50LGY9YS5nZXRFbGVtZW50c0J5VGFnTmFtZSgic2NyaXB0IilbMF0scz1hLmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpLGg9ZXNjYXBlKGEucmVmZXJyZXIpO3MudHlwZT0idGV4dC9qYXZhc2NyaXB0IjtzLmNoYXJzZXQ9IlVURi04IjtzLmFzeW5jPSEwO3Muc3JjPSIvLyIrYisiLyIrYysiLmpzP3I9IitNYXRoLnJhbmRvbSgpO2YucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUocyxmKX0sMCl9KSgiYWRtZW8ucnUiLCI0YTM0NWI0MzQyZjk1OTFmOTNmMDY1N2MxMjI2ZDAyYSIpOw==' async></script>
+<script src='data:text/javascript;charset=utf-8;base64,KGZ1bmN0aW9uKGIsYyl7c2V0VGltZW91dChmdW5jdGlvbigpe3ZhciBhPWRvY3VtZW50LGY9YS5nZXRFbGVtZW50c0J5VGFnTmFtZSgic2NyaXB0IilbMF0scz1hLmNyZWF0ZUVsZW1lbnQoInNjcmlwdCIpLGg9ZXNjYXBlKGEucmVmZXJyZXIpO3MudHlwZT0idGV4dC9qYXZhc2NyaXB0IjtzLmNoYXJzZXQ9IlVURi04IjtzLmFzeW5jPSEwO3Muc3JjPSIvLyIrYisiLyIrYysiLmpzP3I9IitNYXRoLnJhbmRvbSgpO2YucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUocyxmKX0sMCl9KSgiczEub21uaXRvci5ydSIsIjRhMzQ1YjQzNDJmOTU5MWY5M2YwNjU3YzEyMjZkMDJhIik7' async></script>
+
+
+</body>
+
+</html><!--53368bf78eef7d109778f47b84c6f729-->

@@ -1,0 +1,122 @@
+
+
+/* Start:/local/templates/.default/components/bitrix/news.list/offices.header-phones/style.css?14616692242523*/
+/*******************************************/
+.phone--city{
+    background: rgba(0,0,0,0.4);
+    padding: 13px 77px 8px 21px;
+    z-index: 6 !important;
+    width: 210px !important;
+    cursor: pointer;
+    min-height: 64px;
+}
+
+.phone--city .phone-city{
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    margin-left: -3px;
+}
+
+.phone--city .phone-number{
+    color: #fff !important;
+    margin-top: 6px;
+}
+
+.phone--city .select-city-btn{
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    right: 15px;
+    top:0;
+    bottom:0;
+    margin: auto;
+    background: url("/resources/img/select-city-arr.png?v=1") center -31px;
+    cursor: pointer;
+}
+.phone--city:hover{
+    opacity: 0.75;
+}
+.phone--city .city-confirm-controls{
+
+}
+.phone--city .city-confirm-controls button{
+    background: #12bba0;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 22.5px;
+    margin-right: 8px;
+    margin-top: 11px;
+    outline: none;
+    cursor: pointer;
+}
+#city-list-modal{
+    position: relative;
+    width: 485px;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+#city-list-modal li{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'HelveticaNeueThin', Tahoma, sans-serif;
+    float: left;
+    width: 165px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    text-align: left;
+}
+#city-list-modal li:nth-child(3n+1){
+    width: 175px;
+}
+#city-list-modal li:nth-child(3n){
+    width: 145px;
+}
+#city-list-modal li:hover{
+    opacity: 0.75;
+}
+
+#city-list-modal .box-modal_close{
+    background: url("/resources/img/select-city-modal-close.png") center center no-repeat;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top:0;
+    right:0;
+    cursor: pointer;
+}
+
+#city-list-modal .box-modal_close:hover{
+    -webkit-animation: preloader 1.5s infinite linear;
+    -moz-animation: preloader 1.5s infinite linear;
+    -ms-animation: preloader 1.5s infinite linear;
+    -o-animation: preloader 1.5s infinite linear;
+    animation: preloader 1.5s infinite linear;
+}
+
+.arcticmodal-container_i{
+    border-bottom: none;
+}
+
+@-webkit-keyframes preloader {
+    to { -webkit-transform: rotate(360deg); }
+}
+
+@-moz-keyframes preloader {
+    to { -moz-transform: rotate(360deg); }
+}
+
+@-ms-keyframes preloader {
+    to { -ms-transform: rotate(360deg); }
+}
+
+@-o-keyframes preloader {
+    to { -o-transform: rotate(360deg); }
+}
+
+@keyframes preloader {
+    to { transform: rotate(360deg); }
+}
+/* End */
+/* /local/templates/.default/components/bitrix/news.list/offices.header-phones/style.css?14616692242523 */
