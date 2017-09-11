@@ -1,0 +1,143 @@
+
+/*новые картинки в карточке услуг на главной*/
+.jcarousel2-wrapper {
+  box-sizing: border-box;
+  width: 950px;
+}
+
+.jcarousel2-wrapper #jcarousel2 .move-block .block .block-top {
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.jcarousel2-wrapper #jcarousel2 .move-block .block {
+  transition: all .1s ease-out;
+  /*box-shadow: 0 5px 9px rgba(0,0,0,.26);
+  -moz-box-shadow: 0 5px 9px rgba(0,0,0,.26);
+  -webkit-box-shadow: 0 5px 9px rgba(0,0,0,.26);*/
+  box-sizing: border-box;
+  box-shadow: none;
+  margin: 0;
+}
+
+
+.jcarousel2-wrapper #jcarousel2 .move-block .block a{
+  transition: all .1s ease-out;
+  box-shadow: 0 5px 9px rgba(0,0,0,.26);
+  -moz-box-shadow: 0 5px 9px rgba(0,0,0,.26);
+  -webkit-box-shadow: 0 5px 9px rgba(0,0,0,.26);
+  margin: 0 10px;
+  display: block;
+}
+
+
+.jcarousel2-wrapper #jcarousel2 .move-block .block:hover {
+  background: none;
+}
+
+.jcarousel2-wrapper #jcarousel2 .move-block .block a:hover .block-bottom {
+  transition: all .1s ease-out;
+
+}
+
+
+
+
+@media screen and (min-width: 900px) {
+  .jcarousel2-wrapper #jcarousel2 .move-block .block img {
+    width: 121px;
+    height: 121px;
+    position: relative;
+    top: 17px;
+  }
+}
+
+
+@media screen and (max-width: 960px) {
+  /*header*/
+header {
+  width: 100%;
+  left: 0;
+  margin: 0;
+}
+
+header nav {
+  margin-right: 14px;
+}
+
+header nav a {
+  margin-left: 14px;
+}
+  /*body*/
+  html {
+      min-width: 100%;
+      box-sizing: border-box;
+  }
+
+  .jcarousel2-wrapper .right-button {
+    right: 0;
+    left: auto;
+  }
+
+  .jcarousel2-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .jcarousel2-wrapper #jcarousel2 {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /*footer*/
+  footer {
+    width: 100%;
+  }
+  .inner {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 10px;
+  }
+  footer nav {
+    display: block;
+    float: none;
+    width: 100%;
+    min-width: 100%;
+    padding: 0 10%;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  footer nav a {
+    float: none;
+    display: inline-block;
+    margin: 0;
+    padding: 5px 8px;
+  }
+
+  footer .logo {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+
+  footer .footer-phones {
+    float: none;
+    display: inline-block;
+  }
+
+  footer .copyright {
+    float: none;
+    display: block;
+  }
+
+  .footer-phones .premia {
+      position: absolute;
+      margin-top: 10px;
+      margin-left: -10px;
+  }
+}
