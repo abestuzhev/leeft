@@ -1,5 +1,8 @@
 
-/*новые картинки в карточке услуг на главной*/
+
+/******************************************************/
+/*изменение блоков футера для адаптации под мобильные*/
+/******************************************************/
 .jcarousel2-wrapper {
   box-sizing: border-box;
   width: 950px;
@@ -41,7 +44,64 @@
 }
 
 
+footer .footer-phones {
+  margin: 0;
+}
 
+.footer-phones .premia {
+    position: relative;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+footer #bx-composite-banner {
+  float: none;
+}
+
+footer .copyright {
+  float: none;
+  position: absolute;
+  bottom: 0;
+}
+
+.menu_mobile-btn {
+  padding: 16px 15px;
+  background-color: #00a78c;
+  float: right;
+  cursor: pointer;
+  display: none;
+}
+
+.menu_mobile-btn div {
+  width: 19px;
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  margin-bottom: 3px;
+}
+
+.menu-show {
+  display: block;
+}
+
+.header-contact {
+  margin-top: 5px;
+  display: none;
+}
+
+.header-contact_city {
+  color:#221e20;
+  font: bold 14px 'HelveticaNeue', Tahoma, sans-serif;
+}
+
+.header-contact_number {
+  color:#221e20;
+  font: bold 20px 'HelveticaNeue', Tahoma, sans-serif;
+}
+
+/******************************************************/
+/*media*/
+/******************************************************/
 
 @media screen and (min-width: 900px) {
   .jcarousel2-wrapper #jcarousel2 .move-block .block img {
@@ -99,45 +159,207 @@ header nav a {
     margin: 0;
     padding: 0 10px;
   }
+
+  .footer-info::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
   footer nav {
     display: block;
-    float: none;
-    width: 100%;
-    min-width: 100%;
-    padding: 0 10%;
+    /*float: none;*/
+    /*width: 100%;*/
+    /*min-width: 100%;*/
+    /*padding: 0 10%;*/
     margin: 0;
-    text-align: center;
+    /*text-align: center;*/
     box-sizing: border-box;
+    width: 420px;
   }
 
   footer nav a {
     float: none;
     display: inline-block;
     margin: 0;
-    padding: 5px 8px;
+    padding: 6px 8px;
   }
 
   footer .logo {
-    float: none;
+    /*float: none;
     display: block;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 10px;*/
   }
 
 
   footer .footer-phones {
-    float: none;
-    display: inline-block;
+    /*float: none;*/
   }
 
   footer .copyright {
-    float: none;
+    /*float: none;*/
+    display: block;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  header nav {
+    display: none;
+  }
+  .menu_mobile-btn {
     display: block;
   }
 
-  .footer-phones .premia {
-      position: absolute;
-      margin-top: 10px;
-      margin-left: -10px;
+  header nav {
+    background-color: #00a78c;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 50px;
   }
+
+  header nav a {
+    display: block;
+    text-align: center;
+    color:#fff;
+    padding: 16px 0;
+    border-bottom: 1px solid #3ebfab;
+    float: none;
+    margin: 0;
+    line-height: 1;
+    height: auto;
+  }
+
+  header nav a:last-child {
+    border-bottom: none;
+  }
+
+
+}
+
+@media screen and (max-width: 790px) {
+  footer {
+    margin-top: 0;
+  }
+
+  footer .footer-phones,
+  footer nav {
+    float: none;
+    margin-left: 70px;
+  }
+
+  footer nav {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+
+  footer .copyright {
+    position: relative;
+
+  }
+
+  footer .logo {
+    position: absolute;
+    left: 0;
+    top: 8px;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+}
+
+
+@media screen and (max-width: 790px) and (min-width: 500px) {
+
+    footer .footer-phones:before {
+      content: '';
+      display: none;
+    }
+
+    #bxdynamic_iJBuqa,
+    .premia,
+    #bx-composite-banner {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 14px;
+    }
+    #bx-composite-banner {
+      margin: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+  header .logo .title {
+    display: none;
+  }
+  header .logo {
+    background: none;
+    width: auto;
+    height: auto;
+    position: static;
+    top: auto;
+    left: auto;
+  }
+  header .logo img{
+    width: 98px;
+    margin: 0;
+    padding: 10px 0 10px 14px;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  .header-contact {
+    display: inline-block;
+    text-align: left;
+  }
+
+  /*прячим сцену с животными*/
+  .scene {
+    background-size: cover;
+  }
+  .scene-road {
+    display: none;
+  }
+
+.jcarousel2-wrapper .left-button,
+.jcarousel2-wrapper .right-button {
+    display: none;
+  }
+
+  .jcarousel2-wrapper #jcarousel2 {
+    overflow: visible;
+    height: auto;
+  }
+
+  .jcarousel2-wrapper #jcarousel2 .move-block {
+    width: auto;
+    position: static;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  footer nav {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  footer nav a {
+    display: block;
+  }
+
+  footer .footer-phones {
+    margin-left: 122px;
+  }
+
+  .bx-composite-btn {
+    background-image: none !important;
+    padding: 0 14px 0 17px !important;
+  }
+
 }
