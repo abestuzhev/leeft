@@ -75,12 +75,12 @@ $(document).ready(function () {
                 },
                 beforeOpen: function (data, el) {
                     if (window.location.pathname != "/") {
-                        $("header").css({"marginLeft": "-478.5px"});
+                        // $("header").css({"marginLeft": "-478.5px"});
                     }
                 },
                 afterClose: function (data, el) {
                     if (window.location.pathname != "/") {
-                        $("header").css({"marginLeft": "-470px"});
+                        // $("header").css({"marginLeft": "-470px"});
                     }
                 }
             });

@@ -31,7 +31,7 @@
     top:0;
     bottom:0;
     margin: auto;
-    background: url("/resources/img/select-city-arr.png?v=1") center -31px;
+    background: url("./resources/img/select-city-arr.png") center -31px;
     cursor: pointer;
 }
 .phone--city:hover{
@@ -78,7 +78,7 @@
 }
 
 #city-list-modal .box-modal_close{
-    background: url("/resources/img/select-city-modal-close.png") center center no-repeat;
+    background: url("./resources/img/select-city-modal-close.png") center center no-repeat;
     width: 16px;
     height: 16px;
     position: absolute;
