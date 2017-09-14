@@ -85,7 +85,7 @@ footer .inner .copyright {
 }
 
 .menu_mobile-btn {
-  padding: 16px 15px;
+  padding: 16px 15px 17px;
   background-color: #00a78c;
   float: right;
   cursor: pointer;
@@ -208,11 +208,57 @@ header nav a {
 
 .content-top {
   background-position: 0 0;
+  margin-top: 0;
+}
+
+.header-fon .squares {
+  left: 50%;
+  top: 390px;
+  transform: translateX(-50%);
+  width: auto;
+  text-align: center;
+  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  margin: 0;
+}
+
+.header-fon .squares li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+
+.header-fon .squares li.slick-active .square {
+  background-color: #00c0a9;
+  position: relative;
+}
+
+.header-fon .squares li.slick-active .square::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 3px solid #fff;
+}
+
+.header-fon .squares .square {
+  border-radius: 50px;
 }
 
 .content-top .content-top-inner .content-top-controls {
     top: 50%;
     right: 14px;
+}
+
+.header-fon .fon-arrow {
+  right: auto;
+  left: 14px;
 }
 
   /*body*/
@@ -371,7 +417,7 @@ header nav a {
     height: 100vh;
     position: absolute;
     left: 0;
-    top: 50px;
+    top: 51px;
   }
 
   header nav a {
@@ -766,6 +812,11 @@ header nav a {
     transition: all .1s ease-out;
     border-radius: 6px;
   }
+
+  .header-fon .squares {
+    top: 416px;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -794,9 +845,15 @@ header nav a {
     height: 77px;
   }
 
-  .services-list-wrap .services-list-item .content-services-slider-block-inner .circle {
+  .services-list-wrap .services-list-item .content-services-slider-block-inner .circle,
+  .jcarousel2-wrapper #jcarousel2 .move-block .block .block-top {
     height: 101px;
   }
+
+  .jcarousel2-wrapper #jcarousel2 .move-block .block .block-top {
+    line-height: 101px;
+  }
+
   .services-list-wrap .services-list-item .content-services-slider-block-inner .circle img {
     width: 77px;
     height: 77px;
