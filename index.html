@@ -13,17 +13,34 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <style>
-    html { min-height: 100%; }
+    html {
+      min-height: 100%;
+    }
 
     body {
         color: #292929;
         padding: 0;
         margin: 0;
         min-height: 100%;
-		background: none;
-        background: url('img/bgFooter.jpg') repeat 0 0;
+		    background: none;
         font: 16px/32px 'Roboto', sans-serif;
+        background: url('resources/img/scene-bg.jpg') no-repeat 50% 50%;
+        -webkit-background-size: cover;
+        background-size: cover;
     }
+
+    /*.bg {
+      width: 100%;
+      min-height: 100%;
+
+      -webkit-filter: blur(5px);
+      -moz-filter: blur(5px);
+      -o-filter: blur(5px);
+      -ms-filter: blur(5px);
+      filter: blur(5px);
+    }*/
+
+
 
     h1 {
         color: #292929;
@@ -85,12 +102,13 @@
 
     section {
         margin: 50px auto;
-        max-width: 500px;
-        /*background: rgba(255, 255, 255, .3);*/
-        background-color: #fff;
+        max-width: 400px;
+        background: rgba(255, 255, 255, .95);
+        /*background-color: #fff;*/
         padding: 40px 60px;
         /*padding-left: 0;*/
         border-radius: 6px;
+        box-shadow: 0 20px 20px rgba(0,0,0,.2)
     }
 
     @media screen and (max-width: 700px) {
@@ -120,6 +138,7 @@
 </head>
 
 <body>
+  <div class="bg"></div>
 
 <section>
 
