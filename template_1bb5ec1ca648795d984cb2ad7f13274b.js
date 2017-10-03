@@ -10331,7 +10331,7 @@ return jQuery;
 ; /* Start:"a:4:{s:4:"full";s:58:"/resources/js/jquery.arcticmodal-0.3.min.js?14198670876118";s:6:"source";s:43:"/resources/js/jquery.arcticmodal-0.3.min.js";s:3:"min";s:0:"";s:3:"map";s:0:"";}"*/
 /*
 
- arcticModal â€” jQuery plugin
+ arcticModal — jQuery plugin
  Version: 0.3
  Author: Sergey Predvoditelev (sergey.predvoditelev@gmail.com)
  Company: Arctic Laboratory (http://arcticlab.ru/)
@@ -10364,7 +10364,7 @@ d.fn.arcticmodal=function(a){if(h[a])return h[a].apply(this,Array.prototype.slic
  *
  * http://jqueryvalidation.org/
  *
- * Copyright (c) 2014 JÃ¶rn Zaefferer
+ * Copyright (c) 2014 Jörn Zaefferer
  * Released under the MIT license
  */
 (function( factory ) {
@@ -11874,7 +11874,7 @@ $(document).ready(function () {
             }
         });
     });
-
+	
 	$('.request-modal2').on('click', function (e) {
         e.preventDefault();
         $('.sucsess_form').arcticmodal({
@@ -11912,7 +11912,7 @@ $(document).ready(function () {
             }
         });
     });
-
+	
     $('.request-modal-services').on('click', function (e) {
         e.preventDefault();
         $('#demand').arcticmodal({
@@ -11951,19 +11951,19 @@ $(document).ready(function () {
             }
         });
     });
+ 
 
-
-//Ð¡ÐºÑ€Ð¸Ð¿Ñ‚ ÐºÐ½Ð¾Ð¿ÐºÐ¸ ÐÐ°Ð²ÐµÑ€Ñ…
-    var top_show = 1200; // Ð’ ÐºÐ°ÐºÐ¾Ð¼ Ð¿Ð¾Ð»Ð¾Ð¶ÐµÐ½Ð¸Ð¸ Ð¿Ð¾Ð»Ð¾ÑÑ‹ Ð¿Ñ€Ð¾ÐºÑ€ÑƒÑ‚ÐºÐ¸ Ð½Ð°Ñ‡Ð¸Ð½Ð°Ñ‚ÑŒ Ð¿Ð¾ÐºÐ°Ð· ÐºÐ½Ð¾Ð¿ÐºÐ¸ "ÐÐ°Ð²ÐµÑ€Ñ…"
-    var delay = 1000; // Ð—Ð°Ð´ÐµÑ€Ð¶ÐºÐ° Ð¿Ñ€Ð¾ÐºÑ€ÑƒÑ‚ÐºÐ¸
+//Скрипт кнопки Наверх
+    var top_show = 1200; // В каком положении полосы прокрутки начинать показ кнопки "Наверх"
+    var delay = 1000; // Задержка прокрутки
     $(document).ready(function() {
-        $(window).scroll(function () { // ÐŸÑ€Ð¸ Ð¿Ñ€Ð¾ÐºÑ€ÑƒÑ‚ÐºÐµ Ð¿Ð¾Ð¿Ð°Ð´Ð°ÐµÐ¼ Ð² ÑÑ‚Ñƒ Ñ„ÑƒÐ½ÐºÑ†Ð¸ÑŽ
-            /* Ð’ Ð·Ð°Ð²Ð¸ÑÐ¸Ð¼Ð¾ÑÑ‚Ð¸ Ð¾Ñ‚ Ð¿Ð¾Ð»Ð¾Ð¶ÐµÐ½Ð¸Ñ Ð¿Ð¾Ð»Ð¾ÑÑ‹ Ð¿Ñ€Ð¾ÐºÑ€ÑƒÐºÑ‚Ð¸ Ð¸ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ top_show, ÑÐºÑ€Ñ‹Ð²Ð°ÐµÐ¼ Ð¸Ð»Ð¸ Ð¾Ñ‚ÐºÑ€Ñ‹Ð²Ð°ÐµÐ¼ ÐºÐ½Ð¾Ð¿ÐºÑƒ "ÐÐ°Ð²ÐµÑ€Ñ…" */
+        $(window).scroll(function () { // При прокрутке попадаем в эту функцию
+            /* В зависимости от положения полосы прокрукти и значения top_show, скрываем или открываем кнопку "Наверх" */
             if ($(this).scrollTop() > top_show) $('#top').fadeIn();
             else $('#top').fadeOut();
         });
-        $('#top').click(function () { // ÐŸÑ€Ð¸ ÐºÐ»Ð¸ÐºÐµ Ð¿Ð¾ ÐºÐ½Ð¾Ð¿ÐºÐµ "ÐÐ°Ð²ÐµÑ€Ñ…" Ð¿Ð¾Ð¿Ð°Ð´Ð°ÐµÐ¼ Ð² ÑÑ‚Ñƒ Ñ„ÑƒÐ½ÐºÑ†Ð¸ÑŽ
-            /* ÐŸÐ»Ð°Ð²Ð½Ð°Ñ Ð¿Ñ€Ð¾ÐºÑ€ÑƒÑ‚ÐºÐ° Ð½Ð°Ð²ÐµÑ€Ñ… */
+        $('#top').click(function () { // При клике по кнопке "Наверх" попадаем в эту функцию
+            /* Плавная прокрутка наверх */
             $('body, html').animate({
                 scrollTop: 0
             }, delay);
@@ -12045,12 +12045,12 @@ $(document).ready(function () {
                 },
                 beforeOpen: function (data, el) {
                     if (window.location.pathname != "/") {
-                        // $("header").css({"marginLeft": "-478.5px"});
+                        $("header").css({"marginLeft": "-478.5px"});
                     }
                 },
                 afterClose: function (data, el) {
                     if (window.location.pathname != "/") {
-                        // $("header").css({"marginLeft": "-470px"});
+                        $("header").css({"marginLeft": "-470px"});
                     }
                 }
             });

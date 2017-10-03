@@ -2772,7 +2772,7 @@ header .anticrisis {
 .editions-site-list-wrap .editions-site-list .editions-site-list-item .editions-site-list-item-rhombus {
   font: 25px "HelveticaNeue", Tahoma, sans-serif;
   color: #000;
-  background: url("./resources/css/../content/rhombus.png?v=2") no-repeat scroll 0% 0% transparent;
+  background: url("./resources/img/rhombus.png") no-repeat scroll 0% 0% transparent;
   width: 36px;
   height: 40px;
   line-height: 43px;
@@ -2802,7 +2802,7 @@ header .anticrisis {
   width: 128px;
   height: 32px;
   text-indent: 15px;
-  background: url("./resources/css/../content/content-button.png") no-repeat scroll 0% 0% transparent;
+  background: url("./resources/img/content-button.png") no-repeat scroll 0% 0% transparent;
   position: relative;
 }
 .editions-site-list-wrap .editions-site-list .editions-site-list-item .editions-site-list-item-order a {
@@ -2814,14 +2814,14 @@ header .anticrisis {
   line-height: 32px;
 }
 .editions-site-list-wrap .editions-site-list .editions-site-list-item .editions-site-list-item-order:hover {
-  background: url('./resources/content/content-button.png') no-repeat 0px -36px;
+  background: url('./resources/img/content-button.png') no-repeat 0px -36px;
 }
 .editions-site-list-wrap .editions-site-list .editions-site-list-item .editions-site-list-item-order:after {
   content: "";
   display: block;
   width: 128px;
   height: 20px;
-  background: url("./resources/css/../content/content-middle-shadow.png") no-repeat scroll 0% 0% transparent;
+  background: url("./resources/img/content-middle-shadow.png") no-repeat scroll 0% 0% transparent;
 }
 .editions-site-list-wrap .editions-site-list .editions-site-list-item:nth-child(4n) {
   margin-right: 0;
@@ -2831,7 +2831,7 @@ header .anticrisis {
   content: '';
   display: block;
   cursor: default;
-  background: url('./resources/content/shadow.png') no-repeat;
+  background: url('./resources/img/shadow.png') no-repeat;
   position: absolute;
   top: 32px;
   width: 127px;
