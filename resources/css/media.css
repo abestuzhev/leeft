@@ -194,6 +194,31 @@ h1.contact-title {
     }
 }
 
+@media screen and (max-width: 1060px) {
+    .content-card {
+        width: 33%;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .content-card .container {
+        height: 162px;
+        width: 231px;
+        display: inline-block;
+    }
+
+    .content-middle-block-image2 .text {
+        width: 235px;
+        left: 250px;
+    }
+
+    .bar {
+        width: 100%;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 990px) {
 
     .editions-site-list-wrap .editions-site-list {
@@ -566,7 +591,23 @@ header nav a {
     padding-bottom: 42px;
   }
 
+  /*portfolio*/
+    .content-card {
+        width: 50%;
+    }
 }
+@media screen and (max-width: 835px) and (min-width: 620px) {
+    .content-card .container {
+        height: 207px;
+        width: 290px;
+    }
+
+    .content-middle-block-image2 .text {
+        width: 292px;
+        left: 290px;
+    }
+}
+
 
 @media screen and (max-width: 790px) {
   .block-portfolio .right {
@@ -1006,8 +1047,29 @@ header nav a {
     .editions-site-list-wrap .editions-site-list .editions-site-list-item {
         width: 100%;
     }
+
+    .bar .button {
+        width: 100%;
+        margin: 0 0 10px;
+        height: 44px;
+    }
 }
 
+@media screen and (max-width: 560px) {
+    .content-card {
+        width: 100%;
+    }
+
+    .content-card .container {
+        height: 207px;
+        width: 290px;
+    }
+
+    .content-middle-block-image2 .text {
+        width: 292px;
+        left: 290px;
+    }
+}
 
 @media screen and (max-width: 500px) {
 
