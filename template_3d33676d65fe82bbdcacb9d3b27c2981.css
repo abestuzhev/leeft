@@ -2802,7 +2802,7 @@ header .anticrisis {
   width: 128px;
   height: 32px;
   text-indent: 15px;
-  background: url("./resources/img/content-button.png") no-repeat scroll 0% 0% transparent;
+  background: url("./resources/img/content/content-button.png") no-repeat scroll 0% 0% transparent;
   position: relative;
 }
 .editions-site-list-wrap .editions-site-list .editions-site-list-item .editions-site-list-item-order a {
@@ -2814,7 +2814,7 @@ header .anticrisis {
   line-height: 32px;
 }
 .editions-site-list-wrap .editions-site-list .editions-site-list-item .editions-site-list-item-order:hover {
-  background: url('./resources/img/content-button.png') no-repeat 0px -36px;
+  background: url('./resources/img/content/content-button.png') no-repeat 0px -36px;
 }
 .editions-site-list-wrap .editions-site-list .editions-site-list-item .editions-site-list-item-order:after {
   content: "";

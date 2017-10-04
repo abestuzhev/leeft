@@ -192,6 +192,25 @@ h1.contact-title {
         margin: 0;
         width: 218px;
     }
+
+    .services-list-carousel-wrap .jcarousel-wrap #jcarousel {
+        width: 100%;
+    }
+
+    .services-list-carousel-wrap .jcarousel-wrap {
+        width: 100%;
+        padding: 0 60px;
+        box-sizing: border-box;
+    }
+
+    .services-list-carousel-wrap .content-slider-block .content-slider-block-inner .circle {
+        margin: 27px auto 18px;
+    }
+
+    .services-list-carousel-wrap .content-slider-block .content-slider-block-inner {
+        margin: 0 auto;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1060px) {
@@ -240,12 +259,18 @@ h1.contact-title {
         width: 100%;
     }
 
+    .about-news .news-block {
+        font-size: 0;
+    }
+
     .about-news .inner .news {
+        float: none;
+        display: inline-block;
+        vertical-align: top;
         width: 50%;
-        margin: 0;
         padding: 0 20px;
         box-sizing: border-box;
-        margin-bottom: 24px;
+        margin: 0 0 60px;
     }
 
     .about-news .inner .news img {
@@ -271,17 +296,40 @@ h1.contact-title {
 
     .editions-site-list-wrap .editions-site-list .editions-site-list-item {
         width: 47%;
-        margin: 0;
-        padding: 0 15px;
+        padding: 0 15px 20px;
         box-sizing: border-box;
         box-shadow: 0 2px 10px 0 rgba(0,0,0,.16);
         margin: 0 10px 20px;
+    }
+
+    .editions-site-list-wrap .editions-site-list .editions-site-list-item .editions-site-list-item-order {
+        margin: 0 auto;
+        text-indent: -15px;
     }
 
     .editions-site-list-wrap .editions-site-list .editions-site-list-item .editions-site-list-item-rhombus {
         margin-left: -32px;
     }
 
+    .content-about-top .content-top-centered {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+
+    .content-about-top .content-top-centered.freedum-web-design h1 {
+        font: 50px/65px "HelveticaWorldBold", Verdana, sans-serif;
+        margin-bottom: 0;
+    }
+
+    .content-about-top .content-top-centered.freedum-web-design {
+        padding-top: 40px;
+    }
+
+    .content-about-top {
+        padding-bottom: 60px;
+    }
 }
 
 
@@ -448,6 +496,17 @@ header nav a {
   margin-right: 7px;
 }
 
+    .partners {
+        width: 96%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 80px;
+    }
+
+    .partners .inner {
+        width: 100%;
+    }
+
   /*footer*/
   footer {
     width: 100%;
@@ -520,17 +579,19 @@ header nav a {
 
     /*reviews*/
     .responses .content-response-block {
-        width: 47%;
         text-align: center;
+        margin: 0 20px 30px;
     }
 
     .responses .container {
         width: 100%;
-        margin: 0 auto;
     }
 
     .responses {
         text-align: center;
+    }
+    .responses .content-response-block:nth-child(3n+3) {
+        margin-right: 20px;
     }
 }
 
@@ -731,6 +792,28 @@ header nav a {
     }
 }
 
+@media screen and (max-width: 720px) {
+    .responses .content-response-block:nth-child(3n+3) {
+        margin-right: 5px;
+    }
+
+    .responses .content-response-block {
+        margin: 0 5px 20px;
+    }
+
+    .content-about-top .content-top-centered.freedum-web-design h1 {
+        font: 34px/1.2 "HelveticaWorldBold", Verdana, sans-serif;
+    }
+
+    .content-about-top .content-top-centered.freedum-web-design {
+        padding-top: 20px;
+    }
+
+    .content-about-top {
+        padding-bottom: 45px;
+    }
+}
+
 @media screen and (max-width: 700px) {
   header .logo .title {
     display: none;
@@ -760,6 +843,8 @@ header nav a {
 
   .content {
     padding-bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   /*прячим сцену с животными*/
@@ -831,6 +916,11 @@ header nav a {
   .block-portfolio .left .text {
     text-align: center;
     box-sizing: border-box;
+  }
+
+  .partners {
+      margin-top: 26px;
+      width: 94%;
   }
 
   footer {
@@ -936,7 +1026,7 @@ header nav a {
   }
 
   .block-portfolio {
-    margin: 56px 3%;
+    margin: 26px 3%;
   }
 
   /*карточки*/
@@ -1037,21 +1127,34 @@ header nav a {
     }
 
     .content .content-middle {
-        padding-top: 20px;
+        padding-top: 50px;
     }
+
 }
 
 @media screen and (max-width: 640px) {
     /*about.html*/
 
     .editions-site-list-wrap .editions-site-list .editions-site-list-item {
-        width: 100%;
+        width: 94%;
     }
 
     .bar .button {
         width: 100%;
         margin: 0 0 10px;
         height: 44px;
+    }
+
+    .content-about-top .content-top-centered.freedum-web-design h1 {
+        font: 26px/1.2 "HelveticaWorldBold", Verdana, sans-serif;
+    }
+
+    .content-about-top .content-top-centered.freedum-web-design {
+        padding-top: 20px;
+    }
+
+    .content-about-top {
+        padding-bottom: 45px;
     }
 }
 
@@ -1068,6 +1171,35 @@ header nav a {
     .content-middle-block-image2 .text {
         width: 292px;
         left: 290px;
+    }
+
+    .about-news .inner .news {
+        width: 100%;
+        margin: 0 0 40px;
+        padding: 0;
+    }
+
+    .about-news .inner .news .info {
+        margin-top: -73px;
+        background-color: rgb(18, 187, 160);
+        z-index: 7;
+        position: relative;
+        padding: 5px 8px;
+        box-sizing: border-box;
+        color: #fff;
+    }
+
+    .about-news .inner .news img {
+        box-shadow: none;
+    }
+
+    .services-list-carousel-wrap .content-slider-block,
+    .services-list-carousel-wrap .jcarousel-wrap #jcarousel {
+        height: 410px;
+    }
+
+    .services-list-carousel-wrap .content-slider-block .content-slider-block-inner{
+        height: 330px;
     }
 }
 

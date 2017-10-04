@@ -921,12 +921,19 @@
 <!-- <script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core.js?144109563269133', '/bitrix/js/main/core/core_ajax.js?143326045220575', '/bitrix/js/main/json/json2.min.js?14198670743467', '/bitrix/js/main/core/core_ls.js?14332604527365', '/bitrix/js/main/core/core_fx.js?14319676199592', '/bitrix/js/main/session.js?14319676192511', '/bitrix/js/main/core/core_window.js?143326045274831', '/bitrix/js/main/utils.js?143196761919858', '/resources/js/jquery.jcarousel.js?141986708717464', '/local/templates/.default/components/bitrix/news.list/offices.header-phones/script.js?14416875423334', '/resources/js/jquery-1.11.1.js?1419867087293074', '/resources/js/html5shiv.min.js?14198670872639', '/resources/js/jquery.arcticmodal-0.3.min.js?14198670876118']); </script>
 <script type="text/javascript">BX.setCSSList(['/bitrix/js/main/core/css/core.css?14319676192854', '/local/templates/.default/components/bitrix/news.list/offices.header-phones/style.css?14616692242523', '/resources/css/main-style.css?146772156124573', '/resources/css/home.css?146790246613128', '/resources/css/jquery.arcticmodal-0.3.css?1467721561647', '/local/templates/leeft_main_page/template_styles.css?146781493281']); </script> -->
 
-
+<!--<script-->
+        <!--src="https://code.jquery.com/jquery-3.2.1.slim.min.js"-->
+        <!--integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="-->
+        <!--crossorigin="anonymous"></script>-->
 <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.5/jquery.jcarousel.min.js"></script>-->
 <!--<script type="text/javascript" src="page_0c73b9ba4b28bf276afd2df4d2ffc3b6.js"></script>-->
+<!--<script type="text/javascript" src="template_7dedda7a4f3cbe931c4bee241ba4be46.js"></script>-->
+<!--<script type="text/javascript" src="template_1bb5ec1ca648795d984cb2ad7f13274b.js"></script>-->
 <script type="text/javascript" src="template_7dedda7a4f3cbe931c4bee241ba4be46.js"></script>
-<script type="text/javascript" src="template_1bb5ec1ca648795d984cb2ad7f13274b.js"></script>
+<script type="text/javascript" src="page_0c73b9ba4b28bf276afd2df4d2ffc3b6.js"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<link src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
 
 
 
@@ -940,12 +947,10 @@
                  width = carousel.innerWidth();
 
              if (width >= 800) {
-                 width = width / 4;
-             } else if (width < 810) {
                  width = width / 3;
-             } else if (width >= 450) {
+             } else if (width < 980 && width > 520) {
                  width = width / 2;
-             } else {
+             }  else {
                width = width / 1;
              }
 
@@ -955,12 +960,12 @@
              wrap: 'circular'
          });
 
-     $('.left-button')
+     $('.content-slider-left-arrow')
          .jcarouselControl({
              target: '-=1'
          });
 
-     $('.right-button')
+     $('.content-slider-right-arrow')
          .jcarouselControl({
              target: '+=1'
          });
