@@ -1,5 +1,4 @@
 
-
 /******************************************************/
 /*изменение блоков футера для адаптации под мобильные*/
 /******************************************************/
@@ -497,14 +496,14 @@ header nav a {
 }
 
     .partners {
-        width: 96%;
+        width: 96% !important;
         margin-left: 10px;
         margin-right: 10px;
         margin-bottom: 80px;
     }
 
     .partners .inner {
-        width: 100%;
+        width: 100% !important;
     }
 
   /*footer*/
@@ -780,7 +779,7 @@ header nav a {
       display: none;
     }
 
-    #bxdynamic_iJBuqa,
+    .phones-composite,
     .premia,
     #bx-composite-banner {
       display: inline-block;
@@ -919,8 +918,8 @@ header nav a {
   }
 
   .partners {
-      margin-top: 26px;
-      width: 94%;
+      margin-top: 26px !important;
+      width: 94% !important;
   }
 
   footer {
@@ -1133,6 +1132,18 @@ header nav a {
 }
 
 @media screen and (max-width: 640px) {
+  /*молджальное окно*/
+
+  .arcticmodal-container table,
+  .arcticmodal-container tbody,
+  .arcticmodal-container tr,
+  .arcticmodal-container td {
+    width: 100%
+  }
+
+}
+
+@media screen and (max-width: 640px) {
     /*about.html*/
 
     .editions-site-list-wrap .editions-site-list .editions-site-list-item {
@@ -1275,3 +1286,231 @@ header nav a {
   }
 
 }
+
+.rf {
+    text-align: center;
+}
+
+.rf-item {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+}
+
+.dev .rf-item input {
+    width: 100%;
+}
+.dev .new-connect.new .frm_ico {
+    margin: 0;
+    padding: 0;
+}
+.dev .new-connect.new .frm_ico.s1 {
+    margin: 0;
+}
+
+.dev .new-connect.new input.form-connect {
+    /*padding-left: 0;*/
+    margin: 0;
+}
+
+.dev .new-connect {
+    min-width: auto;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.dev.new-content-inner .triple.osobennosti {
+    margin-left: 0;
+}
+
+/*dev*/
+@media screen and (max-width: 1230px) {
+    .content.dev-layout {
+        padding: 0;
+    }
+
+    .dev {
+        width: 100%;
+    }
+
+    .dev .green-block {
+        background-size: cover;
+        background-position: 50% 50%;
+        height: auto;
+    }
+
+    .dev .new-tech {
+        background-size: 390%;
+        background-position: 50% 50%;
+        height: auto;
+        padding: 40px 0;
+        margin-top: 30px;
+    }
+
+    .dev .new-tech h2 {
+        margin: 0;
+    }
+
+    .dev.new-content-inner h2,
+    .dev.new-content-inner h2 b {
+        font-size: 60px;
+        line-height: 1;
+    }
+
+    .dev .triple div {
+        height: 100px;
+    }
+
+    .dev .new-clients {
+        background-size: 390%;
+        background-position: 50% 50%;
+        height: auto;
+        padding: 40px 0;
+        margin-top: 30px;
+    }
+
+    .dev .new-clients h2 {
+        margin-top: 30px;
+    }
+
+    .dev .new-connect.new input.form-connect {
+        margin-bottom: 0;
+    }
+
+    .dev.new-content-inner .new-tech .new-list .bl_111,
+    .dev.new-content-inner .new-tech .new-list .bl_222 {
+        width: auto;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .dev.new-content-inner .new-tech .new-list {
+        margin-left: 65px;
+    }
+
+    .dev.new-content-inner .triple div {
+        width: 29%;
+        margin: 0 10px;
+        height:auto;
+    }
+}
+
+@media screen and (max-width: 1064px) {
+    .dev .new-times {
+        margin-left: 93px;
+    }
+}
+
+
+@media screen and (max-width: 960px) {
+    .dev .new-tech {
+        background-image: none;
+        background-color: #029478;
+    }
+    
+    
+}
+
+@media screen and (max-width: 840px) {
+    .dev.new-content-inner h2 b,
+    .dev.new-content-inner h2 {
+        font-size: 44px !important;
+        line-height: 1 !important;
+    }
+
+    .dev .rf-item {
+        width: 100%;
+        display: block;
+    }
+
+    .dev-layout .content-middle {
+        padding-bottom: 0 !important;
+    }
+
+    .dev.new-content-inner .triple div {
+        padding-top: 105px;
+    }
+
+    .dev.new-content-inner .green-block span.button span {
+        font-size: 33px;
+        line-height: 1;
+    }
+
+    .dev.new-content-inner .new-tech .new-list {
+        margin-right: 20px;
+    }
+
+    .dev.new-content-inner .new-tech .new-list .bl_111 li,
+    .dev.new-content-inner .new-tech .new-list .bl_222 li {
+        font-size: 16px;
+        line-height: 1;
+    }
+
+    .dev .new-times {
+        text-align: center;
+        margin: 0;
+    }
+    .dev.new-content-inner .new-times .new-timer {
+        display: none;
+    }
+
+    .dev.new-content-inner .new-times .new-times-field,
+    .dev.new-content-inner .new-times .new-times-field-2,
+    .dev.new-content-inner .new-times .new-times-field-3 {
+        width: 100%;
+        line-height: 1;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+
+    .dev.new-content-inner .new-times .new-marg {
+        margin-left: 0;
+    }
+
+    .dev.new-content-inner .new-times-info {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    .dev.new-content-inner .new-tech {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width: 780px) {
+    .dev.new-content-inner .triple div {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .dev.new-content-inner .triple div {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+}
+
+
+@media screen and (max-width: 520px) {
+    .dev.new-content-inner h2 b,
+    .dev.new-content-inner h2 {
+        font-size: 30px !important;
+        line-height: 1 !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
