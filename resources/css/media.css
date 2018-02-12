@@ -969,6 +969,7 @@ header nav a {
   .jcarousel2-wrapper #jcarousel2 .move-block {
     width: auto;
     position: static;
+    z-index: 10000;
   }
   .jcarousel2-wrapper #jcarousel2 .move-block .block .block-top {
     border-radius: 6px;
@@ -1324,7 +1325,9 @@ header nav a {
     margin-left: 0;
 }
 
-/*dev*/
+
+/*dev page--------------------------------------------------*/
+
 @media screen and (max-width: 1230px) {
     .content.dev-layout {
         padding: 0;
@@ -1394,6 +1397,13 @@ header nav a {
         margin: 0 10px;
         height:auto;
     }
+
+
+    .new-content-inner #new-jcarousel-2 {
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 98%;
+    }
 }
 
 @media screen and (max-width: 1064px) {
@@ -1404,6 +1414,10 @@ header nav a {
 
 
 @media screen and (max-width: 960px) {
+    header {
+        margin: 0 !important;
+    }
+
     .dev .new-tech {
         background-image: none;
         background-color: #029478;
