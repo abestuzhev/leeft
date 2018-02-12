@@ -871,33 +871,33 @@
 
 </script>
 
-<script>
-    $(document).ready(function () {
+<!--<script>-->
+    <!--$(document).ready(function () {-->
 
-        $("div.lazy").lazyload();
+        <!--$("div.lazy").lazyload();-->
 
-        $('.slick-slider-header-fon')
-            .slick({
-                dots: true,
-                dotsClass: 'squares',
-                prevArrow: false,
-                nextArrow: false,
-                autoplay: true,
-                autoplaySpeed: 4000,
-                customPaging: function (slider, i) {
-                    return '<div class="square" data-role="none"></div>';
-                }
-            })
-            .on('afterChange', function (event, slick, currentSlide, nextSlide) {
-                $("div.lazy").lazyload();
-            })
-            .hide(0, function () {
-                $("#preloader").hide(0, function () {
-                    $('.slick-slider-header-fon').fadeIn(800);
-                });
-            });
-    });
-</script>
+        <!--$('.slick-slider-header-fon')-->
+            <!--.slick({-->
+                <!--dots: true,-->
+                <!--dotsClass: 'squares',-->
+                <!--prevArrow: false,-->
+                <!--nextArrow: false,-->
+                <!--autoplay: true,-->
+                <!--autoplaySpeed: 4000,-->
+                <!--customPaging: function (slider, i) {-->
+                    <!--return '<div class="square" data-role="none"></div>';-->
+                <!--}-->
+            <!--})-->
+            <!--.on('afterChange', function (event, slick, currentSlide, nextSlide) {-->
+                <!--$("div.lazy").lazyload();-->
+            <!--})-->
+            <!--.hide(0, function () {-->
+                <!--$("#preloader").hide(0, function () {-->
+                    <!--$('.slick-slider-header-fon').fadeIn(800);-->
+                <!--});-->
+            <!--});-->
+    <!--});-->
+<!--</script>-->
 
 <!-- <script>
 	$(document).ready(function(){
@@ -911,57 +911,57 @@
 	});
 </script> -->
 
-<script>
-    $(document).ready(function () {
-        $(".button-rev a").attr("href", "http://www.leeft.ru/");
+<!--<script>-->
+    <!--$(document).ready(function () {-->
+        <!--$(".button-rev a").attr("href", "http://www.leeft.ru/");-->
 
-        //Перемотка страницы к хлебным крошкам
-        if ($('#content-top').length > 0) {
-            var target_top = $('#content-top').offset().top;
-            var target_top_height = $('#content-top').outerHeight();
-            $('html, body').animate({scrollTop: target_top - target_top_height}, 'slow');
-        }
-    });
-</script>
+        <!--//Перемотка страницы к хлебным крошкам-->
+        <!--if ($('#content-top').length > 0) {-->
+            <!--var target_top = $('#content-top').offset().top;-->
+            <!--var target_top_height = $('#content-top').outerHeight();-->
+            <!--$('html, body').animate({scrollTop: target_top - target_top_height}, 'slow');-->
+        <!--}-->
+    <!--});-->
+<!--</script>-->
 
-<script>
-    $(document).ready(function () {
-        var stPartnersBlock = $(".partners.st");
-        var stPartnersList = stPartnersBlock.find(".partners-list");
-        var stPartnersListHeight = stPartnersBlock.find(".partners-list").css("height");
-        stPartnersList.css("height", "90px");
-        stPartnersBlock
-            .on("click", ".btn-show.st", function (e) {
-                //height = $(this).closest(".partners").find(".partners-list").css("height");
-                stPartnersList.animate({"height": stPartnersListHeight});
-                $(this).removeClass("btn-show").addClass("btn-hide");
+<!--<script>-->
+    <!--$(document).ready(function () {-->
+        <!--var stPartnersBlock = $(".partners.st");-->
+        <!--var stPartnersList = stPartnersBlock.find(".partners-list");-->
+        <!--var stPartnersListHeight = stPartnersBlock.find(".partners-list").css("height");-->
+        <!--stPartnersList.css("height", "90px");-->
+        <!--stPartnersBlock-->
+            <!--.on("click", ".btn-show.st", function (e) {-->
+                <!--//height = $(this).closest(".partners").find(".partners-list").css("height");-->
+                <!--stPartnersList.animate({"height": stPartnersListHeight});-->
+                <!--$(this).removeClass("btn-show").addClass("btn-hide");-->
 
-            })
-            .on("click", ".btn-hide.st", function (e) {
-                stPartnersList.animate({"height": "90px"});
-                $(this).removeClass("btn-hide").addClass("btn-show");
-            });
-    });
-</script>
+            <!--})-->
+            <!--.on("click", ".btn-hide.st", function (e) {-->
+                <!--stPartnersList.animate({"height": "90px"});-->
+                <!--$(this).removeClass("btn-hide").addClass("btn-show");-->
+            <!--});-->
+    <!--});-->
+<!--</script>-->
 
-<script>
-    $(document).ready(function () {
-        var partnersBlock = $(".partners.def");
-        var partnersList = partnersBlock.find(".partners-list");
-        var partnersListHeight = partnersBlock.find(".partners-list").css("height");
-        partnersList.css("height", "90px");
-        partnersBlock
-            .on("click", ".btn-show.def", function (e) {
-                //height = $(this).closest(".partners").find(".partners-list").css("height");
-                partnersList.animate({"height": partnersListHeight});
-                $(this).removeClass("btn-show").addClass("btn-hide");
-            })
-            .on("click", ".btn-hide.def", function (e) {
-                partnersList.animate({"height": "90px"});
-                $(this).removeClass("btn-hide").addClass("btn-show");
-            });
-    });
-</script>
+<!--<script>-->
+    <!--$(document).ready(function () {-->
+        <!--var partnersBlock = $(".partners.def");-->
+        <!--var partnersList = partnersBlock.find(".partners-list");-->
+        <!--var partnersListHeight = partnersBlock.find(".partners-list").css("height");-->
+        <!--partnersList.css("height", "90px");-->
+        <!--partnersBlock-->
+            <!--.on("click", ".btn-show.def", function (e) {-->
+                <!--//height = $(this).closest(".partners").find(".partners-list").css("height");-->
+                <!--partnersList.animate({"height": partnersListHeight});-->
+                <!--$(this).removeClass("btn-show").addClass("btn-hide");-->
+            <!--})-->
+            <!--.on("click", ".btn-hide.def", function (e) {-->
+                <!--partnersList.animate({"height": "90px"});-->
+                <!--$(this).removeClass("btn-hide").addClass("btn-show");-->
+            <!--});-->
+    <!--});-->
+<!--</script>-->
 
 
 </body>
