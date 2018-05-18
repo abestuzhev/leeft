@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: "Din Pro";
+    src: url("./resources/fonts/DINPro-CondensedBlack.woff") format("woff2");
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: "Din Pro";
+    src: url("./resources/fonts/DINPro-CondensedRegular.woff") format("woff2");
+    font-weight: normal;
+}
+
+.slide-wrapper {
+    width: 940px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.slide-title {
+    font-family: "Din Pro";
+    font-weight: 700;
+    text-shadow: 0 6px 9px rgba(0,0,0,.14);
+    line-height: 1;
+}
+
+
+.slide-subtitle {
+    font-family: "Din Pro";
+    font-weight: 400;
+    text-shadow: 0 6px 9px rgba(0,0,0,.14);
+    line-height: 1;
+}
+.slide-list:nth-child(1) .slide-title {
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 130px;
+}
+
+.slide-list:nth-child(1) .slide-subtitle {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+
+.slide-list:nth-child(2) .slide-title {
+    font-size: 42px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.slide-list:nth-child(2) .slide-subtitle {
+
+}
