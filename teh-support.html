@@ -62,13 +62,22 @@
             line-height: 29px !important;
         }</style>
 
+    <link href="resources/js/slick/slick.css" type="text/css" data-template-style="true" rel="stylesheet"/>
+    <link href="resources/js/slick/slick-theme.css" type="text/css" data-template-style="true" rel="stylesheet"/>
 
+    <script src="resources/js/jquery-3.3.1.min.js"></script>
+    <script src="resources/js/addition.js"></script>
+    <script src="resources/js/slick/slick.js"></script>
 
     <link href="kernel_main.css" type="text/css" rel="stylesheet"/>
     <link href="page_cc95300c289517e578476411cee48b2d.css" type="text/css" rel="stylesheet"/>
     <link href="template_a4d2f40229dd295fae9beb6244101247.css" type="text/css" data-template-style="true" rel="stylesheet"/>
     <link href="template_3d33676d65fe82bbdcacb9d3b27c2981.css" type="text/css" data-template-style="true" rel="stylesheet"/>
+    <link href="resources/css/addition.css" type="text/css" data-template-style="true" rel="stylesheet"/>
     <link href="resources/css/media.css" type="text/css" data-template-style="true" rel="stylesheet"/>
+
+
+
 
 
 
@@ -153,58 +162,59 @@
 </header>
 
 <div class="support">
-    <div class="header-fon bg-none " style="">
+    <!--<div class="header-fon bg-none " style="">-->
 
-        <div id="preloader" style="background-color: rgb(255, 255, 255); width: 100%; height: 465px; margin-left: 0px; margin-top: 0px; position: absolute; left: 0px; top: 0px; z-index: 1; display: none;">
+        <!--<div id="preloader" style="background-color: rgb(255, 255, 255); width: 100%; height: 465px; margin-left: 0px; margin-top: 0px; position: absolute; left: 0px; top: 0px; z-index: 1; display: none;">-->
 
-            <div class="wrapper">
-                <div class="wrapper-inner">
-                    <div class="loader">
-                        <div class="duo duo1">
-                            <div class="dot dot-a"></div>
-                            <div class="dot dot-b"></div>
-                        </div>
-                        <div class="duo duo2">
-                            <div class="dot dot-a"></div>
-                            <div class="dot dot-b"></div>
-                        </div>
-                    </div><!-- .loader -->
-                </div><!-- .wrapper-inner -->
-            </div><!-- .wrapper -->
-        </div>
+            <!--<div class="wrapper">-->
+                <!--<div class="wrapper-inner">-->
+                    <!--<div class="loader">-->
+                        <!--<div class="duo duo1">-->
+                            <!--<div class="dot dot-a"></div>-->
+                            <!--<div class="dot dot-b"></div>-->
+                        <!--</div>-->
+                        <!--<div class="duo duo2">-->
+                            <!--<div class="dot dot-a"></div>-->
+                            <!--<div class="dot dot-b"></div>-->
+                        <!--</div>-->
+                    <!--</div>&lt;!&ndash; .loader &ndash;&gt;-->
+                <!--</div>&lt;!&ndash; .wrapper-inner &ndash;&gt;-->
+            <!--</div>&lt;!&ndash; .wrapper &ndash;&gt;-->
+        <!--</div>-->
 
-        <div class="header-middle">
-            <div class="header-phones">
-                <div class="phone phone--city select-city-event">
-                    <!--'start_frame_cache_7DqYyc'-->
-                    <div class="phone-city">Архангельск</div>
-                    <div class="phone-number">+7 (8182) 629355 </div>
-                    <div class="select-city-btn select-city-event"></div>
-                    <!--'end_frame_cache_7DqYyc'-->
-                </div>
-            </div>
-            <div style="display: none;">
-                <div class="box-modal" id="city-list-modal">
-                    <div class="box-modal_close arcticmodal-close"></div>
-                    <ul>
-                        <li data-value="Москва">Москва</li>
-                        <li data-value="Санкт-Петербург">Санкт-Петербург</li>
-                        <li data-value="Архангельск">Архангельск</li>
-                        <li data-value="Сыктывкар">Сыктывкар</li>
-                        <li data-value="Ярославль">Ярославль</li>
-                        <li data-value="Вологда">Вологда</li>
-                    </ul>
-                </div>
-            </div>
+        <!--<div class="header-middle">-->
+            <!--<div class="header-phones">-->
+                <!--<div class="phone phone&#45;&#45;city select-city-event">-->
+                    <!--&lt;!&ndash;'start_frame_cache_7DqYyc'&ndash;&gt;-->
+                    <!--<div class="phone-city">Архангельск</div>-->
+                    <!--<div class="phone-number">+7 (8182) 629355 </div>-->
+                    <!--<div class="select-city-btn select-city-event"></div>-->
+                    <!--&lt;!&ndash;'end_frame_cache_7DqYyc'&ndash;&gt;-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div style="display: none;">-->
+                <!--<div class="box-modal" id="city-list-modal">-->
+                    <!--<div class="box-modal_close arcticmodal-close"></div>-->
+                    <!--<ul>-->
+                        <!--<li data-value="Москва">Москва</li>-->
+                        <!--<li data-value="Санкт-Петербург">Санкт-Петербург</li>-->
+                        <!--<li data-value="Архангельск">Архангельск</li>-->
+                        <!--<li data-value="Сыктывкар">Сыктывкар</li>-->
+                        <!--<li data-value="Ярославль">Ярославль</li>-->
+                        <!--<li data-value="Вологда">Вологда</li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>-->
             <!-- <div class="fon-block request-modal-services" onclick="yaCounter13951813.reachGoal('order_services'); return true;">
                 <div class="fon-block-inner1">НАШИ УСЛУГИ</div>
                 <div class="fon-block-inner2">ОСТАВИТЬ ЗАЯВКУ</div>
             </div>-->
-        </div><!-- END header-fon -->
+        <!--</div>-->
+    <!-- END header-fon -->
 
 
 
-    </div>
+    <!--</div>-->
 
     <!--<div class="content-top" id="content-top">-->
     <!--<div class="content-top-inner">-->
@@ -217,229 +227,904 @@
 
     <div class="content  ">
 
-        <div class="content-middle">
-            <div class="content-line">
-      <span>
-          <h1>ЧТО МЫ ДЕЛАЕМ</h1>
-          это то, что мы действительно любим делать    </span>
+        <div class="teh">
+
+            <div class="teh-slider teh-banner">
+                <div class="teh-banner__item" style="background-image:url('./resources/img/teh/teh-banner-1.png');">
+                    <div class="teh-banner__body">
+                        <div class="teh-banner__title">Поддержка сайтов на 1С-Битрикс</div>
+                        <div class="teh-banner__text">Для кого?</div>
+                        <div class="teh-banner__type">
+                            <span>Корпоративные</span>
+                            сайты
+                        </div>
+                        <div class="teh-btns">
+                            <a href="#" class="teh-btn">оставить заявку</a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="teh-banner__item" style="background-image:url('./resources/img/teh/teh-banner-1.png');">
+                    <div class="teh-banner__body">
+                        <div class="teh-banner__title">Поддержка сайтов на 1С-Битрикс</div>
+                        <div class="teh-banner__text">Для кого?</div>
+                        <div class="teh-banner__type">
+                            <span>Визитки</span>
+                            сайты
+                        </div>
+                        <div class="teh-btns">
+                            <a href="#" class="teh-btn">оставить заявку</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
 
-            <div class="services-list-wrap">
-                <div class="services-list-item">
-                    <div class="content-services-slider-block-inner">
-                        <a class="content-services-slider-block_img" href="/services/razrabotka-saytov/">
-                            <div class="circle">
-                                <img alt="Разработка сайтов" title="Разработка сайтов" src="./resources/img/new/icon-development.png" style="display: block;">
+            <h2 class="teh-title">Обслуживание и развитие сайта</h2>
+            <div class="teh-box teh-stage">
+                <ul class="teh-stage__list">
+                    <li class="teh-stage__item">
+                        <div class="teh-stage-card">
+                            <div class="teh-stage-card__icon"><img src="./resources/img/teh/stage-1.png" alt=""></div>
+                            <div class="teh-stage-card__body">
+                                <div class="teh-stage-card__title">Верстка и контент</div>
+                                <div class="teh-stage-card__text">Размещение и подготовка текстовых
+                                    и графических материалов заказчика.</div>
                             </div>
-                        </a>
-                        <a href="/services/razrabotka-saytov/"><b>Разработка сайтов</b></a>
-                        <div class="span">Сайты, созданные нашей Компанией, выгодно отличаются на рынке, за счет индивидуального подхода к каждому клиенту.</div>
-                        <div style="clear:both"></div>
-                    </div>
-                    <div class="content-services-slider-block-inner-button">
-                        <a class="href" href="/services/razrabotka-saytov/">Подробнее</a>
-                    </div>
-                </div>
-
-                <div class="services-list-item">
-                    <div class="content-services-slider-block-inner">
-                        <a class="content-services-slider-block_img" href="/services/obsluzhivanie-saytov/">
-                            <div class="circle">
-                                <img alt="Тех. поддержка сайтов" title="Тех. поддержка сайтов" class="lazy" src="./resources/img/new/icon-support.png" style="display: block;">
+                        </div><!--teh-stage-card-->
+                    </li>
+                    <li class="teh-stage__item">
+                        <div class="teh-stage-card">
+                            <div class="teh-stage-card__icon"><img src="./resources/img/teh/stage-4.png" alt=""></div>
+                            <div class="teh-stage-card__body">
+                                <div class="teh-stage-card__title">ДОРАБОТКА СУЩЕСТВУЮЩЕГО ФУНКЦИОНАЛА</div>
+                                <div class="teh-stage-card__text">С сохранением текущего оформления и структуры.</div>
                             </div>
-                        </a>
-                        <a href="/services/obsluzhivanie-saytov/"><b>Тех. поддержка сайтов</b></a>
-                        <div class="span">Мы оказываем информационную и техническую поддержку вашего веб-ресурса, поддерживая его в актуальном состоянии.</div>
-                        <div style="clear:both"></div>
-                    </div>
-                    <div class="content-services-slider-block-inner-button">
-                        <a class="href" href="/services/obsluzhivanie-saytov/">Подробнее</a>
-                    </div>
-                </div>
-
-                <div class="services-list-item">
-                    <div class="content-services-slider-block-inner">
-                        <a class="content-services-slider-block_img" href="/services/seo-optimizatsiya/">
-                            <div class="circle">
-                                <img alt="SEO" title="SEO" class="lazy" src="./resources/img/new/icon-seo.png" style="display: block;">
+                        </div><!--teh-stage-card-->
+                    </li>
+                    <li class="teh-stage__item">
+                        <div class="teh-stage-card">
+                            <div class="teh-stage-card__icon"><img src="./resources/img/teh/stage-2.png" alt=""></div>
+                            <div class="teh-stage-card__body">
+                                <div class="teh-stage-card__title">КОНТРОЛЬ РАБОТОСПОСОБНОСТИ САЙТА</div>
+                                <div class="teh-stage-card__text">Работа с хостингом, антивирусный мониторинг,
+                                    резервное копирование и пр.</div>
                             </div>
-                        </a>
-                        <a href="/services/seo-optimizatsiya/"><b>SEO</b></a>
-                        <div class="span">Leeft – одно из немногих агентств на Северо-Западе, которое предоставляет совершенно прозрачные условия в предоставлении SEO-услуг.</div>
-                        <div style="clear:both"></div>
-                    </div>
-                    <div class="content-services-slider-block-inner-button">
-                        <a class="href" href="/services/seo-optimizatsiya/">Подробнее</a>
-                    </div>
-                </div>
-
-                <div class="services-list-item">
-                    <div class="content-services-slider-block-inner">
-                        <a class="content-services-slider-block_img" href="/services/smm/">
-                            <div class="circle">
-                                <img alt="SMM" title="SMM" class="lazy" src="./resources/img/new/icon-smm.png" style="display: block;">
+                        </div><!--teh-stage-card-->
+                    </li>
+                    <li class="teh-stage__item">
+                        <div class="teh-stage-card">
+                            <div class="teh-stage-card__icon"><img src="./resources/img/teh/stage-5.png" alt=""></div>
+                            <div class="teh-stage-card__body">
+                                <div class="teh-stage-card__title">ТЕСТИРОВАНИЕ НОВОГО ФУНКЦИОНАЛА</div>
+                                <div class="teh-stage-card__text">Проверка программного кода, usability-тестирование.</div>
                             </div>
-                        </a>
-                        <a href="/services/smm/"><b>SMM</b></a>
-                        <div class="span">Одним из важнейших плюсов является возможность прямого общения с целевой аудиторией, гибко выстраивая свою рекламную кампанию.</div>
-                        <div style="clear:both"></div>
-                    </div>
-                    <div class="content-services-slider-block-inner-button">
-                        <a class="href" href="/services/smm/">Подробнее</a>
-                    </div>
-                </div>
-
-                <div class="services-list-item">
-                    <div class="content-services-slider-block-inner">
-                        <a class="content-services-slider-block_img" href="/services/kontekstnaya-reklama/">
-                            <div class="circle">
-                                <img alt="Контекстная реклама" title="Контекстная реклама" class="lazy" src="./resources/img/new/icon-contextual-advertising.png" style="display: block;">
+                        </div><!--teh-stage-card-->
+                    </li>
+                    <li class="teh-stage__item">
+                        <div class="teh-stage-card">
+                            <div class="teh-stage-card__icon"><img src="./resources/img/teh/stage-3.png" alt=""></div>
+                            <div class="teh-stage-card__body">
+                                <div class="teh-stage-card__title">СОЗДАНИЕ НОВЫХ ФУНКЦИОНАЛЬНЫХ МОДУЛЕЙ</div>
+                                <div class="teh-stage-card__text">На стороне сервера (PHP, MySQL) или клиента (JavaScript, AJAX, JQuery).</div>
                             </div>
-                        </a>
-                        <a href="/services/kontekstnaya-reklama/"><b>Контекстная реклама</b></a>
-                        <div class="span">Преимуществом данной рекламы является мгновенное появление ваших объявлений в сети и оперативность смены стратегии рекламных кампаний.</div>
-                        <div style="clear:both"></div>
-                    </div>
-                    <div class="content-services-slider-block-inner-button">
-                        <a class="href" href="/services/kontekstnaya-reklama/">Подробнее</a>
-                    </div>
-                </div>
+                        </div><!--teh-stage-card-->
+                    </li>
+                    <li class="teh-stage__item">
 
-                <div class="services-list-item">
-                    <div class="content-services-slider-block-inner">
-                        <a class="content-services-slider-block_img" href="/services/razrabotka-vnedrenie-i-nastroyka-crm-sistem/">
-                            <div class="circle">
-                                <img alt="CRM и бизнес-приложения" title="CRM и бизнес-приложения" class="lazy"  src="./resources/img/new/icon-crm.png" style="display: block;">
+                        <div class="teh-stage-card">
+                            <div class="teh-stage-card__icon"><img src="./resources/img/teh/stage-6.png" alt=""></div>
+                            <div class="teh-stage-card__body">
+                                <div class="teh-stage-card__title">КОНСУЛЬТАЦИОННАЯ ПОДДЕРЖКА</div>
+                                <div class="teh-stage-card__text">По вопросам работы с CMS, поискового продвижения и медиарекламы.</div>
                             </div>
-                        </a>
-                        <a href="/services/razrabotka-vnedrenie-i-nastroyka-crm-sistem/"><b>CRM и бизнес-приложения</b></a>
-                        <div class="span">Наши решения позволяют объединить вашу компанию, упрощают процессы взаимодействия и отчетности, оптимизируют работу сотрудников.                    </div>
-                        <div style="clear:both"></div>
-
-                    </div>
-                    <div class="content-services-slider-block-inner-button">
-                        <a class="href" href="/services/razrabotka-vnedrenie-i-nastroyka-crm-sistem/">Подробнее</a>
-                    </div>
-                </div>
-
-                <div class="services-list-item">
-                    <div class="content-services-slider-block-inner">
-                        <a class="content-services-slider-block_img" href="/services/autsorsing/">
-                            <div class="circle">
-                                <img alt="Аутсорсинг" title="Аутсорсинг" class="lazy" src="./resources/img/new/icon-outsourcing.png" style="display: block;">
-                            </div>
-                        </a>
-                        <a href="/services/autsorsing/"><b>Аутсорсинг</b></a>
-                        <div class="span">Команда ответственных специалистов и профессионалов,  под  чутким руководством может реализовать ваши задачи и проекты на субподряде.</div>
-                        <div style="clear:both"></div>
-                    </div>
-                    <div class="content-services-slider-block-inner-button">
-                        <a class="href" href="/services/autsorsing/">Подробнее</a>
-                    </div>
-                </div>
-
-                <div class="services-list-item">
-                    <div class="content-services-slider-block-inner">
-                        <a class="content-services-slider-block_img" href="/services/veb-analitika/">
-                            <div class="circle">
-                                <img alt="Веб-аналитика" title="Веб-аналитика" class="lazy" src="./resources/img/new/icon-analytics.png" style="display: block;">
-                            </div>
-                        </a>
-                        <a href="/services/veb-analitika/"><b>Веб-аналитика</b></a>
-                        <div class="span">Объективная оценка эффективности вашего веб-ресурса, а так же комплекс мер по увеличению количества посетителей и уровня продаж.</div>
-                        <div style="clear:both"></div>
-
-                    </div>
-                    <div class="content-services-slider-block-inner-button">
-                        <a class="href" href="/services/veb-analitika/">Подробнее</a>
-                    </div>
-                </div>
-            </div><!-- END services-list-wrap -->
-
-
-        </div>
-
-        <div class="block-portfolio">
-            <div class="left">
-                <p class="text">Наши работы</p>
-                <div class="bar">
-                    <a href="/portfolio/individual/"><button class="button">ПОРТФОЛИО</button></a>
-                </div>
-            </div>
-            <div class="right">
-                <img src="./resources/img/picPortfolio.png">
+                        </div><!--teh-stage-card-->
+                    </li>
+                </ul>
             </div>
 
-        </div>
+            <div class="teh-request">
+                <div class="teh-request__body">
+                    <div class="teh-request__title">Оставьте заявку на техническую поддержку</div>
+                    <div class="teh-request__subtitle">и получите</div>
+                    <div class="teh-request__text">
+                        бесплатный аудит вашего сайта, а также
+                        скидку на первый месяц
+                        технического обслуживания!
+                    </div>
+                    <a href="#" class="teh-btn teh-btn--big">Оставить заявку</a>
+                </div>
+                <div class="teh-request-decor-1"><img src="./resources/img/teh/teh-request-decor-1.png" alt=""></div>
+                <div class="teh-request-decor-2"><img src="./resources/img/teh/teh-request-decor-2.png" alt=""></div>
+                <div class="teh-request-decor-3"><img src="./resources/img/teh/teh-request-decor-3.png" alt=""></div>
 
-        <div class="partners def">
-            <div class="inner">
-                <div class="partners-title"><h1>Наши партнеры</h1></div>
-                <div class="partners-list" style="height: 90px;">
-                    <img class="partners-item" id="bx_3485106786_145" src="resources/img/partners/45e1f15900386d7c8c36dd8466962bf9.png" width="208" height="23" alt="Приморская газета" title="Приморская газета">
-                    <img class="partners-item" id="bx_3485106786_146" src="resources/img/partners/095dcbdb5510b307d1304e2b6a614777.png" width="153" height="31" alt="Звёздочка" title="Звёздочка">
-                    <img class="partners-item" id="bx_3485106786_147" src="resources/img/partners/5c3f8fffe7b7f6918874df71a663f101.png" width="216" height="18" alt="Бриллианты Беломорья" title="Бриллианты Беломорья">
-                    <img class="partners-item" id="bx_3485106786_148" src="resources/img/partners/b81fd9125a6cba6f37ff19ce84c584aa.png" width="89" height="24" alt="Лаура" title="Лаура">
-                    <img class="partners-item" id="bx_3485106786_149" src="resources/img/partners/be0e70d6e53c8b61830a737693539a6f.png" width="148" height="22" alt="Триколор ТВ" title="Триколор ТВ">
-                    <img class="partners-item" id="bx_3485106786_150" src="resources/img/partners/f2a8e523d77066c5db2b8a68e90b3d60.png" width="133" height="24" alt="Динамика движения" title="Динамика движения">
-                    <img class="partners-item" id="bx_3485106786_151" src="resources/img/partners/790c27f6feaf4135c30ccc9c10e56eac.png" width="89" height="29" alt="RusBg" title="RusBg">
-                    <img class="partners-item" id="bx_3485106786_152" src="resources/img/partners/1826bdd9d74612fba052daf6579ad814.png" width="145" height="33" alt="Беломорье" title="Беломорье">
-                    <img class="partners-item" id="bx_3485106786_153" src="resources/img/partners/85625c8d7860b5f1083b2aad515d6bff.png" width="96" height="36" alt="Фарт" title="Фарт">
-                    <img class="partners-item" id="bx_3485106786_154" src="resources/img/partners/a648b4cf8a2007688c8c95e884f36c60.png" width="82" height="21" alt="Мотул" title="Мотул">
-                    <img class="partners-item" id="bx_3485106786_155" src="resources/img/partners/d186f09957805252d174f3bde8cfea81.png" width="121" height="28" alt="Well-Stone" title="Well-Stone">
-                    <img class="partners-item" id="bx_3485106786_156" src="resources/img/partners/dfa80b8a174bbd28bd53a226ed8a96ac.png" width="125" height="28" alt="Фармация" title="Фармация">
-                    <img class="partners-item" id="bx_3485106786_157" src="resources/img/partners/9508163b1743ec6ac6ca875818501a81.png" width="108" height="16" alt="Webbix" title="Webbix">
-                    <img class="partners-item" id="bx_3485106786_158" src="resources/img/partners/89d66411a29222a37385c74c9237e004.png" width="145" height="31" alt="ГРАНД ПРИ" title="ГРАНД ПРИ">
-                    <img class="partners-item" id="bx_3485106786_159" src="resources/img/partners/ed2353597659e4e033299f5656c4f977.png" width="95" height="24" alt="Green Home" title="Green Home">
-                    <img class="partners-item" id="bx_3485106786_160" src="resources/img/partners/ce1b46f858f7d41e03e575992f03b3e6.png" width="115" height="31" alt="СевСтройТорг" title="СевСтройТорг">
-                    <img class="partners-item" id="bx_3485106786_161" src="resources/img/partners/329a35965fd95d5aafe36b2e6d52e2ef.png" width="88" height="43" alt="Природа" title="Природа">
-                    <img class="partners-item" id="bx_3485106786_162" src="resources/img/partners/e15fce9a7350f124e03e1a28e8c72819.png" width="87" height="32" alt="EF-promo" title="EF-promo">
-                    <img class="partners-item" id="bx_3485106786_163" src="resources/img/partners/c2db9a0c37842fa791fb777c9e0ea9a5.png" width="62" height="38" alt="ОТВ" title="ОТВ">
-                    <img class="partners-item" id="bx_3485106786_164" src="resources/img/partners/ba918cc02c571668e444022c4a865121.png" width="121" height="29" alt="Авангард-Строй" title="Авангард-Строй">
-                    <img class="partners-item" id="bx_3485106786_165" src="resources/img/partners/2fc133be2fbbff71f51907db4a6577a3.png" width="94" height="45" alt="Динамика M" title="Динамика M">
-                    <img class="partners-item" id="bx_3485106786_166" src="resources/img/partners/263911b0dcc70f0be25de2991f52e3aa.png" width="150" height="41" alt="Медиа Эксперт" title="Медиа Эксперт">
-                    <img class="partners-item" id="bx_3485106786_167" src="resources/img/partners/5c11c41463212bfdd89c2144bf4bbf95.png" width="126" height="36" alt="Renault" title="Renault">
-                    <img class="partners-item" id="bx_3485106786_168" src="resources/img/partners/8fb15ab4fd84c0711f8a99acee19df17.png" width="70" height="45" alt="ТСК-Энергия" title="ТСК-Энергия">
-                    <img class="partners-item" id="bx_3485106786_169" src="resources/img/partners/44c424b3252620a1682000524e7690c7.png" width="128" height="27" alt="Runa" title="Runa">
-                    <img class="partners-item" id="bx_3485106786_170" src="resources/img/partners/51e6a693a09c8df5de267803736ed3aa.png" width="104" height="50" alt="Дисконтник" title="Дисконтник">
-                    <img class="partners-item" id="bx_3485106786_171" src="resources/img/partners/1b5f949ea74891249b14ad780c91150c.png" width="96" height="27" alt="Якида" title="Якида">
-                    <img class="partners-item" id="bx_3485106786_172" src="resources/img/partners/006e182ab870fb267916bf9e1aa8bbdb.png" width="108" height="35" alt="Союзархстрой" title="Союзархстрой">
-                    <img class="partners-item" id="bx_3485106786_173" src="resources/img/partners/3abe1ca70a9f1f1756319a02582ee06b.png" width="103" height="27" alt="В машине" title="В машине">
-                    <img class="partners-item" id="bx_3485106786_174" src="resources/img/partners/5d39fd9be95c79901265e7ea5aa9c735.png" width="236" height="13" alt="Оптимал-техно" title="Оптимал-техно">
-                    <img class="partners-item" id="bx_3485106786_175" src="resources/img/partners/1ebeebee42fa90fd3acc27693c9f4255.png" width="93" height="22" alt="ПроЦирк" title="ПроЦирк">
-                    <img class="partners-item" id="bx_3485106786_176" src="resources/img/partners/00a4218e33a2d43d856e34b18b9359ab.png" width="144" height="30" alt="HYUNDAI" title="HYUNDAI">
-                    <img class="partners-item" id="bx_3485106786_177" src="resources/img/partners/80ff2b253362089492826a66df2581a6.png" width="40" height="49" alt="Печное ателье" title="Печное ателье">
-                    <img class="partners-item" id="bx_3485106786_178" src="resources/img/partners/1eee6da9e670eda66391d25538ff3845.png" width="109" height="34" alt="Mazda Динамика" title="Mazda Динамика">
-                    <img class="partners-item" id="bx_3485106786_179" src="resources/img/partners/a5ebf495ea4f1eaa01d8763a77c4e621.png" width="182" height="29" alt="Транс-Лайн" title="Транс-Лайн">
-                    <img class="partners-item" id="bx_3485106786_180" src="resources/img/partners/2fe0ae95289f0a890ac4e76b54c29ac1.png" width="55" height="41" alt="Якреатив" title="Якреатив">
-                    <img class="partners-item" id="bx_3485106786_181" src="resources/img/partners/f8140433201de3fb9f18d004a87437a6.png" width="49" height="40" alt="F/кафе" title="F/кафе">
-                    <img class="partners-item" id="bx_3485106786_182" src="resources/img/partners/97a0af0c1c651f38563603bb32a4d04a.png" width="89" height="57" alt="nissan Динамика" title="nissan Динамика">
-                    <img class="partners-item" id="bx_3485106786_183" src="resources/img/partners/bd92d1fa07c8e27803d6027870a46987.png" width="110" height="30" alt="Строй-Лайн" title="Строй-Лайн">
-                    <img class="partners-item" id="bx_3485106786_184" src="resources/img/partners/e4ca3e7fbfd93dc0dbac163b4ab1e9bd.png" width="73" height="32" alt="Аскона" title="Аскона">
-                    <img class="partners-item" id="bx_3485106786_185" src="resources/img/partners/b4f984897346be7a671ff64af088e94d.png" width="36" height="33" alt="ампк" title="ампк">
-                    <img class="partners-item" id="bx_3485106786_186" src="resources/img/partners/4e156226c4cc4f6cc9f776db4837d520.png" width="89" height="50" alt="LR Динамика" title="LR Динамика">
-                    <img class="partners-item" id="bx_3485106786_187" src="resources/img/partners/223671c12a8c30508115c644466dfd75.png" width="35" height="49" alt="МИУ" title="МИУ">
-                    <img class="partners-item" id="bx_3485106786_188" src="resources/img/partners/bae9e1f8cf6c860b10c27e564985fa7f.png" width="44" height="42" alt="Фигаро" title="Фигаро">
-                    <img class="partners-item" id="bx_3485106786_189" src="resources/img/partners/9a54033e3c42b5870c09198069fc030d.png" width="89" height="44" alt="Ягуар Динамика" title="Ягуар Динамика">
-                    <img class="partners-item" id="bx_3485106786_190" src="resources/img/partners/19dc2196f3bb13e0b189ee231ac83431.png" width="80" height="58" alt="НЭСК" title="НЭСК">
-                    <img class="partners-item" id="bx_3485106786_191" src="resources/img/partners/442633ec580fd0b70fdd61fb10a06f7c.png" width="168" height="20" alt="Венус" title="Венус">
-                    <img class="partners-item" id="bx_3485106786_192" src="resources/img/partners/f6d839281df0108e24080df73f5c6683.png" width="142" height="29" alt="Северная Двина" title="Северная Двина">
-                    <img class="partners-item" id="bx_3485106786_193" src="resources/img/partners/b75bcb098e2879c35856a15fd0897d0a.png" width="89" height="48" alt="Ford" title="Ford">
-                    <img class="partners-item" id="bx_3485106786_194" src="resources/img/partners/544738a44ee6f1ae38a6e4b439d17e87.png" width="65" height="53" alt="Матенька" title="Матенька">
-                    <img class="partners-item" id="bx_3485106786_195" src="resources/img/partners/6ba95806a35bf53d45cc64c61554cd5b.png" width="89" height="48" alt="Datsun Динамика" title="Datsun Динамика">
-                    <div class="partners-title"><h1>Стратегические партнеры</h1></div>
-                    <div class="partners-list st" style="height: 90px;">
-                        <img class="partners-item" id="bx_3099439860_241" src="resources/img/partners/d95e9ff383855ec47676485a1e1c3051.png" width="55" height="41" alt="Якреатив" title="Якреатив">
-                        <img class="partners-item" id="bx_3099439860_242" src="resources/img/partners/0f62bd263e65c8ba103ec15e9fc6dcd4.png" width="108" height="16" alt="Webbix" title="Webbix">
-                        <img class="partners-item" id="bx_3099439860_243" src="resources/img/partners/3cae1d2203e4a9691aa7e4aace2d2897.png" width="87" height="32" alt="EF-promo" title="EF-promo">
+            </div>
+
+            <div class="teh-box teh-detail">
+                <h2 class="teh-title">Детализация работ по обслуживанию и развитию</h2>
+                <div class="teh-detail__list">
+                    <div class="teh-detail__col">
+                        <div class="teh-detail__item">
+                            <div class="teh-detail-card">
+                                <div class="teh-detail-card__header">
+                                    <div class="teh-detail-card__icon"><img src="./resources/img/teh/detail-icon-1.png" alt=""></div>
+                                    <div class="teh-detail-card__title">Техническое обслуживание сайта</div>
+
+                                </div>
+                                <div class="teh-detail-card__body">
+                                    <ul class="teh-detail-card__list">
+                                        <li class="teh-detail-card__item">
+                                            <span>
+                                                Вёрстка, размещение текстовых
+                                                и графических материалов заказчика.
+                                            </span>
+                                        </li>
+                                        <li class="teh-detail-card__item">
+                                            <span>
+                                                Доработка существующего
+                                                функционала сайта.
+                                            </span>
+
+                                        </li>
+                                        <li class="teh-detail-card__item">
+                                            <span>
+                                                Разработка новых функциональных
+                                                модулей на сайте.
+                                            </span>
+
+                                        </li>
+                                        <li class="teh-detail-card__item">
+                                            <span>
+                                                Тестирование нового функционала.
+                                            </span>
+
+                                        </li>
+                                        <li class="teh-detail-card__item">
+                                            <span>
+                                                Обновление версий CMS.
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div> <!--END teh-detail__item-->
+                        <div class="teh-detail__item">
+                            <div class="teh-detail-card">
+                                <div class="teh-detail-card__header">
+                                    <div class="teh-detail-card__icon"><img src="./resources/img/teh/detail-icon-2.png" alt=""></div>
+                                    <div class="teh-detail-card__title">Создание текстовых материалов</div>
+
+                                </div>
+                                <div class="teh-detail-card__body">
+                                    <ul class="teh-detail-card__list">
+                                        <li class="teh-detail-card__item">
+                                            <span>
+                                                Написание SEO-текстов (текстов, которые
+                                                хорошо находятся поисковыми
+                                                системами) для разных разделов сайта.
+                                            </span>
+                                        </li>
+                                        <li class="teh-detail-card__item">
+                                            <span>
+                                                Написание и редактирование рекламных текстов для страниц сайта.
+                                            </span>
+
+                                        </li>
+                                        <li class="teh-detail-card__item">
+                                            <span>
+                                                Cоздание пресс-релизов по информационным поводам заказчика.
+                                            </span>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div> <!--END teh-detail__item-->
+                        <div class="teh-detail__item">
+                            <div class="teh-detail-card">
+                                <div class="teh-detail-card__header">
+                                    <div class="teh-detail-card__icon"><img src="./resources/img/teh/detail-icon-3.png" alt=""></div>
+                                    <div class="teh-detail-card__title">Консультационная поддержка</div>
+
+                                </div>
+                                <div class="teh-detail-card__body">
+                                    <ul class="teh-detail-card__list">
+                                        <li class="teh-detail-card__item">
+                                            <span>
+                                                Консультации по вопросам работы с системой управления сайтом.
+                                            </span>
+                                        </li>
+                                        <li class="teh-detail-card__item">
+                                            <span>
+                                                Консультирование по вопросам
+                                                поискового продвижения сайта
+                                                и медиарекламы в Интернет.
+                                            </span>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div> <!--END teh-detail__item-->
+                    </div>
+                    <div class="teh-detail__group">
+                        <div class="teh-detail__list">
+                            <div class="teh-detail__col">
+                                <div class="teh-detail__item">
+                                    <div class="teh-detail-card">
+                                        <div class="teh-detail-card__header">
+                                            <div class="teh-detail-card__icon"><img src="./resources/img/teh/detail-icon-4.png" alt=""></div>
+                                            <div class="teh-detail-card__title">Работы с мультимедиа содержимым</div>
+
+                                        </div>
+                                        <div class="teh-detail-card__body">
+                                            <ul class="teh-detail-card__list">
+                                                <li class="teh-detail-card__item">
+                                                    <span>
+                                                        Обработка размещаемой на сайте графической информации.
+                                                    </span>
+                                                </li>
+                                                <li class="teh-detail-card__item">
+                                                    <span>
+                                                        Консультирование по вопросам
+                                                        поискового продвижения сайта
+                                                        и медиарекламы в Интернет.
+                                                    </span>
+                                                </li>
+                                                <li class="teh-detail-card__item">
+                                                    <span>
+                                                        Внесение изменений в графическое
+                                                        содержимое сайта в случае изменения
+                                                        фирменного стиля.
+
+                                                    </span>
+                                                </li>
+                                                <li class="teh-detail-card__item">
+                                                    <span>
+                                                        Разработка рекламных, внутренних баннеров.
+
+                                                    </span>
+                                                </li>
+                                                <li class="teh-detail-card__item">
+                                                    <span>
+                                                        Внесение «сезонных» изменений в графическое содержимое сайта.
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div> <!--END teh-detail__item-->
+                                <div class="teh-detail__item">
+                                    <div class="teh-detail-card">
+                                        <div class="teh-detail-card__header">
+                                            <div class="teh-detail-card__icon"><img src="./resources/img/teh/detail-icon-5.png" alt=""></div>
+                                            <div class="teh-detail-card__title">Работы над лояльностью посетителей</div>
+
+                                        </div>
+                                        <div class="teh-detail-card__body">
+                                            <ul class="teh-detail-card__list">
+                                                <li class="teh-detail-card__item">
+                                                    <span>
+                                                        Разработка акций на сайте (предложение концепции и реализация креатива).
+                                                    </span>
+                                                </li>
+                                                <li class="teh-detail-card__item">
+                                                    <span>
+                                                        Поддержка программ лояльности на сайте
+                                                        (коррекция алгоритмов, и пр.) систем
+                                                        накопительных скидок, купонов, подарочных сертификатов.
+                                                    </span>
+                                                </li>
+                                                <li class="teh-detail-card__item">
+                                                    <span>
+                                                        Подготовка и размещение опросов на сайте.
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div> <!--END teh-detail__item-->
+                            </div>
+                            <div class="teh-detail__col">
+                                <div class="teh-detail__item">
+                                    <div class="teh-detail-card">
+                                        <div class="teh-detail-card__header">
+                                            <div class="teh-detail-card__icon"><img src="./resources/img/teh/detail-icon-6.png" alt=""></div>
+                                            <div class="teh-detail-card__title">Контроль работоспособности</div>
+
+                                        </div>
+                                        <div class="teh-detail-card__body">
+                                            <ul class="teh-detail-card__list">
+                                                <li class="teh-detail-card__item">
+                                                    <span>
+                                                        Мониторинг работоспособности хостинга в режиме 24/7.
+                                                    </span>
+                                                </li>
+                                                <li class="teh-detail-card__item">
+                                                    <span>
+                                                        Контроль продления оплаты хостинга и доменного имени.
+                                                    </span>
+                                                </li>
+                                                <li class="teh-detail-card__item">
+                                                    <span>
+                                                        Решение технических проблем, возникающих при изменении параметров ПО на стороне хостера.
+                                                    </span>
+                                                </li>
+                                                <li class="teh-detail-card__item">
+                                                    <span>
+                                                        Общение и решение проблем со службой технической поддержки хостера.
+                                                    </span>
+                                                </li>
+                                                <li class="teh-detail-card__item">
+                                                    <span>
+                                                        Хранение актуальной резервной копии сайта и восстановление
+                                                        работоспособности сайта в случае потери данных хостером.
+                                                    </span>
+                                                </li>
+                                                <li class="teh-detail-card__item">
+                                                    <span>
+                                                        Антивирусный мониторинг, мониторинг взломоустойчивости, деактивация
+                                                        вирусов, устранение последствий взломов.
+                                                    </span>
+                                                </li>
+                                                <li class="teh-detail-card__item">
+                                                    <span>
+                                                        Нагрузочный мониторинг (предотвращение проблем с сайтом по
+                                                        причине роста посещаемости).
+                                                    </span>
+                                                </li>
+                                                <li class="teh-detail-card__item">
+                                                    <span>
+                                                        Предоставление резервной хостинговой площадки.
+                                                    </span>
+                                                </li>
+                                                <li class="teh-detail-card__item">
+                                                    <span>
+                                                        Перенос сайта на другой хостинг (при необходимости).
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div> <!--END teh-detail__item-->
+                            </div>
+                        </div>
+
+                        <div class="teh-detail__btns">
+                            <a href="#" class="teh-btn">отправить задачу на расчет</a>
+                            <a href="#" class="teh-btn">Заказать консуьлтацию</a>
+                        </div>
+
                     </div>
                 </div>
-                <div class="btn def btn-show"></div>
             </div>
-        </div>
+
+            <div class="teh-gold">
+                <div class="teh-gold__title">Золотой сертифицированный партнер 1C-Битрикс</div>
+
+                <div class="teh-gold__text">
+                    Мы не просто умеем делать сайты на 1С-Битрикс,
+                    мы делаем это очень качественно.
+                </div>
+
+                <ul class="teh-gold__list">
+                    <li class="teh-gold__item">
+                        <div class="teh-gold-card">
+                            <div class="teh-gold-card__number">24</div>
+                            <div class="teh-gold-card__body">
+                                проекта на постоянной
+                                технической поддержке
+                            </div>
+                        </div>
+                    </li>
+                    <li class="teh-gold__item">
+                        <div class="teh-gold-card">
+                            <div class="teh-gold-card__number">>30</div>
+                            <div class="teh-gold-card__body">
+                                реализуемых задач
+                                ежедневно
+                            </div>
+                        </div>
+                    </li>
+                    <li class="teh-gold__item">
+                        <div class="teh-gold-card">
+                            <div class="teh-gold-card__number">25</div>
+                            <div class="teh-gold-card__body">
+                                специалистов в отделе
+                                технической поддержки
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <h2 class="teh-title">Отзывы наших клиентов</h2>
+            <div class="teh-reviews">
+                <div class="teh-slider teh-reviews-slider">
+                    <div class="teh-reviews-slider__item">
+                        <div class="teh-reviews-card">
+                            <div class="teh-reviews-card__img">
+                                <span>
+                                    <img src="./resources/img/teh/reviews-user-1.png" alt="">
+                                </span>
+                            </div>
+                            <div class="teh-reviews-card__body">
+                                <div class="teh-reviews-card__text">
+                                    Мне нравится работать c компанией Leeft.
+                                    Как, наверно, и многие клиенты этой фирмы,
+                                    я мало что смыслю в создании и раскрутке
+                                    сайтов, да и в их работе в целом. Но
+                                    обратившись один раз в Leeft за помощью,
+                                    я сразу поняла, что с ними я буду в порядке..
+                                </div>
+                                <a href="#" class="teh-reviews-card__more">читать отзыв</a>
+                                <div class="teh-reviews-card__footer">
+                                    <div class="teh-reviews-card__user">КРЫЛОВА А.А.</div>
+                                    <div class="teh-reviews-card__position">Коммерческий директор ООО «Страж-А»</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div> <!--END teh-reviews-slider__item-->
+                    <div class="teh-reviews-slider__item">
+                        <div class="teh-reviews-card">
+                            <div class="teh-reviews-card__img">
+                                <span>
+                                    <img src="./resources/img/teh/reviews-user-1.png" alt="">
+                                </span>
+                            </div>
+                            <div class="teh-reviews-card__body">
+                                <div class="teh-reviews-card__text">
+                                    Для дилерского центра Лаура был необходим
+                                    новый сайт. Для автосалона важно, чтобы
+                                    сайт был не только стильным и красивым,
+                                    но и функциональным. Перед компанией Лифт
+                                    была поставлена задача разработать
+                                    стильный дизайн удобочитаемый интерфейс...
+                                </div>
+                                <a href="#" class="teh-reviews-card__more">читать отзыв</a>
+                                <div class="teh-reviews-card__footer">
+                                    <div class="teh-reviews-card__user">КИРИЛЛ ПЕТРУНЁВ </div>
+                                    <div class="teh-reviews-card__position">Маркетолог компании «Лаура-Архангельск»</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div><!--END teh-reviews-slider__item-->
+                    <div class="teh-reviews-slider__item">
+                        <div class="teh-reviews-card">
+                            <div class="teh-reviews-card__img">
+                                <span>
+                                    <img src="./resources/img/teh/reviews-user-1.png" alt="">
+                                </span>
+                            </div>
+                            <div class="teh-reviews-card__body">
+                                <div class="teh-reviews-card__text">
+                                    Для дилерского центра Лаура был необходим
+                                    новый сайт. Для автосалона важно, чтобы
+                                    сайт был не только стильным и красивым,
+                                    но и функциональным. Перед компанией Лифт
+                                    была поставлена задача разработать
+                                    стильный дизайн удобочитаемый интерфейс...
+                                </div>
+                                <a href="#" class="teh-reviews-card__more">читать отзыв</a>
+                                <div class="teh-reviews-card__footer">
+                                    <div class="teh-reviews-card__user">КИРИЛЛ ПЕТРУНЁВ </div>
+                                    <div class="teh-reviews-card__position">Маркетолог компании «Лаура-Архангельск»</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div><!--END teh-reviews-slider__item-->
+                </div>
+            </div>
+
+            <div class="teh-box teh-tariff">
+                <h2 class="teh-title">Тарифы на техническую поддержку</h2>
+                <div class="teh-tariff__grid">
+                    <div class="teh-tariff__col">
+                        <div class="teh-tariff__title">по предварительному расчету</div>
+                        <div class="teh-tariff-card">
+
+                            <div class="teh-tariff-card__body">
+                                <div class="teh-tariff-card__price"><span>1600</span> руб./час</div>
+                                <a href="#" class="teh-btn teh-btn--big">Заказать</a>
+                            </div>
+                            <div class="teh-tariff-card__footer">
+                                <ul class="teh-tariff-card__list">
+                                    <li class="teh-tariff-card__item">
+                                        Главное преимущество - запуск задачи
+                                        максимально быстро, в день обращения;
+                                    </li>
+                                    <li class="teh-tariff-card__item">
+                                        Задания на расчет формируются в день
+                                        обращения;
+                                    </li>
+                                    <li class="teh-tariff-card__item">
+                                        Старт работ осуществляется после
+                                        получения 50-и процентной предоплаты.
+
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="teh-tariff__popular">
+                        <div class="teh-tariff__title">пофактовая поддержка</div>
+                        <div class="teh-tariff-card">
+
+                            <div class="teh-tariff__label"></div>
+
+                            <div class="teh-tariff-card__body">
+                                <div class="teh-tariff-card__price">от <span>1400</span> руб./час</div>
+                                <a href="#" class="teh-btn teh-btn--big">Заказать</a>
+                            </div>
+                            <div class="teh-tariff-card__footer">
+                                <ul class="teh-tariff-card__list">
+                                    <li class="teh-tariff-card__item">
+                                        Главное преимущество - запуск задачи
+                                        максимально быстро, в день обращения;
+                                    </li>
+                                    <li class="teh-tariff-card__item">
+                                        Перед началом работ примерно
+                                        ориентируем по стоимости, без
+                                        предоставления сметы;
+                                    </li>
+                                    <li class="teh-tariff-card__item">
+                                        Оплата производится в конце месяца после
+                                        предоставления прозрачного отчета;
+                                    </li>
+                                    <li class="teh-tariff-card__item">
+                                        В случае если объем часов составляет более
+                                        30 в месяц, то стоимость часа снижается
+                                        до 1300 руб.
+                                    </li>
+                                </ul>
+
+                                <div class="teh-tariff-card__text">
+                                    <span>*</span> - при объеме от 30 ч./месяц
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="teh-tariff__col">
+                        <div class="teh-tariff__title">пакетное предложение</div>
+                        <div class="teh-tariff-card">
+
+                            <div class="teh-tariff-card__body">
+                                <div class="teh-tariff-card__price"><span>7000</span> руб./месяц</div>
+                                <a href="#" class="teh-btn teh-btn--big">Заказать</a>
+                            </div>
+                            <div class="teh-tariff-card__footer">
+                                <div class="teh-tariff-card__text-title">В стоимость тарифа включено:</div>
+                                <div class="teh-tariff-card__text">
+                                    5 часов работы специалистов производственного
+                                    отдела; выделенный проектный менеджер.
+                                </div>
+                                <ul class="teh-tariff-card__list">
+                                    <li class="teh-tariff-card__item">
+                                        Восстановление после взломов и атак
+                                        (DDOS, спам и др.)
+                                    </li>
+                                    <li class="teh-tariff-card__item">
+                                        Внесение рекомендаций по улучшению
+                                        системы безопасности
+                                    </li>
+                                    <li class="teh-tariff-card__item">
+                                        Устранение ошибок в функционале сайта
+                                        (модули, формы обратной связи и др.)
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="teh-box teh-example">
+                <h2 class="teh-title">Примеры задач и время на выполнение</h2>
+                <div class="teh-slider teh-example-slider">
+                    <div class="teh-example-slider__item">
+                        <div class="teh-example-card">
+                            <div class="teh-example-card__header">
+                                от <span>6</span> <div>часов</div>
+                            </div>
+                            <div class="teh-example-card__img">
+                                <img src="./resources/img/teh/teh-clock-1.png" alt="">
+                            </div>
+                            <div class="teh-example-card__text">
+                                Интеграция сайта
+                                с учётной программой
+                                1С
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="teh-example-slider__item">
+                        <div class="teh-example-card">
+                            <div class="teh-example-card__header">
+                                от <span>30</span> <div>минут</div>
+                            </div>
+                            <div class="teh-example-card__img">
+                                <img src="./resources/img/teh/teh-clock-2.png" alt="">
+                            </div>
+                            <div class="teh-example-card__text">
+                                Добавление или изменение
+                                почтовых шаблонов
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="teh-example-slider__item">
+                        <div class="teh-example-card">
+                            <div class="teh-example-card__header">
+                                <span>2</span> <div>часа</div>
+                            </div>
+                            <div class="teh-example-card__img">
+                                <img src="./resources/img/teh/teh-clock-3.png" alt="">
+                            </div>
+                            <div class="teh-example-card__text">
+                                Добавление чек-бокса
+                                согласия на обработку
+                                персональных данных
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="teh-example-slider__item">
+                        <div class="teh-example-card">
+                            <div class="teh-example-card__header">
+                                <span>1</span> <div>час</div>
+                            </div>
+                            <div class="teh-example-card__img">
+                                <img src="./resources/img/teh/teh-clock-4.png" alt="">
+                            </div>
+                            <div class="teh-example-card__text">
+                                Развёртывание сайта
+                                из резервной копии
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teh-example-slider__item">
+                        <div class="teh-example-card">
+                            <div class="teh-example-card__header">
+                                <span>1</span> <div>час</div>
+                            </div>
+                            <div class="teh-example-card__img">
+                                <img src="./resources/img/teh/teh-clock-4.png" alt="">
+                            </div>
+                            <div class="teh-example-card__text">
+                                Развёртывание сайта
+                                из резервной копии
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="teh-btns">
+                    <a href="#" class="teh-btn">отправить задачу на расчет</a>
+                    <a href="#" class="teh-btn">заказать консультацию</a>
+                </div>
+
+            </div>
+            <div class="teh-approach">
+                <div class="teh-title">Комплексный подход</div>
+                <div class="teh-text">
+                    Помимо технического обслуживания мы предлагаем своим клиентам комплекс услуг,
+                    который обеспечивает эффективную работу сайта и превращает его в полноценный бизнес-инструмент.
+                </div>
+
+                <ul class="teh-approach__list">
+                    <li class="teh-approach__item">
+                        <div class="teh-approach-card">
+                            <div class="teh-approach-card__img"><img src="./resources/img/teh/teh-approach-1.png" alt=""></div>
+                            <div class="teh-approach-card__body">
+                                <div class="teh-approach-card__title">ПОИСКОВОЕ ПРОДВИЖЕНИЕ</div>
+                                <div class="teh-approach-card__text">
+                                    Обеспечение естественной
+                                    видимости сайта поисковыми
+                                    системами.
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="teh-approach__item">
+                        <div class="teh-approach-card">
+                            <div class="teh-approach-card__img"><img src="./resources/img/teh/teh-approach-2.png" alt=""></div>
+                            <div class="teh-approach-card__body">
+                                <div class="teh-approach-card__title">КОНТЕКСТНАЯ РЕКЛАМА</div>
+                                <div class="teh-approach-card__text">
+                                    Ведение кампаний в Яндекс.Директ
+                                    и Google Adwords.
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="teh-approach__item">
+                        <div class="teh-approach-card">
+                            <div class="teh-approach-card__img"><img src="./resources/img/teh/teh-approach-3.png" alt=""></div>
+                            <div class="teh-approach-card__body">
+                                <div class="teh-approach-card__title">продвижение в соц. сетях</div>
+                                <div class="teh-approach-card__text">
+                                    Для этого мы используем
+                                    только «белые» методы.
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="teh-btns">
+                    <a href="#" class="teh-btn"><span>Запросить</span> комерческое предложение</a>
+                </div>
+            </div>
+
+            <div class="teh-box teh-client">
+                <div class="teh-title">Наши клиенты</div>
+                <div class="teh-text">
+                    За долгие годы успешной работы мы сформировали дружеские партнерские отношения с более чем 100 компаний,
+                    которые и сегодня являются нашими постоянными клиентами.
+                    Наши клиенты – это друзья, на которых всегда будет сконцентрировано наше внимание.
+                </div>
+                <div class="teh-slider teh-client-slider">
+                    <div class="teh-client-slider__item">
+                        <div class="teh-client-card">
+                            <a href="#">
+                                <img src="./resources/img/teh/teh-client-1.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="teh-client-slider__item">
+                        <div class="teh-client-card">
+                            <a href="#">
+                                <img src="./resources/img/teh/teh-client-2.png" alt="">
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="teh-client-slider__item">
+                        <div class="teh-client-card">
+                            <a href="#">
+                                <img src="./resources/img/teh/teh-client-3.png" alt="">
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="teh-client-slider__item">
+                        <div class="teh-client-card">
+                            <a href="#">
+                                <img src="./resources/img/teh/teh-client-4.png" alt="">
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="teh-client-slider__item">
+                        <div class="teh-client-card">
+                            <a href="#">
+                                <img src="./resources/img/teh/teh-client-5.png" alt="">
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="teh-client-slider__item">
+                        <div class="teh-client-card">
+                            <a href="#">
+                                <img src="./resources/img/teh/teh-client-6.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="teh-client-slider__item">
+                        <div class="teh-client-card">
+                            <a href="#">
+                                <img src="./resources/img/teh/teh-client-7.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="teh-client-slider__item">
+                        <div class="teh-client-card">
+                            <a href="#">
+                                <img src="./resources/img/teh/teh-client-8.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="teh-client-slider__item">
+                        <div class="teh-client-card">
+                            <a href="#">
+                                <img src="./resources/img/teh/teh-client-9.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="teh-client-slider__item">
+                        <div class="teh-client-card">
+                            <a href="#">
+                                <img src="./resources/img/teh/teh-client-10.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="teh-client-slider__item">
+                        <div class="teh-client-card">
+                            <a href="#">
+                                <img src="./resources/img/teh/teh-client-11.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="teh-client-slider__item">
+                        <div class="teh-client-card">
+                            <a href="#">
+                                <img src="./resources/img/teh/teh-client-12.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="teh-client-slider__item">
+                        <div class="teh-client-card">
+                            <a href="#">
+                                <img src="./resources/img/teh/teh-client-13.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="teh-client-slider__item">
+                        <div class="teh-client-card">
+                            <a href="#">
+                                <img src="./resources/img/teh/teh-client-14.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="teh-client-slider__item">
+                        <div class="teh-client-card">
+                            <a href="#">
+                                <img src="./resources/img/teh/teh-client-15.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="teh-client-slider__item">
+                        <div class="teh-client-card">
+                            <a href="#">
+                                <img src="./resources/img/teh/teh-client-16.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="teh-client-slider__item">
+                        <div class="teh-client-card">
+                            <a href="#">
+                                <img src="./resources/img/teh/teh-client-17.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="teh-client-slider__item">
+                        <div class="teh-client-card">
+                            <a href="#">
+                                <img src="./resources/img/teh/teh-client-18.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="teh-client-slider__item">
+                        <div class="teh-client-card">
+                            <a href="#">
+                                <img src="./resources/img/teh/teh-client-19.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="teh-client-slider__item">
+                        <div class="teh-client-card">
+                            <a href="#">
+                                <img src="./resources/img/teh/teh-client-20.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end teh -->
+
 
     </div><!-- end content -->
-          
+
     <div class="footer-button">
         <a onclick="yaCounter13951813.reachGoal('order_seo'); return true;" class="href request-modal" href="#">ЗАКАЗАТЬ САЙТ</a>
     </div>
