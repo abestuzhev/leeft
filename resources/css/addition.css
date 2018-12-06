@@ -35,7 +35,7 @@ header {
 }
 
 /*-------------------------------*/
-.teh-banner {
+.teh .teh-banner {
     width: 100%;
     min-height: 547px;
     margin-bottom: 40px;
@@ -249,6 +249,7 @@ header {
 }
 
 .teh-detail__group {
+    width: 66%;
     /*display: flex;*/
     /*flex-flow: row nowrap;*/
     /*justify-content: flex-start;*/
