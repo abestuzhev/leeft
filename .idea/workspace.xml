@@ -30,7 +30,7 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.70430446">
+    <splitter split-orientation="horizontal" split-proportion="0.5859978">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
@@ -65,8 +65,8 @@
           <file leaf-file-name="teh-support.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/teh-support.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="439">
-                  <caret line="1230" column="38" selection-start-line="1230" selection-start-column="38" selection-end-line="1230" selection-end-column="38" />
+                <state relative-caret-position="582">
+                  <caret line="774" column="71" selection-start-line="774" selection-start-column="44" selection-end-line="774" selection-end-column="71" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -78,8 +78,8 @@
                     <element signature="n#footer#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <marker date="1548617481008" expanded="false" signature="6948:7116" placeholder="..." />
-                    <marker date="1548617481008" expanded="false" signature="8558:8572" placeholder="..." />
+                    <marker date="1549201899073" expanded="false" signature="6948:7116" placeholder="..." />
+                    <marker date="1549201899073" expanded="false" signature="8558:8572" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -102,7 +102,7 @@
           <file leaf-file-name="media.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/css/media.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="876">
+                <state relative-caret-position="24072">
                   <caret line="1416" column="12" selection-start-line="1416" selection-start-column="12" selection-end-line="1416" selection-end-column="12" />
                   <folding />
                 </state>
@@ -122,8 +122,8 @@
           <file leaf-file-name="addition.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/css/addition.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="259">
-                  <caret line="1205" column="19" selection-start-line="1205" selection-start-column="12" selection-end-line="1205" selection-end-column="19" />
+                <state relative-caret-position="837">
+                  <caret line="1653" column="23" selection-start-line="1653" selection-start-column="23" selection-end-line="1653" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -132,8 +132,8 @@
           <file leaf-file-name="addition.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/js/addition.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="242">
-                  <caret line="32" column="90" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
+                <state relative-caret-position="102">
+                  <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -210,9 +210,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/addition.css" />
         <option value="$PROJECT_DIR$/resources/js/media.js" />
+        <option value="$PROJECT_DIR$/teh-support.html" />
         <option value="$PROJECT_DIR$/resources/js/addition.js" />
         <option value="$PROJECT_DIR$/resources/css/addition.css" />
-        <option value="$PROJECT_DIR$/teh-support.html" />
       </list>
     </option>
   </component>
@@ -246,7 +246,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -259,13 +259,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="Scratches" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -347,14 +341,17 @@
       <workItem from="1548497512886" duration="469000" />
       <workItem from="1548568849415" duration="131000" />
       <workItem from="1548611688684" duration="5959000" />
+      <workItem from="1548952933479" duration="25000" />
+      <workItem from="1549140732970" duration="513000" />
+      <workItem from="1549190306172" duration="8428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64013000" />
+    <option name="totallyTimeSpent" value="72979000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11631753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -725,38 +722,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/addition.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="32" column="90" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/media.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="876">
+        <state relative-caret-position="24072">
           <caret line="1416" column="12" selection-start-line="1416" selection-start-column="12" selection-end-line="1416" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/css/addition.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="1205" column="19" selection-start-line="1205" selection-start-column="12" selection-end-line="1205" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/teh-support.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="1230" column="38" selection-start-line="1230" selection-start-column="38" selection-end-line="1230" selection-end-column="38" />
+        <state relative-caret-position="582">
+          <caret line="774" column="71" selection-start-line="774" selection-start-column="44" selection-end-line="774" selection-end-column="71" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -768,9 +748,25 @@
             <element signature="n#footer#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1548617481008" expanded="false" signature="6948:7116" placeholder="..." />
-            <marker date="1548617481008" expanded="false" signature="8558:8572" placeholder="..." />
+            <marker date="1549201899073" expanded="false" signature="6948:7116" placeholder="..." />
+            <marker date="1549201899073" expanded="false" signature="8558:8572" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/addition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/addition.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="1653" column="23" selection-start-line="1653" selection-start-column="23" selection-end-line="1653" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

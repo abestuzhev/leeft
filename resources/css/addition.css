@@ -336,6 +336,7 @@ header {
     padding: 20px 40px;
     color: #ffffff;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .teh-gold {
@@ -347,6 +348,15 @@ header {
     /*background: linear-gradient(to right, rgba(8,162,133,1) 0%,rgba(34,186,96,1) 100%);*/
     /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08a285', endColorstr='#22ba60',GradientType=1 );*/
     margin-bottom: 50px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.teh-gold__decor-1 {
+    position: absolute;
+    bottom: -4px;
+    right: 97px;
 }
 
 .teh-gold__title {
@@ -362,6 +372,7 @@ header {
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
+    padding-right: 180px;
 }
 
 .teh-gold__item {
@@ -622,6 +633,12 @@ header {
     background-color: #f9f9f9;
 }
 
+.teh-tariff-card__more {
+    text-align: center;
+    font-size: 17px;
+    display: none;
+}
+
 .teh-tariff-card__price {
     font-size: 16px;
     color: #2e2e2e;
@@ -642,6 +659,7 @@ header {
     margin-bottom: 14px;
     padding-left: 40px;
     position: relative;
+    min-height: 23px;
 }
 
 .teh-tariff-card__item::before {
@@ -650,7 +668,7 @@ header {
     background: url(../img/teh/icon-arrow-list.png) 0 0 no-repeat;
     width: 34px;
     height: 34px;
-    top: 0;
+    top: -5px;
     left: 0;
 }
 
@@ -734,6 +752,7 @@ header {
 .teh-approach__item {
     width: 33.333%;
     margin-bottom: 24px;
+    padding: 0 6px;
 }
 
 .teh-approach-card {
@@ -1399,4 +1418,400 @@ header {
     -webkit-box-flex: 0;
     flex: 0 0 100%;
     max-width: 100%;
+}
+
+
+/*media*/
+@media (max-width:1270px){
+    .teh {
+        width: 100%;
+    }
+}
+@media (max-width:1200px){
+
+    .teh-detail__btns {
+        padding: 10px 40px;
+    }
+
+    .teh-detail__btns .teh-btn {
+        width: 100%;
+        max-width: 400px;
+    }
+
+
+    .teh-gold,
+    .teh-reviews,
+    .teh-approach,
+    .teh-box {
+        padding: 30px;
+    }
+
+    .teh-approach {
+        margin-bottom: 20px;
+    }
+    
+    .teh-gold {
+        background-position: 50% 0;
+    }
+
+    .teh-gold__title {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .teh-approach__list {
+        justify-content: center;
+    }
+    .teh-approach__item {
+        width: 370px;
+    }
+
+    .teh-tariff .teh-btn--big {
+        padding: 14px 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width:1000px){
+    .teh-request-decor-2,
+    .teh-request-decor-3 {
+        display: none;
+    }
+
+    .teh-request-decor-1 {
+        width: 220px;
+        left: 50%;
+        transform:translateX(-50%);
+
+    }
+    .teh-request-decor-1 img {
+        width: 100%;
+    }
+
+    .teh-request__body {
+        padding-bottom: 125px;
+    }
+
+    .teh-request__text {
+        max-width: 100%;
+    }
+
+    .teh-detail-card__body {
+        display: none;
+    }
+
+    .teh-detail__list {
+        /*display: block;*/
+    }
+
+    .teh-detail__col,
+    .teh-detail__group {
+        width: 50%;
+    }
+    .teh-detail__group .teh-detail__list{
+        display: block;
+    }
+
+    .teh-detail__group .teh-detail__col{
+        width: 100%;
+    }
+
+    .teh-detail__list {
+        position: relative;
+        padding-bottom: 80px;
+    }
+
+    .teh-detail__btns {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .teh-detail__btns .teh-btn {
+         max-width: 100%;
+        min-width: 320px;
+    }
+
+    .teh-detail-card {
+        padding: 0 15px;
+    }
+
+
+}
+
+
+@media (max-width:840px){
+    .teh-stage__item {
+        width: 100%;
+    }
+
+    .teh-box {
+        padding: 20px 20px;
+    }
+
+    .teh .teh-banner {
+        margin-bottom: 20px;
+    }
+
+    .teh-title {
+        padding: 0 20px;
+        line-height: 1 !important;
+        font-size: 33px !important;
+        margin-bottom: 25px;
+    }
+
+
+    .teh-approach__list {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .teh-approach__item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+
+    .teh-approach-card__img {
+        max-width: 80px;
+        flex: 1 0 80px;
+    }
+    .teh-approach-card__img img {
+        width: 100%;
+    }
+
+    .teh-btn {
+        padding: 20px 26px;
+        margin: 0 2px
+    }
+
+    .teh-tariff__grid {
+        display: block;
+    }
+
+    .teh-tariff__popular,
+    .teh-tariff__col {
+        width: 100%;
+        min-height: 0;
+    }
+
+    .teh-tariff-card {
+        min-height: 0;
+    }
+
+    .teh-tariff__popular .teh-tariff-card {
+        border: none;
+        min-height: 0;
+    }
+
+    .teh-tariff__title {
+        max-width: 100%;
+    }
+
+    .teh-tariff .teh-btn--big {
+        max-width: 246px;
+    }
+
+    .teh-tariff-card__body {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .teh-tariff-card__price {
+        padding: 0 10px;
+    }
+
+    .teh-tariff-card__body,
+    .teh-tariff__popular .teh-tariff-card__body {
+        padding: 17px 24px 10px;
+    }
+
+    .teh-tariff-card__price {
+        margin-bottom: 6px;
+    }
+
+    .teh-tariff-card__footer {
+        border-top: 1px solid #d9d9d9;
+    }
+
+    .teh-tariff-card__more {
+        display: block;
+    }
+
+    .teh-tariff-card__footer-box {
+        display: none;
+        padding-top: 12px;
+    }
+
+}
+
+@media (min-width:840px){
+    .teh-tariff-card__footer-box {
+        display: block !important;
+    }
+}
+@media (max-width:800px){
+    .teh-detail__col, .teh-detail__group {
+        width: 100%;
+    }
+
+    .teh-detail__list {
+        padding-bottom: 0px;
+        display: block;
+    }
+
+    .teh-detail__btns {
+        position: static;
+        transform: none;
+        padding: 10px 0;
+    }
+
+    .teh-detail-card__icon {
+        width: 45px;
+        height: 45px;
+    }
+    .teh-detail-card__icon img {
+        width: 100%;
+    }
+    .teh-detail-card {
+        padding: 0;
+    }
+
+    .teh {
+        margin-left: -10px;
+        margin-right: -10px;
+        width: auto;
+    }
+
+    .teh-request__text {
+        font-size: 17px;
+    }
+
+    .teh-request__title {
+        font-size: 26px;
+    }
+
+    .teh-btn--big {
+        padding: 20px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width:640px){
+    .teh-gold__decor-1 {
+        width: 105px;
+    }
+
+    .teh-gold__decor-1 img {
+        width: 100%;
+    }
+
+    .teh-gold {
+        padding-bottom: 109px;
+    }
+
+    .teh-gold__text {
+        text-align: center;
+    }
+
+    .teh-gold__list {
+        padding-right: 0;
+    }
+
+    .teh-gold__title {
+        font-size: 30px;
+    }
+
+    .teh-detail__btns .teh-btn {
+        min-width: 0;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px 10px;
+    }
+
+    .teh-reviews,
+    .teh-approach,
+    .teh-box {
+        padding: 17px;
+    }
+
+    .teh-btn {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px 20px;
+    }
+
+    .teh-approach .teh-title {
+        margin-bottom: 14px;
+    }
+
+    .teh-reviews-card {
+        display: block;
+        text-align: center;
+    }
+
+    .teh-reviews-card__img {
+        margin: 0 auto 12px;
+    }
+
+    .teh-reviews-card__body {
+        padding-left: 0;
+    }
+
+    .teh-reviews-card__body::before {
+        content: '';
+        left: -25px;
+        width: 25px;
+        height: 18px;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media (max-width:580px){
+    .teh-gold {
+        padding-left: 17px;
+        padding-right: 17px;
+        margin-bottom: 20px;
+    }
+
+    .teh-gold-card__body {
+        font-size: 17px
+    }
+
+    .teh-stage-card__title {
+        font-size: 17px;
+    }
+
+    .teh-stage-card {
+        padding-left: 75px;
+    }
+
+    .teh-stage-card__icon {
+        width: 60px;
+    }
+
+    .teh-stage-card__icon img {
+        width: 100%;
+    }
+
+    .teh-request-decor-1 {
+        width: 175px;
+    }
+
+    .teh-request__body {
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width:580px){
+    .teh-client-card {
+        width: auto;
+    }
 }

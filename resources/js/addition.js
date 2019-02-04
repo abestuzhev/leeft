@@ -1,23 +1,110 @@
 $(function(){
+
+
+    $('.teh-tariff-card__more').on('click', function(e){
+        e.preventDefault();
+        $(this).siblings('.teh-tariff-card__footer-box').slideToggle(300);
+        var $text = $(this).html();
+        if($text == 'Подробнее'){
+            $text = 'Cвернуть';
+            $(this).html($text);
+        }else {
+            $text = 'Подробнее';
+            $(this).html($text);
+        }
+    });
+
     $('.teh-reviews-slider').slick({
         infinite: true,
         slidesToShow: 2,
         arrows: true,
-        slidesToScroll: 2
+        slidesToScroll: 2,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+
+            }
+        ]
     });
 
     $('.teh-example-slider').slick({
         infinite: true,
         slidesToShow: 4,
         arrows: true,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+
+            },
+            {
+                breakpoint: 640,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     });
 
     $('.teh-client-slider').slick({
         infinite: true,
         slidesToShow: 6,
         arrows: true,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1270,
+                settings: {
+                    slidesToShow: 5,
+                    slidesToScroll: 1
+                }
+
+            },
+            {
+                breakpoint: 1060,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 880,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 680,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 490,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     });
 
     $('.teh-banner').slick({
