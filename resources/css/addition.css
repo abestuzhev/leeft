@@ -56,6 +56,7 @@ header {
 .teh-banner__body {
     max-width: 520px;
     text-align: center;
+    position: relative;
 }
 
 .teh-banner__title {
@@ -91,6 +92,18 @@ header {
 .teh .teh-banner .slick-next {
     top: 60%;
     right: 55%;
+}
+
+.teh-banner__screen {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    left: 115%;
+}
+
+.teh-banner__screen img {
+    width: 100%;
 }
 
 /*-----------------------*/
@@ -1426,6 +1439,28 @@ header {
     .teh {
         width: 100%;
     }
+
+    .teh-banner__screen {
+        width: 100%;
+        left: 105%;
+    }
+
+    .teh-banner__body {
+        max-width: 50%;
+        position: relative;
+    }
+
+    .teh-banner__title {
+        font-size: 40px;
+    }
+
+    .teh .teh-banner .slick-next {
+        right: 51%;
+    }
+
+    .teh-banner__type {
+        font-size: 30px;
+    }
 }
 @media (max-width:1200px){
 
@@ -1541,6 +1576,30 @@ header {
 }
 
 
+@media (max-width:960px){
+    .teh {
+        margin-right: -10px;
+        margin-left: -10px;
+        width: auto;
+    }
+
+    .teh-banner__title {
+        font-size: 33px;
+        text-align: center;
+    }
+
+    .teh-slider .slick-dots {
+        bottom: 70px;
+    }
+
+    .teh-banner__item {
+        padding: 100px 26px;
+    }
+
+    .teh .teh-banner .slick-prev {
+        left: 4%
+    }
+}
 @media (max-width:840px){
     .teh-stage__item {
         width: 100%;
@@ -1702,6 +1761,50 @@ header {
 }
 
 
+@media (max-width:760px){
+    .teh-banner__body {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .teh-banner__screen {
+        position: static;
+        transform: none;
+    }
+
+    .teh .teh-banner .slick-next {
+        top: 22%;
+        right: 3%;
+    }
+
+    .teh .teh-banner .slick-prev {
+        top: 22%;
+        left: 3%;
+    }
+
+    .teh-banner__title {
+        margin-bottom: 13px;
+    }
+
+    .teh-banner__item {
+        padding: 66px 26px 30px;
+    }
+
+    .teh-banner .slick-dots {
+        display: none !important;
+    }
+}
+
+
+@media (max-width:700px){
+    .teh-banner__item {
+        padding: 30px 26px 30px;
+    }
+
+    .teh-banner__text {
+        margin-bottom: 6px;
+    }
+}
 @media (max-width:640px){
     .teh-gold__decor-1 {
         width: 105px;
