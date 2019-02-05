@@ -116,6 +116,21 @@ $(function(){
     });
 
 
+    $(document).on('click', '.js-reviews-teh', function(e){
+        e.preventDefault();
+        $('.popup-reviews-slider').slick({
+            infinite: true,
+            slidesToShow: 1,
+            arrows: true,
+            dots:false,
+            slidesToScroll: 1,
+            adaptiveHeight: true
+        });
+    });
+
+
+
+
     var windowWidth = (window.innerWidth ); // вся ширина окна
     var documentWidth = (document.documentElement.clientWidth ); // ширина минус прокрутка
     function showPopup(icon, popup) {
@@ -170,6 +185,8 @@ $(function(){
 
 
     showPopup("#feedback-teh", '.popup-feedback');
+    showPopup(".js-payment-teh", '.popup-payment');
+    showPopup(".js-reviews-teh", '.popup-reviews');
 
     $('.popup .c-input').focus(function(){
         $(this).parents('.popup-form__item').addClass('is-focus');
@@ -182,4 +199,35 @@ $(function(){
     });
 
 
+    ( function ( document, window, index )
+    {
+        var inputs = document.querySelectorAll( '.c-inputfile__input' );
+        Array.prototype.forEach.call( inputs, function( input )
+        {
+            var label	 = input.nextElementSibling,
+                labelVal = label.innerHTML;
+
+            input.addEventListener( 'change', function( e )
+            {
+                var fileName = '';
+                if( this.files && this.files.length > 1 )
+                    fileName = ( this.getAttribute( 'data-multiple-caption' ) || '' ).replace( '{count}', this.files.length );
+                else
+                    fileName = e.target.value.split( '\\' ).pop();
+
+                if( fileName )
+                    label.querySelector( 'span' ).innerHTML = fileName;
+                else
+                    label.innerHTML = labelVal;
+            });
+
+            // Firefox bug fix
+            input.addEventListener( 'focus', function(){ input.classList.add( 'has-focus' ); });
+            input.addEventListener( 'blur', function(){ input.classList.remove( 'has-focus' ); });
+        });
+    }( document, window, 0 ));
+
+
 });
+
+'use strict';

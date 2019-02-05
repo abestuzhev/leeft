@@ -1291,6 +1291,58 @@ header {
     font-size: 12px;
     transition: all .2s ease;
 }
+
+.popup-reviews .popup {
+    max-width: 1056px;
+}
+
+.popup-reviews .popup-body {
+    background: #fff;
+}
+
+.popup-reviews-slider__item {
+    height: auto !important;
+}
+
+.teh-slider.popup-reviews-slider .slick-next {
+    right: -56px;
+}
+.teh-slider.popup-reviews-slider .slick-prev {
+   left: -56px;
+}
+
+.popup-success {
+    /*position: relative;*/
+}
+
+.popup-success .popup {
+    max-width: 540px;
+    overflow: hidden;
+}
+.popup-success .popup-body {
+    background: #fff;
+    overflow: hidden;
+}
+.popup-success-content {
+    text-align: center;
+}
+
+.popup-success-content__text {
+    font-size: 27px;
+    color: #2e2e2e;
+}
+.popup-success-content__text span {
+    display: block;
+}
+
+.popup-success__decor-1 {
+    position: absolute;
+    z-index: 11;
+    right: -41px;
+    bottom: -133px;
+
+}
+
 /*grid------------------------------------------------------------*/
 .c-grid {
     display: -webkit-box;
@@ -1432,6 +1484,53 @@ header {
     flex: 0 0 100%;
     max-width: 100%;
 }
+
+.c-inputfile {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 16px;
+    position: relative;
+    padding-left: 41px;
+}
+
+.icon-clip {
+    display: inline-block;
+    width: 15px;
+    height: 18px;
+    background: url(../img/teh/icon-clip.png) 0 0 no-repeat;
+    margin-right: 6px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.c-inputfile__input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1; }
+
+.c-inputfile__input + label {
+    font-size: 16px;
+    color: #2e2e2e;
+    font-style: italic;
+    display: inline-block;
+    cursor: pointer;
+    /* "hand" cursor */
+    text-transform: lowercase; }
+
+.c-inputfile__input + label * {
+    pointer-events: none; }
+
+.c-inputfile__input:focus + label {
+    outline: 1px dotted #9b9595;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+
+
 
 
 /*media*/
@@ -1598,6 +1697,11 @@ header {
 
     .teh .teh-banner .slick-prev {
         left: 4%
+    }
+
+    .popup-body__decor-1,
+    .popup-body__decor-2 {
+        display: none;
     }
 }
 @media (max-width:840px){
@@ -1875,6 +1979,18 @@ header {
         -webkit-background-size: cover;
         background-size: cover;
     }
+
+    .popup-reviews-slider .teh-reviews-card__body::before {
+        content: '';
+        display: none;
+    }
+    .popup-reviews-slider .teh-reviews-card {
+        text-align: left;
+    }
+
+    .popup-reviews-slider .popup-body {
+        padding: 0 40px 30px;
+    }
 }
 
 @media (max-width:580px){
@@ -1910,6 +2026,14 @@ header {
 
     .teh-request__body {
         padding-bottom: 80px;
+    }
+
+    .popup .c-col-6 {
+        width: 100%;
+        max-width: 100%;
+    }
+    .popup .c-grid {
+        display: block;
     }
 }
 
