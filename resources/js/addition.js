@@ -1,4 +1,41 @@
+$(document).on('load', function(){
+    $('.teh').addClass('add-animation');
+});
+
+
+
+
 $(function(){
+
+    $('.scroll-to-reveal').viewportChecker({
+        classToAdd: 'fadeInUp', // Class to add to the elements when they are visible
+        offset: 100
+    });
+
+    // $(window).scroll( function(){
+    //
+    //     /* Check the location of each desired element */
+    //     $('.scroll-to-reveal').each( function(i){
+    //
+    //         var bottom_of_object = $(this).position().top + $(this).outerHeight();
+    //         var bottom_of_window = $(window).scrollTop() + $(window).height();
+    //         var top_of_object = $(this).position().top;
+    //         var top_of_window = $(window).scrollTop();
+    //
+    //         /* If the object is completely visible in the window, fade it it */
+    //         // top_of_window > top_of_object || bottom_of_window > bottom_of_object
+    //         if( top_of_object > bottom_of_window ){
+    //
+    //             // $(this).animate({'opacity':'1'},1500);
+    //             $(this).addClass('fadeInUp');
+    //
+    //         }
+    //
+    //     });
+    //
+    // });
+
+
 
 
     $('.teh-tariff-card__more').on('click', function(e){
@@ -184,7 +221,7 @@ $(function(){
     });
 
 
-    showPopup("#feedback-teh", '.popup-feedback');
+    showPopup(".js-feedback-teh", '.popup-feedback');
     showPopup(".js-payment-teh", '.popup-payment');
     showPopup(".js-reviews-teh", '.popup-reviews');
 
@@ -196,6 +233,10 @@ $(function(){
             $(this).parents('.popup-form__item').removeClass('is-focus');
         }
 
+    });
+
+    $('.js-no-link').on('click', function(e){
+        e.preventDefault();
     });
 
 
@@ -229,5 +270,3 @@ $(function(){
 
 
 });
-
-'use strict';
