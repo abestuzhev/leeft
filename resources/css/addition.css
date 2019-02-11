@@ -610,7 +610,8 @@ header {
 }
 
 .teh-tariff__popular .teh-tariff-card__body {
-    padding: 25px 33px 30px
+    padding: 25px 33px 30px;
+    border-radius: 6px;
 }
 
 .teh-tariff__label {
@@ -821,6 +822,29 @@ header {
     /*width: 90%;*/
     height: auto;
     text-align: center;
+    -webkit-filter: grayscale(100%) contrast(50%);
+    -moz-filter: grayscale(100%) contrast(50%);
+    -ms-filter: grayscale(100%) contrast(50%);
+    -o-filter: grayscale(100%) contrast(50%);
+    filter: grayscale(100%) contrast(50%);
+    filter: gray; /* IE 6-9 */
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.teh-client-card:hover img {
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    filter: none;
+    filter: none; /* IE 6-9 */
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
 }
 
 /*popup*/
@@ -1297,10 +1321,13 @@ header {
     transition: all .2s ease;
 }
 .popup-form__item.is-focus .c-label {
-    top: 2px;
-    left: 17px;
-    /*transform: scale(.8);*/
+    top: -16px;
+    left: 0;
+    padding: 4px 0 4px 17px;
     font-size: 12px;
+    width: 100%;
+    color: #fff;
+    background: #1bc4a4;
     transition: all .2s ease;
 }
 
@@ -1909,6 +1936,11 @@ header {
     .teh-banner .slick-dots {
         display: none !important;
     }
+
+
+    .teh-request__title {
+        padding: 0;
+    }
 }
 
 
@@ -2037,8 +2069,13 @@ header {
     }
 
     .teh-request__body {
-        padding-bottom: 80px;
+        padding-bottom: 95px;
     }
+
+    .teh-request-decor-1 {
+        bottom: -82px;
+    }
+
 
     .popup .c-col-6 {
         width: 100%;
