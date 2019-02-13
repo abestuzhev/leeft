@@ -168,6 +168,10 @@ header {
     background-size: cover;
     margin-bottom: 105px;
 }
+.teh-request .button--nina {
+    padding: 0 60px;
+}
+
 
 .teh-btn {
     display: inline-block;
@@ -852,7 +856,10 @@ header {
 /*modal*/
 .lock-html {
     overflow: hidden;
+    margin-right: 17px;
 }
+
+.lock-html
 
 .mfp-bg {
     top: 0;

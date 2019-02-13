@@ -181,8 +181,12 @@ $(function(){
             $html.addClass('lock-html');
             $('body').addClass('fixed-input');
             if(windowWidth > documentWidth){
-                $html.css({
-                    'margin-right':'17px'
+                // $html.css({
+                //     'margin-right':'17px'
+                // });
+                $html.addClass('lock-html');
+                $('header').css({
+                    'left': 'calc(50% + -9px)'
                 });
                 $('.mfp-wrap').css({
                     'overflow-y':'scroll'
@@ -200,9 +204,10 @@ $(function(){
         var $html = $('html');
         $(this).parents('.mfp-wrap').removeClass('is-visible');
         $('.mfp-bg').removeClass('is-visible');
-        $html.css({
-            'margin-right':'0'
-        }).removeClass('lock-html');
+        $html.removeClass('lock-html');
+        $('header').css({
+            'left':'50%'
+        });
         $('body').removeClass('fixed-input');
 
 
@@ -216,6 +221,9 @@ $(function(){
         $html.css({
             'margin-right':'0'
         }).removeClass('lock-html');
+        $('header').css({
+            'left':'50%'
+        });
         $('.wrapper').removeClass('fixed-input');
 
     });
