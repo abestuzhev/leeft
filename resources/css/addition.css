@@ -191,6 +191,10 @@ header {
     /*border: 2px solid #16ab92;*/
 }
 
+.teh-btn.button--nina:hover {
+    transform: none;
+}
+
 .teh-btn--big {
     padding: 20px 85px;
 }
@@ -707,6 +711,10 @@ header {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.teh-tariff .button--nina {
+
 }
 
 /*teh-example*/
@@ -2193,6 +2201,7 @@ header {
     -webkit-transition: background-color 0.2s;
     transition: background-color 0.2s;
     font-weight: 700;
+    text-align: center;
 }
 .button--nina.button--inverted {
     background: #fff;
@@ -2309,4 +2318,58 @@ header {
 .button--nina:hover > span:nth-child(15) {
     -webkit-transition-delay: 0.72s;
     transition-delay: 0.72s;
+}
+
+.button--nina:hover > span:nth-child(16) {
+    -webkit-transition-delay: 0.765s;
+    transition-delay: 0.765s;
+}
+
+.button--nina:hover > span:nth-child(17) {
+    -webkit-transition-delay: 0.810s;
+    transition-delay: 0.810s;
+}
+.button--nina:hover > span:nth-child(18) {
+    -webkit-transition-delay: 0.855s;
+    transition-delay: 0.855s;
+}
+
+.button--nina:hover > span:nth-child(19) {
+    -webkit-transition-delay: 0.900s;
+    transition-delay: 0.900s;
+}
+
+.button--nina:hover > span:nth-child(20) {
+    -webkit-transition-delay: 0.945s;
+    transition-delay: 0.945s;
+}
+
+.button--nina:hover > span:nth-child(21) {
+    -webkit-transition-delay: 0.990s;
+    transition-delay: 0.990s;
+}
+
+.button--nina:hover > span:nth-child(22) {
+    -webkit-transition-delay: 1.035s;
+    transition-delay: 1.035s;
+}
+
+.button--nina:hover > span:nth-child(23) {
+    -webkit-transition-delay: 1.080s;
+    transition-delay: 1.080s;
+}
+
+.button--nina:hover > span:nth-child(24) {
+    -webkit-transition-delay: 1.125s;
+    transition-delay: 1.125s;
+}
+
+.button--nina:hover > span:nth-child(25) {
+    -webkit-transition-delay: 1.170s;
+    transition-delay: 1.170s;
+}
+
+.button--nina:hover > span:nth-child(26) {
+    -webkit-transition-delay: 1.215s;
+    transition-delay: 1.215s;
 }
