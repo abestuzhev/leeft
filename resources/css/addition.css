@@ -1389,6 +1389,26 @@ header {
 
 }
 
+
+
+.slick-prev,
+.slick-next {
+    transition: all .1s ease-in-out;
+}
+
+.teh .teh-banner .slick-prev:hover,
+.teh .teh-banner .slick-next:hover {
+    top: 59%;
+}
+.slick-prev:hover,
+.slick-next:hover {
+    /*transform: translate(0, 50%);*/
+    top: 48%;
+    transition: all .1s ease-in-out;
+}
+
+
+
 /*grid------------------------------------------------------------*/
 .c-grid {
     display: -webkit-box;
@@ -1926,6 +1946,12 @@ header {
         top: 22%;
         right: 3%;
     }
+
+    .teh .teh-banner .slick-prev:hover,
+    .teh .teh-banner .slick-next:hover {
+        top: 21%;
+    }
+
 
     .teh .teh-banner .slick-prev {
         top: 22%;
