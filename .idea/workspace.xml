@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a8ce5fb-df75-4e76-be51-27d12181d105" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix24.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/addition.css" afterPath="$PROJECT_DIR$/resources/css/addition.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teh-support.html" afterPath="$PROJECT_DIR$/teh-support.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/js/addition.js" afterPath="$PROJECT_DIR$/resources/js/addition.js" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,13 +30,13 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6940463">
+    <splitter split-orientation="horizontal" split-proportion="0.58434397">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2208">
+                <state relative-caret-position="2346">
                   <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
                   <folding />
                 </state>
@@ -45,7 +46,7 @@
           <file leaf-file-name="dev.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/dev.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3712">
+                <state relative-caret-position="3944">
                   <caret line="232" column="64" selection-start-line="232" selection-start-column="64" selection-end-line="232" selection-end-column="64" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -61,12 +62,27 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="teh-support.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="teh-support.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/teh-support.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="310">
-                  <caret line="1057" column="122" selection-start-line="1057" selection-start-column="122" selection-end-line="1057" selection-end-column="122" />
-                  <folding />
+                <state relative-caret-position="293">
+                  <caret line="231" column="23" selection-start-line="231" selection-start-column="20" selection-end-line="231" selection-end-column="23" />
+                  <folding>
+                    <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bitrix24.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/bitrix24.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="293">
+                  <caret line="622" column="33" selection-start-line="622" selection-start-column="33" selection-end-line="622" selection-end-column="33" />
+                  <folding>
+                    <element signature="n#div#5;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -74,7 +90,7 @@
           <file leaf-file-name="services.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/services.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5552">
+                <state relative-caret-position="5899">
                   <caret line="347" column="52" selection-start-line="0" selection-start-column="0" selection-end-line="707" selection-end-column="0" />
                   <folding />
                 </state>
@@ -88,8 +104,8 @@
           <file leaf-file-name="media.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/css/media.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5680">
-                  <caret line="355" column="0" selection-start-line="355" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
+                <state relative-caret-position="24072">
+                  <caret line="1416" column="12" selection-start-line="1416" selection-start-column="12" selection-end-line="1416" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
@@ -98,7 +114,7 @@
           <file leaf-file-name="banner.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/banner.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="400">
+                <state relative-caret-position="425">
                   <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
                   <folding />
                 </state>
@@ -108,8 +124,8 @@
           <file leaf-file-name="addition.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/css/addition.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="246">
-                  <caret line="2183" column="17" selection-start-line="2183" selection-start-column="17" selection-end-line="2183" selection-end-column="17" />
+                <state relative-caret-position="378">
+                  <caret line="2509" column="21" selection-start-line="2509" selection-start-column="21" selection-end-line="2509" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -118,8 +134,8 @@
           <file leaf-file-name="addition.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/resources/js/addition.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3008">
-                  <caret line="188" column="42" selection-start-line="188" selection-start-column="42" selection-end-line="188" selection-end-column="42" />
+                <state relative-caret-position="613">
+                  <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -189,6 +205,7 @@
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/template_6b8f947660d02d4a0f73094c02169caf.css" />
         <option value="$PROJECT_DIR$/support.html" />
+        <option value="$PROJECT_DIR$/resources/css/media.css" />
         <option value="$PROJECT_DIR$/services-seo.html" />
         <option value="$PROJECT_DIR$/banner.css" />
         <option value="$PROJECT_DIR$/dev.html" />
@@ -196,10 +213,10 @@
         <option value="$PROJECT_DIR$/addition.css" />
         <option value="$PROJECT_DIR$/resources/js/media.js" />
         <option value="$PROJECT_DIR$/resources/js/jquery.viewportchecker.js" />
-        <option value="$PROJECT_DIR$/resources/js/addition.js" />
-        <option value="$PROJECT_DIR$/resources/css/media.css" />
-        <option value="$PROJECT_DIR$/resources/css/addition.css" />
         <option value="$PROJECT_DIR$/teh-support.html" />
+        <option value="$PROJECT_DIR$/resources/js/addition.js" />
+        <option value="$PROJECT_DIR$/resources/css/addition.css" />
+        <option value="$PROJECT_DIR$/bitrix24.html" />
       </list>
     </option>
   </component>
@@ -262,6 +279,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\leeft" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\code\leeft\resources\css" />
     </key>
@@ -339,23 +359,19 @@
       <workItem from="1549190306172" duration="8428000" />
       <workItem from="1549306901723" duration="7963000" />
       <workItem from="1549864041202" duration="10832000" />
-      <workItem from="1549908508893" duration="2157000" />
-      <workItem from="1549949738492" duration="4541000" />
-      <workItem from="1550036699080" duration="1921000" />
-      <workItem from="1550123582216" duration="1582000" />
-      <workItem from="1550156348893" duration="1315000" />
-      <workItem from="1550210857180" duration="1609000" />
+      <workItem from="1549908508893" duration="2771000" />
+      <workItem from="1553957544475" duration="11838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104899000" />
+    <option name="totallyTimeSpent" value="106383000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12183021" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1185226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -393,13 +409,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kernel_main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kernel_main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -682,7 +691,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dev.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3712">
+        <state relative-caret-position="3944">
           <caret line="232" column="64" selection-start-line="232" selection-start-column="64" selection-end-line="232" selection-end-column="64" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -699,7 +708,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/banner.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="425">
           <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
           <folding />
         </state>
@@ -707,7 +716,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5552">
+        <state relative-caret-position="5899">
           <caret line="347" column="52" selection-start-line="0" selection-start-column="0" selection-end-line="707" selection-end-column="0" />
           <folding />
         </state>
@@ -715,49 +724,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2208">
+        <state relative-caret-position="2346">
           <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/jquery.viewportchecker.js" />
     <entry file="file://$PROJECT_DIR$/resources/js/media.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
+        <state relative-caret-position="833">
           <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/addition.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3008">
-          <caret line="188" column="42" selection-start-line="188" selection-start-column="42" selection-end-line="188" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/media.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5680">
-          <caret line="355" column="0" selection-start-line="355" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
+        <state relative-caret-position="24072">
+          <caret line="1416" column="12" selection-start-line="1416" selection-start-column="12" selection-end-line="1416" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/jquery.viewportchecker.js" />
+    <entry file="file://$PROJECT_DIR$/teh-support.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="231" column="23" selection-start-line="231" selection-start-column="20" selection-end-line="231" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/addition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/addition.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="2183" column="17" selection-start-line="2183" selection-start-column="17" selection-end-line="2183" selection-end-column="17" />
+        <state relative-caret-position="378">
+          <caret line="2509" column="21" selection-start-line="2509" selection-start-column="21" selection-end-line="2509" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/teh-support.html">
+    <entry file="file://$PROJECT_DIR$/bitrix24.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="1057" column="122" selection-start-line="1057" selection-start-column="122" selection-end-line="1057" selection-end-column="122" />
-          <folding />
+        <state relative-caret-position="293">
+          <caret line="622" column="33" selection-start-line="622" selection-start-column="33" selection-end-line="622" selection-end-column="33" />
+          <folding>
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

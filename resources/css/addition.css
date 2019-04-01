@@ -769,6 +769,10 @@ header {
     margin-bottom: 40px;
 }
 
+.bitrix .teh-approach {
+    margin-bottom: 0;
+}
+
 .teh-approach__text {
     margin-bottom: 16px;
 }
@@ -778,14 +782,28 @@ header {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: flex-start;
+    padding-top: 50px;
+    position: relative;
+}
+
+.teh-approach__list::after {
+    content: '';
+    position: absolute;
+    left: 8%;
+    right: 31%;
+    top: 0;
+    bottom: auto;
+    height: 1px;
+    background-color: #d4d4d4;
 }
 
 .teh-approach__item {
     width: 33.333%;
     margin-bottom: 24px;
     padding: 0 6px;
-
+    box-sizing: border-box;
 }
+
 
 .teh-approach-card {
     display: flex;
@@ -803,6 +821,37 @@ header {
 
 .teh-approach-card__img {
     margin-right: 14px;
+    position: relative;
+}
+
+.teh-approach-card__img::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    height: 38px;
+    width: 1px;
+    background-color: #d4d4d4;
+}
+
+.teh-approach__item:nth-child(1) .teh-approach-card__img::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    height: 1px;
+    width: 100px;
+    background-color: #d4d4d4;
+}
+
+.teh-approach__item:nth-child(3) .teh-approach-card__img::before {
+    content: '';
+    position: absolute;
+    left: -35%;
+    top: -50px;
+    height: 1px;
+    width: 100px;
+    background-color: #d4d4d4;
 }
 
 /*-------------------------*/
@@ -2430,4 +2479,441 @@ header {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+}
+
+
+/*------------------------------*/
+/*------------------------------*/
+/*------------------------------*/
+
+.bitrix {
+    display: block;
+    background-color: #fff;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, .1);
+    margin: 0 auto;
+    width: 1270px;
+    padding: 0 0 20px;
+    box-sizing: border-box;
+    font-family: BlissPro, sans-serif;
+}
+
+.bitrix-banner {
+    /*min-height: 550px;*/
+    margin-bottom: 40px;
+}
+
+.bitrix .bitrix-title {
+    font-size: 50px;
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.bitrix-banner img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*-------------------------------*/
+.bitrix-whom {
+    padding: 10px 40px 30px;
+}
+
+.bitrix-whom__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: nowrap;
+    flex-flow: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.bitrix-whom__item {
+    width: 14.2%;
+    margin-bottom: 14px;
+}
+
+
+.bitrix-whom-card {
+text-align: center;
+}
+
+
+.bitrix-whom-card__icon {
+    display: inline-block;
+    margin-bottom: 12px;
+    text-align: center;
+    width: 106px;
+    height: 106px;
+    background-color: #e8f9ff;
+    border: 1px solid #b2eae7;
+    position: relative;
+    border-radius: 150px;
+}
+
+.bitrix-whom-card__icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.bitrix-whom-card__body {
+
+}
+
+.bitrix-whom-card__title {
+    font-size: 14px;
+    color: #2e2e2e;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+
+/*-----------------------*/
+.bitrix-crm {
+    background: rgba(0,176,220,1);
+    background: -moz-linear-gradient(left, rgba(0,176,220,1) 0%, rgba(33,200,175,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,176,220,1)), color-stop(100%, rgba(33,200,175,1)));
+    background: -webkit-linear-gradient(left, rgba(0,176,220,1) 0%, rgba(33,200,175,1) 100%);
+    background: -o-linear-gradient(left, rgba(0,176,220,1) 0%, rgba(33,200,175,1) 100%);
+    background: -ms-linear-gradient(left, rgba(0,176,220,1) 0%, rgba(33,200,175,1) 100%);
+    background: linear-gradient(to right, rgba(0,176,220,1) 0%, rgba(33,200,175,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b0dc', endColorstr='#21c8af', GradientType=1 );
+}
+
+.bitrix-crm .bitrix-title {
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.bitrix-crm__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.bitrix-crm__item {
+    padding: 10px 10px;
+    width: 33.333%;
+    box-sizing: border-box;
+}
+
+.bitrix-crm-card {
+    text-align: center;
+    color: #ffffff;
+}
+
+.bitrix-crm-card__icon {
+    margin-bottom: 14px;
+}
+
+.bitrix-crm-card__body {
+
+}
+
+.bitrix-crm-card__title {
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.bitrix-crm-card__text {
+    font-size: 17px;
+    line-height: 1.1;
+}
+
+.bitrix .slick-initialized .slick-slide {
+    height: auto;
+}
+
+/*-------------------*/
+.bitrix-about {
+
+}
+
+.bitrix-about__list {
+    margin: 20px 0 0;
+}
+
+
+.bitrix-about__item {
+    padding: 20px 0;
+    position: relative;
+}
+
+.bitrix-about__item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: rgba(95,216,253,1);
+    background: -moz-linear-gradient(left, rgba(95,216,253,1) 0%, rgba(208,250,41,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(95,216,253,1)), color-stop(100%, rgba(208,250,41,1)));
+    background: -webkit-linear-gradient(left, rgba(95,216,253,1) 0%, rgba(208,250,41,1) 100%);
+    background: -o-linear-gradient(left, rgba(95,216,253,1) 0%, rgba(208,250,41,1) 100%);
+    background: -ms-linear-gradient(left, rgba(95,216,253,1) 0%, rgba(208,250,41,1) 100%);
+    background: linear-gradient(to right, rgba(95,216,253,1) 0%, rgba(208,250,41,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5fd8fd', endColorstr='#d0fa29', GradientType=1 );
+}
+.bitrix-about__item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.bitrix-about__item:last-child::after {
+    content: '';
+    display: none;
+}
+
+.bitrix-about-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: nowrap;
+    flex-flow: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.bitrix-about-card.right {
+    text-align: right;
+}
+
+.bitrix-about-card__col {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.bitrix-about-card__body {
+    position: relative;
+    padding: 14px 40px;
+    padding-right: 140px;
+}
+
+.bitrix-about-car__title {
+    font-size: 30px;
+    color: #40c5e7;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.bitrix-about-card__video {
+    overflow: hidden;
+}
+
+.bitrix-about-card.right .bitrix-about-card__body  {
+    padding: 14px 40px;
+    padding-left: 130px;
+}
+
+.bitrix-about-card.right .bitrix-about-car__num  {
+    left: 0;
+    right: auto;
+}
+
+.bitrix-about-car__num {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 155px;
+    color: #40c5e7;
+    font-weight: 700;
+}
+
+.bitrix-about-car__subtitle {
+    font-size: 19px;
+    color: #37c9f8;
+    line-height: 1;
+    margin-bottom: 14px;
+}
+
+.bitrix-about-card__body ul {
+
+}
+
+
+.bitrix-about-card__body li {
+    margin-bottom: 4px;
+}
+
+.bitrix-about-card__body li::before {
+    padding-right: 13px;
+    content: '●';
+    line-height: 1;
+    font-size: 10px;
+}
+
+
+.bitrix-about-card.right .bitrix-about-card__body li::before {
+    content: '';
+    display: none;
+    padding: 0;
+}
+.bitrix-about-card.right .bitrix-about-card__body li::after{
+    padding-left: 13px;
+    content: '●';
+    line-height: 1;
+    font-size: 10px;
+}
+
+
+/*-----------------------------------*/
+.bitrix-start {
+    padding: 30px 60px;
+    background: url(../img/bitrix24/bg-bitrix-start.png) 0 0 no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.bitrix-start__title {
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+.bitrix-start__title span {
+    font-size: 30px;
+    color: #d3fd2a;
+    font-weight: 700;
+}
+
+.bitrix-start__text {
+    font-size: 19px;
+    color: #ffffff;
+}
+
+.bitrix-start__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: nowrap;
+    flex-flow: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.bitrix-start__col {
+
+}
+
+.bitrix .teh-btn {
+    color: #546418;
+    background-color: #c7f026;
+    padding: 14px 35px;
+    white-space: nowrap;
+}
+
+.bitrix .teh-slider .slick-prev {
+    background: url(../img/bitrix24/teh-index-arrow-left.png) no-repeat;
+}
+
+.bitrix .teh-slider .slick-next {
+    background: url(../img/bitrix24/teh-index-arrow-right.png) no-repeat;
+}
+
+
+/*---------------------------*/
+.bitrix-keys {
+    padding: 20px 60px;
+}
+
+.bitrix-keys-slider {
+    margin-bottom:0;
+    padding: 0 106px;
+}
+
+
+.bitrix-keys-slider .slick-track{
+    padding: 0 0 20px;
+}
+
+.bitrix-keys-slider__item {
+    padding: 13px;
+}
+
+.bitrix-keys-card {
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,.1);
+}
+
+.bitrix-keys-card__img {
+    position: relative;
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+}
+
+.bitrix-keys-card__img img {
+    width: 100%;
+    height:100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.bitrix-keys-card__img::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 96px;
+    background: url(../img/bitrix24/keys-img-bubble.png) 0 98% no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.bitrix-keys-card__body {
+    padding: 23px 26px;
+}
+
+.bitrix-keys-card__title {
+    font-size: 19px;
+    color: #2e2e2e;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 12px;
+}
+
+.bitrix-keys-card__text {
+    font-size: 16px;
+    color: #231e20;
+    line-height: 1.1;
+}
+@media (max-width: 1270px){
+    .bitrix {
+        width: 100%;
+    }
 }
