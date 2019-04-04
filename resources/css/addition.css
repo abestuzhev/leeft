@@ -2584,6 +2584,7 @@ text-align: center;
 
 /*-----------------------*/
 .bitrix-crm {
+    margin-bottom: 34px;
     background: rgba(0,176,220,1);
     background: -moz-linear-gradient(left, rgba(0,176,220,1) 0%, rgba(33,200,175,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,176,220,1)), color-stop(100%, rgba(33,200,175,1)));
@@ -2649,6 +2650,240 @@ text-align: center;
 .bitrix .slick-initialized .slick-slide {
     height: auto;
 }
+
+/*----------------------------*/
+.bitrix-package {
+    padding: 20px 60px 40px;
+    /*margin-bottom: 40px;*/
+}
+
+.c-package {
+    color: #231e20;
+}
+
+.c-package-note {
+    font-size: 16px;
+    font-style: italic;
+    color: #7d7d7d;
+}
+
+.c-package-card {
+    width:100%;
+    color: #2e2e2e;
+    padding: 10px 0;
+    position: relative;
+}
+
+.c-package-card__title {
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.c-package-card__subtitle {
+    font-size: 16px;
+    color: #7d7d7d;
+    /*margin-bottom: 6px;*/
+    line-height: 1;
+}
+
+.c-package-card__price {
+    margin-bottom: 12px;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.c-package-card__price span {
+    font-size: 50px;
+}
+
+.c-package-card .teh-btn {
+    box-shadow: none;
+    width:100%;
+    box-sizing: border-box;
+    padding: 17px 35px;
+}
+
+.c-package-card .button--ujarak:hover {
+    color: #e8f9ff;
+}
+.c-package-card .button--ujarak::before {
+    background-color: #3bc4e6;
+
+}
+
+.c-package-card__label {
+    position: absolute;
+    right: -14px;
+    top: -8px;
+    width: 111px;
+    height: 65px;
+    background: url(../img/bitrix24/icon-label-popular.png) 0 0 no-repeat;
+}
+
+.c-package-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: nowrap;
+    flex-flow: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.c-package-nav {
+    width: 25%;
+    border: 1px solid #e8eef1;
+    border-right: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.c-package-nav .c-package-col {
+}
+
+.c-package-col {
+    padding: 8px 13px;
+    line-height: 1;
+}
+
+.c-package-body {
+    width: 75%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: nowrap;
+    flex-flow: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.c-package-body .c-package-col {
+    text-align: center;
+    width: 33.333%;
+    border-left:3px solid #e8eef1;
+    border-right:3px solid #e8eef1;
+    border-top:1px solid #e8eef1;
+    border-bottom:1px solid #e8eef1;
+    margin: 0 2px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-package-body .c-package-col:first-child {
+    margin-left: 0;
+}
+.c-package-body .c-package-col:last-child {
+    margin-right: 0;
+}
+
+.c-package-row__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #e8eef1;
+    color: #2e2e2e;
+    font-size: 15px;
+}
+
+.c-package-row__title .c-package-col {
+    width: 100%;
+}
+
+.c-package-row:last-child .c-package-body .c-package-col {
+    position: relative;
+}
+
+.c-package-row:last-child .c-package-body .c-package-col::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    border-radius: 0 0 6px 6px;
+    left: -3px;
+    height: 8px;
+    border-left:3px solid #e8eef1;
+    border-right:3px solid #e8eef1;
+    border-top:none;
+    border-bottom:3px solid #e8eef1;
+
+}
+
+.c-package-check {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icon-bitrix-check.png) 0 0 no-repeat;
+}
+
+/*--------------------------------*/
+
+.bitrix-scheme {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 16px 0;
+    height: 650px;
+    background: url(../img/bitrix24/bg-scheme-crm.jpg) 50% 50% no-repeat;
+}
+
+.bitrix-scheme::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 51px;
+    background: url(../img/bitrix24/bg-bitrix-bubble.png) 0 0 repeat-x;
+}
+
+.round-advantages {
+    width: 100%;
+    height: 100%;
+    max-width: 520px;
+    max-height: 520px;
+    border-radius: 1000px;
+    position: relative;
+}
+
+.round-advantages::after {
+    content: '';
+    position: absolute;
+    left: -12px;
+    right: -12px;
+    top: -12px;
+    bottom: -12px;
+    border:1px solid #fff;
+    border-radius: 50%;
+}
+
+.round-advantages::before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    right: -30px;
+    top: -30px;
+    bottom: -30px;
+    border:1px solid #fff;
+    border-radius: 50%;
+}
+
 
 /*-------------------*/
 .bitrix-about {
