@@ -2885,6 +2885,63 @@ text-align: center;
 }
 
 
+.round-advantages-section {
+    position: absolute;
+}
+
+.round-advantages-section:hover {
+    transform: scale(1.05);
+    z-index: 10;
+}
+
+.round-advantages .section-1 {
+    top: 15.3%;
+    left: 0%;
+    z-index: 8;
+}
+
+.round-advantages .section-2 {
+    top: .8%;
+    left: 14.5%;
+    z-index: 7;
+}
+
+.round-advantages .section-3 {
+    top: .8%;
+    right: 15.1%;
+    z-index: 6;
+}
+
+.round-advantages .section-4 {
+    top: 15.4%;
+    right: .5%;
+    z-index: 5;
+}
+
+.round-advantages .section-5 {
+    bottom: 13.7%;
+    right: .5%;
+    z-index: 4;
+}
+
+.round-advantages .section-6 {
+    bottom: -1.1%;
+    right: 15.1%;
+    z-index: 3;
+}
+
+.round-advantages .section-7 {
+    bottom: -1.1%;
+    left: 14.7%;
+    z-index: 2;
+}
+
+.round-advantages .section-8 {
+    bottom: 13.7%;
+    left: 0%;
+    z-index: 1;
+}
+
 /*-------------------*/
 .bitrix-about {
 
