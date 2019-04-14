@@ -7,6 +7,17 @@ $(document).on('load', function(){
 
 $(function(){
 
+
+
+    $(".round-advantages-section").on({
+        mouseenter: function () {
+            // console.log("one");
+        },
+        mouseleave: function () {
+            // console.log("two");
+        }
+    });
+
     $('.scroll-to-reveal').viewportChecker({
         classToAdd: 'fadeInUp', // Class to add to the elements when they are visible
         offset: 100

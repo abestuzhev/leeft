@@ -1731,6 +1731,7 @@ header {
         padding: 14px 20px;
         width: 100%;
     }
+
 }
 
 @media (max-width:1000px){
@@ -1936,6 +1937,8 @@ header {
         display: none;
         padding-top: 12px;
     }
+
+
 
 }
 
@@ -2525,7 +2528,6 @@ header {
 .bitrix-banner {
     position: relative;
     min-height: 545px;
-    max-height: 310px;
 }
 
 .bitrix-banner__body {
@@ -2893,6 +2895,53 @@ text-align: center;
     background: url(../img/icon-bitrix-check.png) 0 0 no-repeat;
 }
 
+
+.c-package-mobile {
+    border: 3px solid #e8eef1;
+    border-radius: 10px;
+}
+
+.c-package-mobile__head {
+    text-align: center;
+}
+
+
+.c-package-mobile__body {
+
+}
+
+.c-package-mobile__body .c-package-col {
+    width: auto;
+    border: none;
+}
+
+.c-package-mobile__body .c-package-col::after {
+    content: '';
+    display: none;
+}
+
+.c-package-mobile__body .c-package-nav {
+    border: none;
+   width: auto;
+}
+
+.c-package-mobile__body .c-package-row {
+    border-bottom: 1px solid #e8eef1;
+}
+
+.c-package-mobile__body .c-package-body {
+    width: auto;
+    padding: 0 30px;
+}
+
+.c-package-mobile__more {
+    display: block;
+    text-align: center;
+    padding: 18px 8px;
+    font-size: 17px;
+    color: #231e20;
+}
+
 /*--------------------------------*/
 
 .bitrix-scheme {
@@ -2953,7 +3002,7 @@ text-align: center;
 }
 
 .round-advantages-section:hover {
-    transform: scale(1.05);
+    /*transform: scale(1.05);*/
     z-index: 10;
 }
 
@@ -3005,6 +3054,26 @@ text-align: center;
     z-index: 1;
 }
 
+
+.bitrix-scheme-mobile {
+    display: none;
+}
+
+.bitrix-scheme-mobile__list {
+    list-style-type: decimal;
+}
+
+.bitrix-scheme-mobile__item {
+    font-size: 18px;
+    color: #2e2e2e;
+    margin-bottom: 6px;
+    color: #54cbea;
+}
+
+.bitrix-scheme-mobile__item span {
+    color: #2e2e2e;
+}
+
 /*-------------------*/
 .bitrix {
     box-sizing: border-box;
@@ -3016,7 +3085,7 @@ text-align: center;
 
 
 .bitrix-about {
-
+    padding-top: 0;
 }
 
 .bitrix-about__list {
@@ -3156,6 +3225,10 @@ text-align: center;
     background: url(../img/bitrix24/bg-bitrix-start.png) 0 0 no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
+}
+
+.bitrix-start .teh-btn {
+    white-space: nowrap;
 }
 
 .bitrix-start__title {
@@ -3314,11 +3387,6 @@ text-align: center;
         font-size: 44px;
     }
 
-    .bitrix-banner {
-        min-height: 43vw;
-        -webkit-background-size: cover;
-        background-size: cover;
-    }
 }
 
 @media (max-width: 1160px){
@@ -3353,6 +3421,42 @@ text-align: center;
     .bitrix-whom__item {
         width: 24%;
     }
+
+
+    .bitrix-banner__body {
+        position: static;
+        transform:none;
+    }
+
+    .bitrix-banner {
+        padding: 86px 50px 50px;
+    }
+
+    .bitrix-banner__sale {
+        font-size: 75px;
+    }
+
+    .bitrix-banner__price {
+        font-size: 26px;
+    }
+
+    .bitrix-banner__price span {
+        font-size: 76px
+    }
+
+    .bitrix-banner {
+        height: auto;
+    }
+
+    .bitrix-banner__onsale {
+        font-size: 30px;
+    }
+
+    .c-package-card__price span {
+        font-size: 30px;
+    }
+
+
 }
 
 @media (max-width: 980px){
@@ -3368,6 +3472,13 @@ text-align: center;
     .bitrix-about-card__body {
         padding: 0 20px;
         padding-right: 71px;
+    }
+
+
+    .bitrix-banner {
+        min-height: 100px;
+        -webkit-background-size: cover !important;
+        background-size: cover !important;
     }
 }
 
@@ -3446,7 +3557,13 @@ text-align: center;
         padding: 10px 16px 20px;
     }
 
+    .bitrix-package {
+        padding: 10px 20px 20px;
+    }
+
 }
+
+
 @media (max-width: 730px){
     .bitrix-crm__item {
         padding: 10px;
@@ -3458,7 +3575,13 @@ text-align: center;
     }
 
     .bitrix-banner {
-        height: 310px;
+        /*height: 310px;*/
+    }
+
+    .bitrix {
+        margin-left: -16px;
+        margin-right: -16px;
+        width: auto;
     }
 
 }
@@ -3505,8 +3628,29 @@ text-align: center;
         margin-bottom: 16px;
     }
 
+    .bitrix-banner {
+        padding: 75px 16px 22px;
+    }
+
+    .c-package-mobile__body .c-package-body {
+        width: auto;
+        padding: 0 10px;
+    }
+
 }
 
+@media (max-width: 560px){
+    
+    .bitrix-scheme {
+        display: none;
+    }
+
+
+    .bitrix-scheme-mobile {
+        display: block;
+        padding: 16px 30px;
+    }
+}
 @media (max-width: 540px){
     .bitrix-whom__item {
         width: 50%;
@@ -3516,6 +3660,30 @@ text-align: center;
         margin-bottom: 4px;
     }
 }
+
+@media (max-width: 480px){
+    .bitrix-banner__sale {
+        font-size: 60px;
+    }
+
+    .bitrix-banner__price {
+        font-size: 24px;
+    }
+
+    .bitrix-banner__price span {
+        font-size: 60px;
+    }
+
+    .bitrix-banner__onsale {
+        font-size: 22px;
+    }
+
+    .bitrix-scheme-mobile {
+        display: block;
+        padding: 16px;
+    }
+}
+
 @media (max-width: 460px){
     .bitrix-crm__item {
         padding: 0;
