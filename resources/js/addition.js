@@ -7,14 +7,28 @@ $(document).on('load', function(){
 
 $(function(){
 
+    var currentImg,
+        path,
+        pathClean;
 
 
     $(".round-advantages-section").on({
         mouseenter: function () {
             // console.log("one");
+
+            currentImg = $(this).find('img');
+
+            path = currentImg.attr('src');
+            pathClean = path.replace('.png', '') + '-hover.png';
+
+            currentImg.attr('src', pathClean);
+
         },
         mouseleave: function () {
             // console.log("two");
+            pathClean = path.replace('-hover', '');
+
+            currentImg.attr('src', pathClean);
         }
     });
 
