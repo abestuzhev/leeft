@@ -61,6 +61,21 @@ $(function(){
     // });
 
 
+    //c-package-mobile__more
+
+    $('.c-package-mobile__more').on('click', function(e){
+        e.preventDefault();
+        $(this).parents('.c-package-mobile').find('.c-package-mobile__body').slideToggle(300);
+        var $text = $(this).html();
+        if($text == 'Детали'){
+            $text = 'Cвернуть';
+            $(this).html($text);
+        }else {
+            $text = 'Детали';
+            $(this).html($text);
+        }
+    });
+
 
 
     $('.teh-tariff-card__more').on('click', function(e){

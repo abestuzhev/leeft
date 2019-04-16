@@ -1946,6 +1946,7 @@ header {
     .teh-tariff-card__footer-box {
         display: block !important;
     }
+
 }
 @media (max-width:800px){
     .teh-detail__col, .teh-detail__group {
@@ -2539,7 +2540,8 @@ header {
 
 .bitrix-banner__sale {
     font-size: 88px;
-    font-family: "Bliss Pro";
+    /*font-family: "Bliss Pro";*/
+    font-family: sans-serif;
     color: #ffffff;
     text-transform: uppercase;
     line-height: 1.134;
@@ -2899,6 +2901,14 @@ text-align: center;
 .c-package-mobile {
     border: 3px solid #e8eef1;
     border-radius: 10px;
+    display: none;
+    margin-bottom: 21px;
+}
+
+.c-package-mobile--action {
+    border-color: #0bb9cd;
+    overflow: hidden;
+    box-shadow: 0 15px 15px rgba(0,0,0,.15);
 }
 
 .c-package-mobile__head {
@@ -2907,6 +2917,7 @@ text-align: center;
 
 
 .c-package-mobile__body {
+    display: none;
 
 }
 
@@ -2940,6 +2951,22 @@ text-align: center;
     padding: 18px 8px;
     font-size: 17px;
     color: #231e20;
+    background-color: #f9f9f9;
+    border-top: 1px solid #d9d9d9;
+}
+
+.c-package-mobile .c-package-card {
+    padding-bottom: 0;
+}
+
+.c-package-mobile__btn {
+    text-align: center;
+    margin-bottom: 12px;
+    padding: 0 30px;
+}
+
+.c-package-mobile__btn .teh-btn {
+    width: 100%;
 }
 
 /*--------------------------------*/
@@ -3565,6 +3592,18 @@ text-align: center;
 }
 
 
+@media (max-width: 840px){
+
+    .c-package-mobile {
+        display: block;
+    }
+
+
+    .c-package {
+        display: none;
+    }
+
+}
 @media (max-width: 730px){
     .bitrix-crm__item {
         padding: 10px;
