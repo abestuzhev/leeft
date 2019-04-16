@@ -1539,7 +1539,45 @@
                         </li>
 
                     </ul>
-                </div>
+
+                    <div class="bitrix-keys-info">
+                        <div class="bitrix-keys-info__title">
+                            Список работ при проектном внедрении составляется индивидуально,
+                            в зависимости от задач и требований заказчика.
+                        </div>
+
+                        <div class="bitrix-keys-info__grid">
+                            <div class="bitrix-keys-info__col">
+                                <div class="bitrix-keys-info-card">
+                                    <div class="bitrix-keys-info-card__text">
+                                        Если, у вас уже есть техническое задание
+                                        с описанием функциональных требований,
+                                        пришлите его нам для оценки.
+                                    </div>
+                                    <a href="#"  class="teh-btn js-send-task button button--ujarak button--border-thin button--text-thick">Отправить готовое тз</a>
+                                </div>
+                            </div>
+                            <div class="bitrix-keys-info__col">
+                                <div class="bitrix-keys-info-card">
+                                    <div class="bitrix-keys-info-card__text">
+
+                                    </div>
+                                    <a href="#"  class="teh-btn js-callback button button--ujarak button--border-thin button--text-thick">Заказать обратный звонок</a>
+                                </div>
+                            </div>
+                            <div class="bitrix-keys-info__col">
+                                <div class="bitrix-keys-info-card">
+                                    <div class="bitrix-keys-info-card__text">
+                                        Или заполните наш бриф для первичной
+                                        оценки проекта внедрения.
+                                    </div>
+                                    <a href="#"  class="teh-btn button button--ujarak button--border-thin button--text-thick">Заполнить бриф</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
             </div>
             <div class="scroll-to-reveal js-section">
                 <div class="teh-box bitrix-about">
@@ -2014,36 +2052,54 @@
 
 </div>
 
-<div class="mfp-wrap popup-feedback" tabindex="-1" style="overflow-x: hidden; overflow-y: auto;">
+<div class="mfp-wrap popup-feedback popup-feedback-bitrix" tabindex="-1" style="overflow-x: hidden; overflow-y: auto;">
     <div class="mfp-container mfp-inline-holder">
         <div class="mfp-content">
             <div class="popup">
-                <h3 class="popup-title">Оставить отзыв <span class="popup-close"></span></h3>
+                <h3 class="popup-title">
+                    Внедрение CRM 1C-БИТРИКС24
+                    Пакет LIGHT (облако)
+                    <span class="popup-close"></span>
+                </h3>
                 <div class="popup-body">
-                    <div class="popup-body__decor-1"><img src="./resources/img/teh/teh-request-decor-4.png" alt=""></div>
-                    <div class="popup-body__decor-2"><img src="./resources/img/teh/teh-request-decor-5.png" alt=""></div>
+                    <div class="popup-body__decor-1"><img src="./resources/img/bitrix24/bitrix-request-decor-2.png" alt=""></div>
+                    <div class="popup-body__decor-2"><img src="./resources/img/bitrix24/rocket-bitrix24.png" alt=""></div>
                     <form action="#" class="popup-form" id="popup__write-to-us">
                         <div class="c-grid c-grid-between">
                             <div class="c-col c-col-6">
                                 <div class="popup-form__item">
-                                    <label class="c-label" for="write-to-us__name">Ваше имя</label>
-                                    <input class="c-input" type="text" name="write-to-us__name"
-                                           id="write-to-us__name">
+                                    <label class="c-label" for="popup-feedback__name">Ваше имя</label>
+                                    <input class="c-input" type="text" name="popup-feedback__name" id="popup-feedback__name">
                                 </div>
                             </div>
                             <div class="c-col c-col-6">
                                 <div class="popup-form__item">
-                                    <label class="c-label" for="write-to-us__email">Email<span class="c-obligatory-field">*</span></label>
-                                    <input class="c-input" type="text" name="write-to-us__email" id="write-to-us__email" required>
+                                    <label class="c-label" for="popup-feedback__organization">Название организации</label>
+                                    <input class="c-input" type="text" name="popup-feedback__organization" id="popup-feedback__organization" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-grid c-grid-between">
+
+                            <div class="c-col c-col-6">
+                                <div class="popup-form__item">
+                                    <label class="c-label" for="popup-feedback__email">Email<span class="c-obligatory-field">*</span></label>
+                                    <input class="c-input" type="text" name="popup-feedback__email" id="popup-feedback__email" required>
+                                </div>
+                            </div>
+                            <div class="c-col c-col-6">
+                                <div class="popup-form__item">
+                                    <label class="c-label" for="popup-feedback__phone">Телефон<span class="c-obligatory-field">*</span></label>
+                                    <input class="c-input" type="text" name="popup-feedback__phone" id="popup-feedback__phone">
                                 </div>
                             </div>
                         </div>
                         <div class="c-grid c-grid-between">
                             <div class="c-col c-col-12">
                                 <div class="popup-form__item">
-                                    <label class="c-label" for="write-to-us__message">Ваше сообщение<span
+                                    <label class="c-label" for="popup-feedback__message">Ваше сообщение<span
                                             class="c-obligatory-field">*</span></label>
-                            <textarea class="c-input" name="write-to-us__message" id="write-to-us__message" rows="4"
+                            <textarea class="c-input" name="popup-feedback__message" id="popup-feedback__message" rows="4"
                                       required></textarea>
                                 </div>
                             </div>
@@ -2053,8 +2109,8 @@
                                 <div class="popup-form__item">
                                     <div class="c-personal-data">
                                         <div class="c-personal-data__item">
-                                            <input type="checkbox" class="c-checkbox-input" name="write-to-us__regulations" id="write-to-us__regulations" checked>
-                                            <label class="c-checkbox-label" for="write-to-us__regulations">Я даю согласие на обработку моих персональных данных</label>
+                                            <input type="checkbox" class="c-checkbox-input" name="popup-feedback__regulations" id="popup-feedback__regulations" checked>
+                                            <label class="c-checkbox-label" for="popup-feedback__regulations">Я даю согласие на обработку моих персональных данных</label>
                                         </div>
                                         <div class="popup-info">* –  Поля, обязательные для заполнения</div>
                                     </div>
@@ -2079,13 +2135,14 @@
     </div>
 </div>
 
-<div class="mfp-wrap popup-payment" tabindex="-1" style="overflow-x: hidden; overflow-y: auto;">
+<div class="mfp-wrap popup-payment popup-payment-bitrix" tabindex="-1" style="overflow-x: hidden; overflow-y: auto;">
     <div class="mfp-container mfp-inline-holder">
         <div class="mfp-content">
             <div class="popup">
-                <h3 class="popup-title">Отправить задачу на расчет <span class="popup-close"></span></h3>
+                <h3 class="popup-title">Отправить готовое ТЗ <span class="popup-close"></span></h3>
                 <div class="popup-body">
-                    <div class="popup-body__decor-1"><img src="./resources/img/teh/teh-request-decor-3.png" alt=""></div>
+                    <div class="popup-body__decor-1"><img src="./resources/img/bitrix24/bitrix-request-decor-book.png" alt=""></div>
+                    <div class="popup-body__decor-2"><img src="./resources/img/bitrix24/bitrix-request-decor-2.png" alt=""></div>
                     <form action="#" class="popup-form" id="popup__payment">
                         <div class="c-grid c-grid-between">
                             <div class="c-col c-col-6">
@@ -2153,7 +2210,68 @@
         </div>
     </div>
 </div>
-<div class="mfp-wrap popup-success" tabindex="-1" style="overflow-x: hidden; overflow-y: auto;">
+
+<div class="mfp-wrap popup-callback popup-callback-bitrix" tabindex="-1" style="overflow-x: hidden; overflow-y: auto;">
+    <div class="mfp-container mfp-inline-holder">
+        <div class="mfp-content">
+            <div class="popup">
+                <h3 class="popup-title">Заказать звонок <span class="popup-close"></span></h3>
+                <div class="popup-body">
+                    <div class="popup-body__decor-1"><img src="./resources/img/bitrix24/bitrix-request-decor-1.png" alt=""></div>
+
+                    <div class="popup-callback-bitrix__text">
+                        Оставьте заявку и наш специалист
+                        свяжется с вами в ближайшее время!
+                    </div>
+                    <form action="#" class="popup-form" id="popup__callback">
+
+                        <div class="c-grid c-grid-between">
+                            <div class="c-col c-col-12">
+                                <div class="popup-form__item">
+                                    <label class="c-label" for="payment-bitrix__name">Как вас зовут<span class="c-obligatory-field">*</span></label>
+                                    <input class="c-input" type="text" name="payment-bitrix__name" id="payment-bitrix__name" >
+                                </div>
+                            </div>
+                            <div class="c-col c-col-12">
+                                <div class="popup-form__item">
+                                    <label class="c-label" for="payment-bitrix__phone">Контактный телефон<span class="c-obligatory-field">*</span></label>
+                                    <input class="c-input" type="text" name="payment-bitrix__phone" id="payment-bitrix__phone">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="c-grid c-grid-between">
+                            <div class="c-col c-col-12">
+                                <div class="popup-form__item">
+                                    <div class="c-personal-data">
+                                        <div class="c-personal-data__item">
+                                            <input type="checkbox" class="c-checkbox-input" name="write-to-us__regulations" id="payment__regulations" checked>
+                                            <label class="c-checkbox-label" for="payment__regulations">Я даю согласие на обработку моих персональных данных</label>
+                                        </div>
+                                        <div class="popup-info">* –  Поля, обязательные для заполнения</div>
+                                    </div>
+                                </div>
+                                <div class="popup-form__item">
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="l-btn l-btn--center">
+                            <button class="popup-btn">Отправить</button>
+                        </div>
+                    </form>
+                </div><!--popup-body-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mfp-wrap popup-success " tabindex="-1" style="overflow-x: hidden; overflow-y: auto;">
     <div class="mfp-container mfp-inline-holder">
         <div class="mfp-content">
             <div class="popup">
@@ -2164,81 +2282,6 @@
                         <img src="./resources/img/teh/icon-success.png" alt="">
                         <div class="popup-success-content__text">Задача успешно отправлена!
                             <span>Спасибо!</span></div>
-                    </div>
-                </div><!--popup-body-->
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="mfp-wrap popup-reviews" tabindex="-1" style="overflow-x: hidden; overflow-y: auto;">
-    <div class="mfp-container mfp-inline-holder">
-        <div class="mfp-content">
-            <div class="popup">
-                <h3 class="popup-title"><span class="popup-close"></span></h3>
-                <div class="popup-body">
-                    <div class="teh-slider popup-reviews-slider">
-                        <div class="popup-reviews-slider__item">
-                            <div class="teh-reviews-card">
-                                <div class="teh-reviews-card__img">
-                                <span>
-                                    <img src="./resources/img/teh/reviews-user-1.png" alt="">
-                                </span>
-                                </div>
-                                <div class="teh-reviews-card__body">
-                                    <div class="teh-reviews-card__text">
-                                        Мне нравится работать c компанией Leeft. Как, наверно, и многие клиенты этой фирмы, я мало что смыслю в
-                                        создании и раскрутке сайтов, да и в их работе в целом. Но обратившись один раз в Leeft за помощью, я сразу поняла,
-                                        что с ними я буду в порядке.
-                                        <br>
-                                        Мне есть с чем сравнивать. Я не сразу пришла в эту организацию. Я работала и с обычными частниками, и
-                                        обращалась по многочисленным объявлениям в интернете. Но одни фирмы просили от меня заполнить какие-то
-                                        технические задания на 15 страниц, что для меня равносильно китайской грамоте. Другие только с 6!!! попытки
-                                        смогли записать название моего сайта. У третьих вообще какая-то каша в голове. А в Leeft мне просто сказали:
-                                        «Приходите, мы Вам все расскажем и покажем». И речи уже не шло о сумме их услуг. На рынке предостаточно фирм,
-                                        которые обещают выполнить данные услуги по смешным ценам. Просто в Leeft работают люди, которым я могу
-                                        доверять. Люди  которые не задают лишних вопросов. Люди, которые на мои: «Я хочу…. я хочу…., чтобы мне еще
-                                        захотеть….?», отвечают: «Сделаем!»
-                                        <br>
-                                        Так что, желаю LTD «Leeft» еще больших творческих свершений и бесчисленное количество благодарных клиентов.
-                                        Спасибо Вам за отличную работу!
-                                    </div>
-                                    <div class="teh-reviews-card__footer">
-                                        <div class="teh-reviews-card__user">КРЫЛОВА А.А.</div>
-                                        <div class="teh-reviews-card__position">Коммерческий директор ООО «Страж-А»</div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="popup-reviews-slider__item">
-                            <div class="teh-reviews-card">
-                                <div class="teh-reviews-card__img">
-                                <span>
-                                    <img src="./resources/img/teh/reviews-user-1.png" alt="">
-                                </span>
-                                </div>
-                                <div class="teh-reviews-card__body">
-                                    <div class="teh-reviews-card__text">
-                                        Мне нравится работать c компанией Leeft. Как, наверно, и многие клиенты этой фирмы, я мало что смыслю в
-                                        создании и раскрутке сайтов, да и в их работе в целом. Но обратившись один раз в Leeft за помощью, я сразу поняла,
-                                        что с ними я буду в порядке.
-                                        <br>
-                                        Мне есть с чем сравнивать. Я не сразу пришла в эту организацию. Я работала и с обычными частниками, и
-                                        обращалась по многочисленным объявлениям в интернете. Но одни фирмы просили от меня заполнить какие-то
-
-                                        <br>
-                                        Так что, желаю LTD «Leeft» еще больших творческих свершений и бесчисленное количество благодарных клиентов.
-                                        Спасибо Вам за отличную работу!
-                                    </div>
-                                    <div class="teh-reviews-card__footer">
-                                        <div class="teh-reviews-card__user">КРЫЛОВА А.А.</div>
-                                        <div class="teh-reviews-card__position">Коммерческий директор ООО «Страж-А»</div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
                     </div>
                 </div><!--popup-body-->
             </div>

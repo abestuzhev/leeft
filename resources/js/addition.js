@@ -295,6 +295,8 @@ $(function(){
     showPopup(".js-feedback-teh", '.popup-feedback');
     showPopup(".js-payment-teh", '.popup-payment');
     showPopup(".js-reviews-teh", '.popup-reviews');
+    showPopup(".js-send-task", '.popup-payment-bitrix');
+    showPopup(".js-callback ", '.popup-callback-bitrix');
 
     $('.popup .c-input').focus(function(){
         $(this).parents('.popup-form__item').addClass('is-focus');
