@@ -3935,3 +3935,50 @@ text-align: center;
     }
 }
 
+
+/*smm*/
+
+.teh-smm {
+
+}
+.teh-smm .teh-title {
+    margin-bottom: 10px;
+}
+.teh-smm .teh-request {
+    margin-bottom: 0;
+}
+.smm-banner {
+    background: url(../img/smm/smm-banner.png) 0 0 no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+.smm-banner img {
+    width: 100%;
+    height: auto;
+}
+
+.teh-offer .teh-text {
+    margin-bottom: 0;
+}
+
+.teh-offer__list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.teh-offer__item {
+    width: 25%;
+    padding: 6px 10px;
+}
+
+.teh-offer-card {
+    text-align: center;
+}
+
+.teh-offer-card__img {
+    margin-bottom: 14px;
+}
