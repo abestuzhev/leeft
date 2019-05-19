@@ -3948,15 +3948,82 @@ text-align: center;
     margin-bottom: 0;
 }
 .smm-banner {
+    position: relative;
     background: url(../img/smm/smm-banner.png) 0 0 no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     margin-bottom: 40px;
+    padding-bottom: 170px;
+}
+
+.smm-banner-picture {
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    right: 30px;
+}
+
+.smm-banner__body {
+    padding: 120px 81px 81px;
+}
+
+.smm-banner-title {
+    color: #ffffff;
+    font-size: 55px;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 34px;
+}
+
+.smm-banner-text {
+    color: #ffffff;
+    font-size: 36px;
+    width: 55%;
+    line-height: 1;
+    margin-bottom: 24px;
+}
+
+.smm-banner-text.level-1 {
+    color: #ffffff;
+    font-size: 36px;
+}
+
+.smm-banner-text.level-2 {
+    color: #ffffff;
+    font-size: 28px;
+}
+
+.smm-banner-title__act {
+    font-size: 83px;
+    display: block;
+}
+
+.smm-banner-text__act {
+    font-size: 43px;
 }
 
 .smm-banner img {
     width: 100%;
     height: auto;
+}
+
+.smm-banner .teh-btns  {
+    text-align: left;
+}
+
+.smm-request .teh-request-decor-2 {
+    bottom: -16px;
+}
+
+.smm-request .teh-request-decor-4 {
+
+    position: absolute;
+    bottom: 35%;
+    left: 67%;
+}
+
+.smm-request .teh-request-decor-1 {
+    bottom: -80px;
 }
 
 .teh-offer .teh-text {
@@ -3972,13 +4039,27 @@ text-align: center;
 
 .teh-offer__item {
     width: 25%;
-    padding: 6px 10px;
+    padding: 6px 20px;
+    margin-bottom: 24px;
 }
 
 .teh-offer-card {
     text-align: center;
+    color: #2e2e2e;
 }
 
 .teh-offer-card__img {
     margin-bottom: 14px;
+    margin-bottom: 14px;
+}
+
+.teh-offer-card__title {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.teh-offer-card__text {
+
 }
