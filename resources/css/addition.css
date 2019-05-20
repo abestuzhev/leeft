@@ -4000,6 +4000,7 @@ text-align: center;
 
 .smm-banner-text__act {
     font-size: 43px;
+    display: block;
 }
 
 .smm-banner img {
@@ -4062,4 +4063,186 @@ text-align: center;
 
 .teh-offer-card__text {
 
+}
+
+/*media smm*/
+@media (max-width: 1265px) {
+
+    .smm-banner-title {
+        font-size: 45px;
+    }
+
+    .smm-banner-title__act {
+        font-size: 1.5em;
+    }
+
+    .smm-banner-text.level-1 {
+        font-size: 27px;
+    }
+
+    .smm-banner-text.level-2 {
+        font-size: 22px;
+    }
+
+    .smm-banner-text__act {
+        font-size: 1.3em;
+    }
+
+    .smm-banner-text {
+        width: 48%;
+    }
+
+    .smm-banner {
+        height: 59vw;
+    }
+
+    .smm-banner__body {
+        padding: 120px 41px 41px;
+    }
+}
+@media (max-width: 1074px) {
+    .smm-banner-title {
+        font-size: 38px;
+    }
+
+    .smm-banner-picture {
+        display: none;
+    }
+
+    .smm-banner-title {
+        text-align: center;
+    }
+
+    .smm-banner-text {
+        width: 100%;
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+
+    .smm-banner .teh-btns {
+        text-align: center;
+    }
+
+    .smm-banner {
+        background-position: 50% 100%;
+        padding-bottom: 30px;
+        height: auto;
+    }
+}
+@media (max-width: 1000px) {
+    .smm-request .teh-request-decor-1,
+    .smm-request .teh-request-decor-2 {
+        display: none;
+    }
+
+    .smm-request .teh-request__body {
+         padding-bottom: 30px;
+    }
+
+    .smm-request .teh-request-decor-2 {
+        display: block;
+        right: 30px;
+    }
+
+    .smm-request .teh-request-decor-4 {
+        left: auto;
+        right: 15%;
+    }
+
+    .teh-offer__item {
+        margin-bottom: 10px;
+        padding: 6px 10px;
+    }
+}
+
+@media (max-width: 890px) {
+    .teh-offer__item {
+        width: 50%;
+    }
+}
+
+@media (max-width: 818px) {
+
+
+
+    .smm-request .teh-request-decor-4 {
+        position: absolute;
+        bottom: auto;
+        top: 27%;
+        right:auto;
+        left: -2%;
+    }
+
+
+    .teh-smm .button--nina {
+        padding: 0 30px;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .smm-banner__body {
+        padding: 90px 16px 21px;
+    }
+
+    .smm-banner-title {
+        font-size: 26px;
+        margin-bottom: 18px;
+    }
+
+    .smm-banner-text.level-1 {
+        font-size: 21px;
+    }
+
+    .smm-banner-text.level-2 {
+        font-size: 16px;
+    }
+
+    .teh-smm .teh-text {
+        margin: 0 auto 10px
+    }
+}
+@media (max-width: 540px) {
+
+    .smm-request .teh-request-decor-2 {
+        right: -38px;
+    }
+
+    .teh-smm .teh-text {
+        padding: 0 14px;
+    }
+
+    .smm-banner__body {
+        padding: 70px 12px 21px;
+    }
+
+    .smm-banner-title {
+        font-size: 19px;
+        margin-bottom: 18px;
+    }
+
+    .smm-banner-text.level-1 {
+        font-size: 19px;
+    }
+
+    .smm-banner-text {
+        text-align: left;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .teh-offer__item {
+        width: 100%;
+    }
+
+    .teh-offer-card__title,
+    .teh-offer-card__img {
+        margin-bottom: 4px;
+    }
+
+    .teh-offer__item {
+        padding: 0;
+        margin-bottom: 20px;
+    }
 }

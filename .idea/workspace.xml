@@ -80,8 +80,8 @@
           <file leaf-file-name="smm.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/smm.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="701">
-                  <caret line="578" column="51" selection-start-line="578" selection-start-column="32" selection-end-line="578" selection-end-column="51" />
+                <state relative-caret-position="38">
+                  <caret line="232" column="31" selection-start-line="232" selection-start-column="24" selection-end-line="232" selection-end-column="31" />
                   <folding>
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -146,8 +146,8 @@
           <file leaf-file-name="addition.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/css/addition.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="586">
-                  <caret line="4047" column="19" selection-start-line="4047" selection-start-column="19" selection-end-line="4047" selection-end-column="19" />
+                <state relative-caret-position="679">
+                  <caret line="4200" column="13" selection-start-line="4200" selection-start-column="13" selection-end-line="4200" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -287,8 +287,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -309,6 +307,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -413,18 +413,19 @@
       <workItem from="1555783169185" duration="464000" />
       <workItem from="1558247035240" duration="5037000" />
       <workItem from="1558278951389" duration="348000" />
-      <workItem from="1558280548758" duration="2290000" />
+      <workItem from="1558280548758" duration="2444000" />
+      <workItem from="1558371140650" duration="3980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147374000" />
+    <option name="totallyTimeSpent" value="151508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13065049" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13175303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -840,8 +841,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/smm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="578" column="51" selection-start-line="578" selection-start-column="32" selection-end-line="578" selection-end-column="51" />
+        <state relative-caret-position="38">
+          <caret line="232" column="31" selection-start-line="232" selection-start-column="24" selection-end-line="232" selection-end-column="31" />
           <folding>
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -857,8 +858,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/addition.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="4047" column="19" selection-start-line="4047" selection-start-column="19" selection-end-line="4047" selection-end-column="19" />
+        <state relative-caret-position="679">
+          <caret line="4200" column="13" selection-start-line="4200" selection-start-column="13" selection-end-line="4200" selection-end-column="13" />
           <folding />
         </state>
       </provider>
