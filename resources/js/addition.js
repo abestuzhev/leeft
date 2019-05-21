@@ -7,6 +7,23 @@ $(document).on('load', function(){
 
 $(function(){
 
+
+
+    /*простые табы*/
+    $(document).on('click', '.tabs-menu__item', function(event) {
+        event.preventDefault();
+        $(this).addClass("current");
+        $(this).siblings().removeClass("current");
+        var tab = $(this).find('a').attr("href");
+        // console.log(tab);
+        $(tab).addClass('current');
+        $('.tab').find(".tab-content").not(tab).css("display", "none").removeClass('current');
+        // $(this).parents('.tabs-menu').parent().siblings('.tab').find(".tab-content").not(tab).css("display", "none");
+        $(tab).fadeIn();
+    });
+
+
+
     var currentImg,
         path,
         pathClean;
