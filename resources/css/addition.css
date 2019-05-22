@@ -4093,7 +4093,7 @@ header {
     font-weight: 700;
     display: block;
     border-radius: 30px 30px 0 0 ;
-    padding: 30px 40px 120px;
+    padding: 30px 40px 147px;
 }
 
 .tabs-menu__decor {
@@ -4112,7 +4112,7 @@ header {
 }
 
 .tabs-menu-inst a {
-    background-color: #ea5987;
+    background-color: #f55f8a;
 }
 
 .tabs-menu-fb a {
@@ -4121,10 +4121,11 @@ header {
 
 .tabs-menu-inst .tabs-menu__decor {
     bottom: -20px;
+    left:-56%;
 }
 
 #smm-vk {
-    background-color: #3a6a99;
+    background-color: #3b6693;
 }
 
 #smm-inst {
@@ -4132,7 +4133,7 @@ header {
 }
 
 #smm-fb {
-    background-color: #243c94;
+    background-color: #243d97;
 }
 
 
@@ -4165,12 +4166,22 @@ header {
     z-index: 11;
 }
 
+.tabs-menu__decor-icon {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform:translateX(-50%);
+}
 
+.tab {
+    position: relative;
+    top: -23px;
+}
 
 .tab-content {
     display: none;
     font-size: 15px;
-    padding: 30px 59px;
+    padding: 40px 59px;
 }
 
 
@@ -4181,6 +4192,163 @@ header {
 
 .tab-content:first-child {
     display: block;
+}
+
+.tab-content-title {
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 24px;
+    line-height:1;
+}
+
+.teh-tariff--smm {
+    padding: 0;
+}
+
+.teh-tariff--smm .teh-tariff__title {
+    margin: 0;
+    margin-bottom: 12px;
+    padding: 0;
+    font-size: 33px;
+    color: #1fc6aa;
+    font-weight: 700;
+    max-width: 100%;
+}
+.teh-tariff--smm .teh-tariff__title span {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+
+.teh-tariff--smm .teh-tariff-card__price-title {
+    text-align: center;
+    font-size: 18px;
+    color: #2e2e2e;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: -4px;
+}
+
+.teh-tariff--smm .teh-tariff-card__price {
+    line-height: 1;
+}
+
+.teh-tariff--smm .teh-tariff__next {
+    background-color: #1fc6aa;
+    font-size: 17px;
+    padding: 7px 8px 10px;
+    color: #ffffff;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.teh-tariff--smm .teh-tariff__next span {
+    font-size: 30px;
+    line-height: 1;
+}
+
+.teh-tariff--smm .teh-tariff-card__body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.teh-tariff--smm .button--nina {
+    padding: 0 60px;
+}
+
+.teh-tariff__note {
+    margin: 14px auto 0;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    max-width: 80%;
+}
+
+.teh-tariff-card__text-accent {
+    color: #20c6aa;
+}
+
+.teh-tariff--smm .teh-tariff-card__footer {
+    padding: 25px 27px;
+}
+
+.c-info {
+    display: inline-block;
+    position: relative;
+}
+
+.c-info-icon {
+    font-family: serif;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff !important;
+    border-radius: 50px;
+    margin-right: 6px;
+    cursor: pointer;
+    background-image: -moz-linear-gradient( 90deg, rgb(68,166,134) 0%, rgb(31,198,170) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(68,166,134) 0%, rgb(31,198,170) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(68,166,134) 0%, rgb(31,198,170) 100%);
+
+}
+
+.c-info-content {
+    display: none;
+    z-index: 20;
+    position: absolute;
+    top: 4px;
+    left: 15%;
+    transform:translateX(-15%);
+    width: 300px;
+    background-color: #20c6aa;
+    border-radius: 4px;
+    color: #231e20;
+    line-height: 1;
+    padding: 12px 14px;
+}
+
+.c-info-content span {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.c-info-close {
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+}
+
+.c-info-close span {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    display: block;
+    width: 19px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.c-info-close span:nth-child(1) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.c-info-close span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 /*media smm*/
@@ -4273,6 +4441,10 @@ header {
         margin-bottom: 10px;
         padding: 6px 10px;
     }
+
+    .tabs-menu__item {
+        margin: 0 50px;
+    }
 }
 
 @media (max-width: 890px) {
@@ -4280,6 +4452,42 @@ header {
         width: 50%;
     }
 }
+
+@media (max-width: 840px) {
+    .teh-tariff--smm .teh-tariff-card__body {
+        display: block;
+    }
+
+    .teh-smm .tab-content-title {
+        font-size: 35px;
+    }
+
+    .tab-content {
+        display: none;
+        font-size: 15px;
+        padding: 33px 30px;
+    }
+
+    .tabs-menu__item a {
+        border-radius: 20px 20px 0 0;
+        padding: 20px 30px 120px;
+    }
+
+    .tabs-menu__decor img {
+        width: 80%;
+    }
+
+    .tabs-menu__item {
+        margin: 0 35px;
+    }
+
+    .teh-tariff--smm .teh-tariff-card {
+        margin-bottom: 20px;
+        border-radius: 6px;
+        overflow: hidden;
+    }
+}
+
 
 @media (max-width: 818px) {
 
@@ -4317,6 +4525,53 @@ header {
     .teh-smm .teh-text {
         margin: 0 auto 10px
     }
+
+    .tabs-menu__item a {
+        font-size: 15px;
+    }
+
+    .tabs-menu__decor img {
+        width: 62%;
+    }
+
+    .tabs-menu__item a {
+        border-radius: 10px 10px 0 0;
+        padding: 14px 24px 78px;
+    }
+
+    .tabs-menu-inst .tabs-menu__decor {
+        bottom: -14px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .tab-content {
+        padding: 30px 20px;
+    }
+
+    .teh-tariff__note {
+        font-size: 19px;
+    }
+
+    .teh-tariff--smm .teh-btn {
+        width: 70%;
+    }
+
+}
+
+@media (max-width: 570px) {
+    .tabs-menu__item {
+        margin: 0 20px;
+    }
+
+    .tabs-menu__item a {
+        padding: 14px 18px 70px;
+    }
+
+    .teh-smm .tab-content-title {
+        font-size: 33px;
+    }
 }
 
 @media (max-width: 540px) {
@@ -4344,6 +4599,29 @@ header {
 
 }
 
+@media (max-width: 470px) {
+    .tabs-menu__item {
+        margin: 0 14px;
+    }
+
+    .tabs-menu__item a {
+        padding: 14px 11px 70px;
+    }
+
+    .tabs-menu__decor {
+        position: absolute;
+        bottom: 10px;
+        left: -38%;
+    }
+
+    .tabs-menu-inst .tabs-menu__decor {
+        bottom: 0;
+    }
+    .tabs-menu-inst .tabs-menu__decor img {
+        width: 56%;
+    }
+}
+
 @media (max-width: 450px) {
 
     .teh-offer__item {
@@ -4358,6 +4636,22 @@ header {
     .teh-offer__item {
         padding: 0;
         margin-bottom: 20px;
+    }
+
+    .tabs-menu__item {
+        margin: 0 10px;
+    }
+
+    .teh-tariff--smm .teh-tariff__next {
+        font-size: 15px;
+    }
+
+    .tabs-menu__item a {
+        font-size: 12px;
+    }
+
+    .teh-tariff--smm .teh-tariff__next span {
+        font-size: 23px;
     }
 
 }

@@ -22,6 +22,16 @@ $(function(){
         $(tab).fadeIn();
     });
 
+    /*simple info bubble*/
+    $(document).on('click', '.c-info-icon', function(event) {
+        event.preventDefault();
+        $(this).parents('.c-info').find('.c-info-content').toggle();
+    });
+
+    $(document).on('click', '.c-info-close', function(event) {
+        event.preventDefault();
+        $(this).parents('.c-info-content').hide();
+    });
 
 
     var currentImg,
