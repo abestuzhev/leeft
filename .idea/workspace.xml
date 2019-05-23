@@ -80,8 +80,8 @@
           <file leaf-file-name="smm.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/smm.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="605">
-                  <caret line="355" column="90" selection-start-line="355" selection-start-column="90" selection-end-line="355" selection-end-column="90" />
+                <state relative-caret-position="276">
+                  <caret line="813" column="42" selection-start-line="813" selection-start-column="42" selection-end-line="813" selection-end-column="42" />
                   <folding>
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -147,8 +147,8 @@
           <file leaf-file-name="addition.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/resources/css/addition.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="4171" column="10" selection-start-line="4171" selection-start-column="10" selection-end-line="4171" selection-end-column="10" />
+                <state relative-caret-position="640">
+                  <caret line="4696" column="5" selection-start-line="4696" selection-start-column="5" selection-end-line="4696" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -239,8 +239,8 @@
         <option value="$PROJECT_DIR$/bitrix24.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resources/js/addition.js" />
-        <option value="$PROJECT_DIR$/resources/css/addition.css" />
         <option value="$PROJECT_DIR$/smm.html" />
+        <option value="$PROJECT_DIR$/resources/css/addition.css" />
       </list>
     </option>
   </component>
@@ -400,12 +400,13 @@
       <workItem from="1558280548758" duration="2444000" />
       <workItem from="1558371140650" duration="5041000" />
       <workItem from="1558457090847" duration="3355000" />
-      <workItem from="1558549922768" duration="8203000" />
+      <workItem from="1558549922768" duration="8369000" />
+      <workItem from="1558637944041" duration="1470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164127000" />
+    <option name="totallyTimeSpent" value="165763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -825,18 +826,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/css/addition.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="4171" column="10" selection-start-line="4171" selection-start-column="10" selection-end-line="4171" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="355" column="90" selection-start-line="355" selection-start-column="90" selection-end-line="355" selection-end-column="90" />
+        <state relative-caret-position="276">
+          <caret line="813" column="42" selection-start-line="813" selection-start-column="42" selection-end-line="813" selection-end-column="42" />
           <folding>
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -848,6 +841,14 @@
             <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/addition.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="4696" column="5" selection-start-line="4696" selection-start-column="5" selection-end-line="4696" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

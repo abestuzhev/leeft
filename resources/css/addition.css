@@ -4351,6 +4351,12 @@ header {
     transform: rotate(45deg);
 }
 
+.teh-tariff-cup {
+    position: absolute;
+    right: 20px;
+    top: 53px;
+}
+
 /*media smm*/
 @media (max-width: 1265px) {
 
@@ -4415,6 +4421,17 @@ header {
         padding-bottom: 30px;
         height: auto;
     }
+
+    .teh-tariff-cup {
+        position: absolute;
+        right: -11px;
+        top: 62px;
+    }
+    .teh-tariff-cup img {
+        width: 70%;
+    }
+
+
 }
 
 @media (max-width: 1000px) {
@@ -4486,6 +4503,15 @@ header {
         border-radius: 6px;
         overflow: hidden;
     }
+
+    .teh-tariff-cup {
+        top: 37px;
+        right: 30px;
+    }
+
+    .teh-tariff-cup img {
+        width: 100%;
+    }
 }
 
 
@@ -4541,6 +4567,17 @@ header {
 
     .tabs-menu-inst .tabs-menu__decor {
         bottom: -14px;
+    }
+
+    .tabs-menu__decor-icon {
+
+    }
+
+    .tabs-menu__decor-icon {
+        top: 39px;
+    }
+    .tabs-menu__decor-icon img {
+        width: 60%;
     }
 }
 
@@ -4652,6 +4689,15 @@ header {
 
     .teh-tariff--smm .teh-tariff__next span {
         font-size: 23px;
+    }
+
+    .teh-tariff-cup {
+        top: 55px;
+        right: -9px;
+    }
+
+    .teh-tariff-cup img {
+        width: 70%;
     }
 
 }
