@@ -4092,7 +4092,7 @@ header {
     text-transform: uppercase;
     font-weight: 700;
     display: block;
-    border-radius: 30px 30px 0 0 ;
+    border-radius: 30px 30px 27px 60px ;
     padding: 30px 40px 147px;
 }
 
@@ -4108,7 +4108,7 @@ header {
 
 
 .tabs-menu-vk a {
-    background-color: #3b6693;
+    background-color: #3a6a99;
 }
 
 .tabs-menu-inst a {
@@ -4126,14 +4126,20 @@ header {
 
 #smm-vk {
     background-color: #3b6693;
+    background: url(../img/smm/bg-vk.png) 50% 0 no-repeat;
+    background-size: cover;
 }
 
 #smm-inst {
     background-color: #f55f8a;
+    background: url(../img/smm/bg-inst.png) 50% 0 no-repeat;
+    background-size: cover;
 }
 
 #smm-fb {
     background-color: #243d97;
+    background: url(../img/smm/bg-fb.png) 50% 0 no-repeat;
+    background-size: cover;
 }
 
 
@@ -4175,13 +4181,14 @@ header {
 
 .tab {
     position: relative;
-    top: -23px;
+    top: -60px;
 }
 
 .tab-content {
     display: none;
     font-size: 15px;
-    padding: 40px 59px;
+    /* padding: 40px 59px; */
+    padding: 110px 59px 40px;
 }
 
 
@@ -4511,6 +4518,10 @@ header {
 
     .teh-tariff-cup img {
         width: 100%;
+    }
+
+    .tab {
+        top: -25px;
     }
 }
 
