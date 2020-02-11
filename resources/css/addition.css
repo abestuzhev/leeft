@@ -3430,6 +3430,12 @@ header {
     max-width: 510px;
 }
 
+.popup-brief-bitrix .popup {
+    max-width: 510px;
+}
+
+
+
 .popup-callback-bitrix .popup-body {
     background: url(../img/bitrix24/bg-popup-bitrix.jpg) 0 0 no-repeat;
     -webkit-background-size: cover;
