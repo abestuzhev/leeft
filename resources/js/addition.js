@@ -324,6 +324,7 @@ $(function(){
     showPopup(".js-reviews-teh", '.popup-reviews');
     showPopup(".js-send-task", '.popup-payment-bitrix');
     showPopup(".js-callback ", '.popup-callback-bitrix');
+    showPopup(".js-brief", '.popup-brief-bitrix');
 
     $('.popup .c-input').focus(function(){
         $(this).parents('.popup-form__item').addClass('is-focus');

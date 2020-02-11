@@ -3434,6 +3434,18 @@ header {
     max-width: 510px;
 }
 
+.popup-brief-bitrix .popup-body__decor-1 {
+    right: 20px;
+    left: auto;
+    top: -74px;
+}
+
+.popup-brief-bitrix .popup-body {
+    background: url(../img/bitrix24/bg-popup-bitrix.jpg) 0 0 no-repeat;
+}
+
+
+
 
 
 .popup-callback-bitrix .popup-body {
@@ -3442,6 +3454,7 @@ header {
     background-size: cover;
 }
 
+.popup-brief-bitrix .popup-title,
 .popup-callback-bitrix .popup-title {
     text-align: left;
     padding: 21px 20px;
@@ -3548,6 +3561,17 @@ header {
     .bitrix-keys-info {
         padding: 0 56px;
         margin-bottom: 25px;
+    }
+
+    header {
+        margin-left: 0;
+        left: 0;
+        width: 100%;
+        right: 0;
+    }
+
+    header nav {
+        padding-right: 14px;
     }
 
 }
